@@ -1,0 +1,1 @@
+find .   -name "*.c" -print   -or   -name "*.h" -print    | etags -

@@ -1,0 +1,26 @@
+Degree of parallelism: No of parallel chips * No of parallel planes.
+As of today, only chip level parallelism is tested. Need to debug and fix crashes in plane level parallelism.
+
+Provision available to test ganging. So need to run test cases. Hopefully, if I don't find any bugs, it should be straightforward to run and get data.
+
+Performance depends a lot on the workload.
+Performance -> IOPS or Response time.
+System IOPS = Per chip IOPS * No of gangs. where no of gangs = (No of chips/chips per gang)
+
+Response time(RT): Currently looking at response time.
+
+For the set of data that I have got, I am trying to answer the following questions:
+1. What characteristics of the workload(IOZone) affect RT?
+2. How do the numbers vary. For example, as the no of chips increase, response time decreases. How long does this last. What design makes this possible? etc.
+3. Some sudden reduction in response times. Why does this happen?
+
+In hindsight, the observations i have made seem straightforward, but neverthless I am having it in black and white.
+Analyzed one set of data: 1,8,64,2948,20,(2-64). Response time decreases from as high as 112 ms to 0.8 ms. 
+
+How does workload affect the response time?
+-> Avg request size: 720blocks ~ 360KB. RT depends on degree of parallelism. How fast can multiple pages be brought to the controller from the NAND array.
+Hence as the no of chips increases, RT decreases (for this given case).
+-> Type of interleaving. The given set simulates chip level interleaving.(ie) page i = i%no_of_chips. Hence as no of chips increases(capacity also increases along with it), RT decreases.
+-> Page size: Decrease in page size, also negatively decreases the RT that is got due to the parallelism since the least level of data access is in a page. Smaller pages result in more requests getting queued and more requests needing to be serviced. Another impact is due to smaller pages: More erasures when we need to write data. By combining with interleaving it can result in decreased RT.
+
+
