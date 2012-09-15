@@ -1066,6 +1066,17 @@ void disksim_setup_disksim (int argc, char **argv)
   // this function sets whole array to zero and index to 0
   set_prev_trace_file(disksim->curr_record);
   
+  // KJ: initialize matrix to record spatial and temporal distribution of stresses for a simulation round;
+  // for granularity test;
+  disksim->num_row = 4096;
+  disksim->num_col = 12;
+  int row;
+  for(row=0; row<disksim->num_row; row++)
+  {
+    memset(disksim->stress_dist_matrix[row], 0, sizeof(int) * disksim->num_col);
+  }
+  
+
   // initialize output file
   
   disksim_setup_outputfile(output_file_name,"w");

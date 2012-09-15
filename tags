@@ -1,8 +1,0 @@
-.PHONY	Makefile	/^.PHONY: doc$/
-Environment	COPYING	/^DiskSim Storage Subsystem Simulation Environment (/
-all	Makefile	/^all: 	$/
-and	EULA.txt	/^If you have created derivative works of the Softwa/
-clean	Makefile	/^clean:$/
-distclean	Makefile	/^distclean: clean$/
-doc	Makefile	/^doc:$/
-doc-clean	Makefile	/^doc-clean:$/

@@ -416,7 +416,12 @@ typedef struct disksim {
  //  int debug_only;
   // KJ: to capture duration in fastforward mode
    double duration;
-
+  // KJ: matrix to record stress distribution
+  // 4096: each bucket is 32 blocks; 48: each bucket is 0.5h;
+   int stress_dist_matrix[4096][12];
+   // KJ: set spatial and temporal granularity here
+   int num_row; // current set to be 4096
+   int num_col; // current set to be 48
 
    FILE * outios;
    char   iotracefilename[500];

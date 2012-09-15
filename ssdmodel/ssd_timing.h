@@ -28,4 +28,5 @@ void ssd_dump_prev_trace_info(int pageno, int blkno, int elemno, double time);
 // This function updates all the info 
 void ssd_update_stress_info(ssd_page_metadata *page_metadata, block_metadata *block_metadata, double time,ssd_t *currdisk);
 
+void ssd_update_stress_dist_matrix(int active_block, double access_time);
 #endif

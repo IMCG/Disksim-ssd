@@ -608,10 +608,22 @@ ioreq_event * iotrace_ascii_get_ioreq_event_detailed_simulation(FILE* tracefile,
 	   max_count = disksim->repeat_trace;
 	   static int min_count = 0;
 	   static double start_time = 0;
+           // KJ: The following three params are set to get the duration of a detailed simulation round;
+           // Used in temporal granularity analysis
+           static double prev_round_end = 0;
+           static double curr_round_end = 0;
+           static int record_prev = 1;
+           static int record_curr = 1;
+           assert(tracefile != NULL);
 
+                  
+           //printf("Reaches here!\n");
 	start_again:
 		if (fgets(line, 200, tracefile) == NULL) {
-		      //by abhishek
+		      
+                  
+		  //printf("Reaches here!\n");
+                //by abhishek
 		      min_count++;
                 disksim->cur_detailed_trace_count++;
                 assert(disksim->cur_detailed_trace_count == min_count);
@@ -623,6 +635,60 @@ ioreq_event * iotrace_ascii_get_ioreq_event_detailed_simulation(FILE* tracefile,
 	        fflush(stderr);
 	#endif        
 		    start_time = last_req_time;
+                   
+                  
+		//  printf("Reaches here!\n");
+                  // KJ: compute the duration of a simulation round
+                   if(!record_prev && record_curr)
+                   {
+                     curr_round_end = last_req_time;
+                     disksim->duration = curr_round_end - prev_round_end;
+                     fprintf(stderr, "The Detailed Simulation Duration of current workload is %lf\n", disksim->duration);
+                     record_curr = 0;
+                   } 
+
+                   if(record_prev)
+                   {
+                     prev_round_end = last_req_time;
+                     record_prev = 0;
+                   }               
+
+                  // KJ: dumping the stress distribution matrix of last round to a separate file and reinitialize all the elements of matrix to 0;
+                  if(disksim->cur_detailed_trace_count > 4)
+                  {
+                   // char *output_matrix_file = (char*) malloc(sizeof(char) * 500);
+                  //  assert(output_file_name);
+                    // set file
+                    assert(disksim->output_file_prefix);
+                    char *output_matrix_file_name = (char*) malloc(sizeof(char) * 500);
+                    assert(output_matrix_file_name);
+                    sprintf(output_matrix_file_name, "%s_matrix%d.outv", disksim->output_file_prefix, (disksim->cur_detailed_trace_count - 1));
+                    FILE *curr_matrix = fopen(output_matrix_file_name, "w");
+                    assert(curr_matrix != NULL);
+		    // dumping stats to file
+                    int row, col;
+		    for(row=0; row<disksim->num_row; row++)
+                    { 
+                      for(col=0; col<disksim->num_col; col++)
+                      {
+                        fprintf(curr_matrix, "%d ", disksim->stress_dist_matrix[row][col]);
+                      }
+                      fprintf(curr_matrix, "\n");
+                    }		    
+
+                    // reinitialize matrix
+                    for(row=0; row<disksim->num_row; row++)
+                    {
+                      memset(disksim->stress_dist_matrix[row], 0, sizeof(int) * 48);
+                    }
+                    // check if all the elements are 0;
+                    for(row=0; row<disksim->num_row; row++)
+                      for(col=0; col<disksim->num_col; col++)
+                        assert(disksim->stress_dist_matrix[row][col] == 0);
+                  }  
+                  
+		  //printf("Reaches here!\n");
+
 		    if(min_count > max_count) {
 	          //device_notify_trace_done();
 	      	  addtoextraq((event *) new_ioreq_event);

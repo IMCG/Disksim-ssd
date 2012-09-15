@@ -379,6 +379,9 @@ try_again:;
       ssd_dump_prev_trace_info(pagepos_in_block, active_block, metadata->block_usage[active_block].elem_num, simtime+cost); 
       ssd_update_stress_info(&metadata->block_usage[active_block].page[pagepos_in_block],&metadata->block_usage[active_block],simtime+cost,s);
     //printf("lpn %d active pg %d\n", lpn, active_page);
+     
+     // KJ: update stress distribution matrix when a stress happens
+     ssd_update_stress_dist_matrix(metadata->block_usage[active_block].elem_num * 8192 + active_block, simtime+cost);
 
       // go to the next free page
       metadata->active_page = active_page + 1;
@@ -397,13 +400,14 @@ try_again:;
         cost += dummy_cost; 
 
 	      assert((int)pagepos_in_block+2 == s->params.pages_per_block);
+
        
         // KJ:
       //  if((simtime + cost)  > 1439968085 && (simtime + cost) < 1439968094)
         //	fprintf(stderr, "Write to page %d block %d elem %d at time %lf with simtime %lf\n", s->params.pages_per_block-1, active_block, metadata->block_usage[active_block].elem_num, simtime+cost, simtime);
 	ssd_dump_prev_trace_info(s->params.pages_per_block-1, active_block, metadata->block_usage[active_block].elem_num, simtime+cost); 
         ssd_update_stress_info(&metadata->block_usage[active_block].page[s->params.pages_per_block-1],&metadata->block_usage[active_block],simtime+cost,s);
-
+        ssd_update_stress_dist_matrix(metadata->block_usage[active_block].elem_num * 8192 + active_block, simtime+cost);
 	      // seal the last summary page. since we use the summary page
         // as a metadata, we don't count it as a valid data page.
         metadata->block_usage[active_block].page[s->params.pages_per_block - 1].lpn = -1;
@@ -427,7 +431,9 @@ void ssd_update_stress_info_block(block_metadata *block_metadata, double time,ss
 	// time here is the actually sim time for the current detailed simulation round
 
 	ssd_dump_prev_trace_info(i, block_metadata->block_num, block_metadata->elem_num, time);
-    ssd_update_stress_info(&block_metadata->page[i],block_metadata,time,s);
+        ssd_update_stress_info(&block_metadata->page[i],block_metadata,time,s);
+        ssd_update_stress_dist_matrix(block_metadata->elem_num * 8192 + block_metadata->block_num, time);
+
   }
   
   //Remove the block from the refresh queue since it doesn't contain valid data any more.
@@ -507,6 +513,25 @@ void update_lifetime(ssd_page_metadata *page_metadata,block_metadata *block_meta
     page_metadata->retention_period = calc_retention_period((vth-dt),page_metadata->eqn_cycle);
     page_metadata->delvth = (vth-dt);
   }
+}
+
+// KJ: update stress dist matrix only after 10th rounds of detailed simulation
+void ssd_update_stress_dist_matrix(int active_block, double access_time)
+{
+     if(disksim->cur_detailed_trace_count < 4)
+       return;
+     
+     // TODO: WARNING If later changes configuration of SSD; has to come back to change the computation here;
+     int size_of_bucket_for_row = 16 * 8 * 1024 / disksim->num_row;
+     
+     int spatial_bucket = (int) active_block / size_of_bucket_for_row;
+     assert(spatial_bucket >= 0 && spatial_bucket < disksim->num_row);
+     int temporal_bucket = (int) ((access_time - disksim->cur_detailed_trace_count * disksim->duration) / (disksim->duration / disksim->num_col));
+     if(temporal_bucket >= 0 && temporal_bucket < disksim->num_col)
+     {
+       disksim->stress_dist_matrix[spatial_bucket][temporal_bucket] ++;
+     }
+
 }
 
 void ssd_dump_prev_trace_info(int pageno, int blkno, int elemno, double stressed_time)
