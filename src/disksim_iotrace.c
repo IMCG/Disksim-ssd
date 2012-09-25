@@ -679,7 +679,7 @@ ioreq_event * iotrace_ascii_get_ioreq_event_detailed_simulation(FILE* tracefile,
                     // reinitialize matrix
                     for(row=0; row<disksim->num_row; row++)
                     {
-                      memset(disksim->stress_dist_matrix[row], 0, sizeof(int) * 48);
+                      memset(disksim->stress_dist_matrix[row], 0, sizeof(int) * disksim->num_col);
                     }
                     // check if all the elements are 0;
                     for(row=0; row<disksim->num_row; row++)

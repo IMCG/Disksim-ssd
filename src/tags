@@ -1,0 +1,2942 @@
+ALLEQUAL	disksim_ioqueue.c	138
+ALLOCSIZE	disksim_global.h	150
+ASATF_OPT	disksim_ioqueue.h	159
+ASC	disksim_ioqueue.c	149
+ASCII	disksim_global.h	167
+ASIS	disksim_logorg.h	114
+ASPCTF_OPT	disksim_ioqueue.h	158
+ASPTF_OPT	disksim_ioqueue.h	157
+ASSERT	disksim_assertlib.h	/^#define ASSERT(cond)$/
+ASSERT	disksim_assertlib.h	/^#define ASSERT(cond)                              /
+ASSERT1	disksim_assertlib.h	/^#define ASSERT1(cond,S1,V1)$/
+ASSERT1	disksim_assertlib.h	/^#define ASSERT1(cond,S1,V1)                       /
+ASSERT1D	disksim_assertlib.h	/^#define ASSERT1D(cond,S1,V1)$/
+ASSERT1D	disksim_assertlib.h	/^#define ASSERT1D(cond,S1,V1)                      /
+ASSERT2	disksim_assertlib.h	/^#define ASSERT2(cond,S1,V1,S2,V2)$/
+ASSERT2	disksim_assertlib.h	/^#define ASSERT2(cond,S1,V1,S2,V2)                 /
+ASSERT2p	disksim_assertlib.h	/^#define ASSERT2p(cond,S1,V1,S2,V2)$/
+ASSERT2p	disksim_assertlib.h	/^#define ASSERT2p(cond,S1,V1,S2,V2)                /
+ASYNCHRONOUS	disksim_global.h	203
+ATABUS	disksim_global.h	172
+BASETIMEOUT	disksim_ioqueue.c	144
+BATCH	disksim_global.h	177
+BATCH_COMPLETE	disksim_global.h	207
+BATCH_FCFS	disksim_ioqueue.h	171
+BITS_PER_INT_MASK	disksim_global.h	159
+BLOCK	syssim_driver.c	55
+BLOCK2SECTOR	syssim_driver.c	57
+BLOCKINGMAX	disksim_logorg.h	148
+BUFFER_APPEND	disksim_disk.h	142
+BUFFER_BACKGROUND	disksim_disk.h	148
+BUFFER_CLEAN	disksim_disk.h	121
+BUFFER_COLLISION	disksim_disk.h	137
+BUFFER_CONTACTING	disksim_disk.h	131
+BUFFER_DEC_PREFETCH_SCHEME	disksim_disk.h	156
+BUFFER_DIRTY	disksim_disk.h	122
+BUFFER_EMPTY	disksim_disk.h	120
+BUFFER_IDLE	disksim_disk.h	130
+BUFFER_NOMATCH	disksim_disk.h	138
+BUFFER_NO_READ_AHEAD	disksim_disk.h	152
+BUFFER_PARTIAL	disksim_disk.h	140
+BUFFER_PREEMPT	disksim_disk.h	129
+BUFFER_PREPEND	disksim_disk.h	141
+BUFFER_READING	disksim_disk.h	123
+BUFFER_READ_UNTIL_CYL_END	disksim_disk.h	154
+BUFFER_READ_UNTIL_SEG_END	disksim_disk.h	155
+BUFFER_READ_UNTIL_TRACK_END	disksim_disk.h	153
+BUFFER_TRANSFERING	disksim_disk.h	132
+BUFFER_WHOLE	disksim_disk.h	139
+BUFFER_WRITING	disksim_disk.h	124
+BUS	disksim_ioface.h	121
+BUS_ARB_TYPE_MAX	disksim_bus.c	126
+BUS_ARB_TYPE_MIN	disksim_bus.c	123
+BUS_DELAY_COMPLETE	disksim_iosim.h	139
+BUS_FREE	disksim_bus.c	130
+BUS_OWNED	disksim_bus.c	131
+BUS_OWNERSHIP_GRANTED	disksim_iosim.h	138
+BUS_TYPE_MAX	disksim_bus.c	119
+BUS_TYPE_MIN	disksim_bus.c	116
+CACHE_ALLOCATE_MAX	disksim_cachemem.h	263
+CACHE_ALLOCATE_MIN	disksim_cachemem.h	261
+CACHE_ALLOCATE_NONDIRTY	disksim_cachemem.h	262
+CACHE_ATOMFLUSH	disksim_cachemem.c	113
+CACHE_DEVICE	disksim_cachedev.c	123
+CACHE_DIRTY	disksim_cachemem.c	110
+CACHE_EVENT_ALLOCATE	disksim_cachemem.c	125
+CACHE_EVENT_FLUSH	disksim_cachedev.h	117
+CACHE_EVENT_IDLEFLUSH_FLUSH	disksim_cachedev.h	119
+CACHE_EVENT_IDLEFLUSH_READ	disksim_cachedev.h	118
+CACHE_EVENT_IDLESYNC	disksim_cachemem.c	132
+CACHE_EVENT_IOREQ	disksim_cachemem.c	124
+CACHE_EVENT_IOREQ	disksim_cachedev.h	112
+CACHE_EVENT_POPULATE_ALSO	disksim_cachedev.h	115
+CACHE_EVENT_POPULATE_ONLY	disksim_cachedev.h	114
+CACHE_EVENT_READ	disksim_cachemem.c	126
+CACHE_EVENT_READ	disksim_cachedev.h	113
+CACHE_EVENT_READEXTRA	disksim_cachemem.c	130
+CACHE_EVENT_SYNC	disksim_cachemem.c	128
+CACHE_EVENT_SYNCPART	disksim_cachemem.c	129
+CACHE_EVENT_WRITE	disksim_cachemem.c	127
+CACHE_EVENT_WRITE	disksim_cachedev.h	116
+CACHE_EVENT_WRITEFILLEXTRA	disksim_cachemem.c	131
+CACHE_FLAG_LINELOCKED_ALLOCATE	disksim_cachemem.c	120
+CACHE_FLAG_WASBLOCKED	disksim_cachemem.c	119
+CACHE_FLUSH_DEMANDONLY	disksim_cachedev.h	132
+CACHE_FLUSH_DEMANDONLY	disksim_cachemem.h	277
+CACHE_FLUSH_MAX	disksim_cachedev.h	134
+CACHE_FLUSH_MAX	disksim_cachemem.h	279
+CACHE_FLUSH_MIN	disksim_cachedev.h	131
+CACHE_FLUSH_MIN	disksim_cachemem.h	276
+CACHE_FLUSH_PERIODIC	disksim_cachedev.h	133
+CACHE_FLUSH_PERIODIC	disksim_cachemem.h	278
+CACHE_HASHMASK	disksim_cachemem.h	113
+CACHE_HASHSIZE	disksim_cachemem.h	112
+CACHE_LOCKDOWN	disksim_cachemem.c	111
+CACHE_LOCKED	disksim_cachemem.c	112
+CACHE_LOCKSPERSTRUCT	disksim_cachemem.h	111
+CACHE_MAXSEGMENTS	disksim_cachemem.h	110
+CACHE_MEMORY	disksim_cachemem.c	101
+CACHE_PREFETCH_ALLOFLINE	disksim_cachemem.h	271
+CACHE_PREFETCH_FRONTOFLINE	disksim_cachemem.h	269
+CACHE_PREFETCH_MAX	disksim_cachemem.h	272
+CACHE_PREFETCH_MIN	disksim_cachemem.h	267
+CACHE_PREFETCH_NONE	disksim_cachemem.h	268
+CACHE_PREFETCH_RESTOFLINE	disksim_cachemem.h	270
+CACHE_REALLOCATE_WRITE	disksim_cachemem.c	114
+CACHE_REPLACE_FIFO	disksim_cachemem.h	245
+CACHE_REPLACE_LIFO	disksim_cachemem.h	248
+CACHE_REPLACE_MAX	disksim_cachemem.h	249
+CACHE_REPLACE_MIN	disksim_cachemem.h	244
+CACHE_REPLACE_RANDOM	disksim_cachemem.h	247
+CACHE_REPLACE_SLRU	disksim_cachemem.h	246
+CACHE_SEGNUM	disksim_cachemem.c	115
+CACHE_VALID	disksim_cachemem.c	109
+CACHE_WRITE_BACK	disksim_cachedev.h	126
+CACHE_WRITE_BACK	disksim_cachemem.h	256
+CACHE_WRITE_MAX	disksim_cachedev.h	127
+CACHE_WRITE_MAX	disksim_cachemem.h	257
+CACHE_WRITE_MIN	disksim_cachedev.h	123
+CACHE_WRITE_MIN	disksim_cachemem.h	253
+CACHE_WRITE_SYNCONLY	disksim_cachedev.h	124
+CACHE_WRITE_SYNCONLY	disksim_cachemem.h	254
+CACHE_WRITE_THRU	disksim_cachedev.h	125
+CACHE_WRITE_THRU	disksim_cachemem.h	255
+CHECKPOINT	disksim_global.h	219
+CLOCK_INTERRUPT	disksim_global.h	229
+COMPLETE	disksim_orgface.h	106
+COMPLETION	disksim_iosim.h	166
+COMPLETION_PENDING	disksim_ctlr.h	123
+COMPLETION_RECEIVED	disksim_disk.h	164
+COMPLETION_SENT	disksim_disk.h	163
+CONTROLLER	disksim_ioface.h	120
+CONTROLLER	disksim_iosim.h	178
+CONTROLLER_DATA_TRANSFER_COMPLETE	disksim_iosim.h	140
+COUNT_THRSHLD	raw_layout.c	86
+CPUSWAP_INTERRUPT	disksim_global.h	232
+CPU_EVENT	disksim_pfsim.h	113
+CPU_IDLE	disksim_pfsim.h	127
+CPU_IDLE_WORK	disksim_pfsim.h	129
+CPU_INTR	disksim_pfsim.h	130
+CPU_PROCESS	disksim_pfsim.h	128
+CSWITCH_EVENT	disksim_pfsim.h	116
+CTLR_BASED_ON_53C700	disksim_ctlr.h	114
+CTLR_PASSTHRU	disksim_ctlr.h	113
+CTLR_SMART	disksim_ctlr.h	115
+CYCLE_CYL	disksim_ioqueue.h	149
+CYCLE_LBN	disksim_ioqueue.h	146
+DEC	disksim_global.h	169
+DEC_RAMAKR	hplcomb.c	69
+DEFAULT	hplcomb.c	70
+DEFAULT	disksim_global.h	178
+DESC	disksim_ioqueue.c	150
+DEVICE	disksim_ioface.h	119
+DEVICE	disksim_iosim.h	177
+DEVICETYPE_DISK	disksim_device.h	66
+DEVICETYPE_MAX	disksim_device.h	76
+DEVICETYPE_MEMS	disksim_device.h	68
+DEVICETYPE_MIN	disksim_device.h	75
+DEVICETYPE_SIMPLEDISK	disksim_device.h	67
+DEVICETYPE_SSD	disksim_device.h	69
+DEVICE_ACCESS_COMPLETE	disksim_iosim.h	130
+DEVICE_BUFFER_SECTOR_DONE	disksim_iosim.h	135
+DEVICE_BUFFER_SEEKDONE	disksim_iosim.h	133
+DEVICE_BUFFER_TRACKACC_DONE	disksim_iosim.h	134
+DEVICE_DATA_TRANSFER_COMPLETE	disksim_iosim.h	132
+DEVICE_GOTO_REMAPPED_SECTOR	disksim_iosim.h	137
+DEVICE_GOT_REMAPPED_SECTOR	disksim_iosim.h	136
+DEVICE_OVERHEAD_COMPLETE	disksim_iosim.h	129
+DEVICE_PREPARE_FOR_DATA_TRANSFER	disksim_iosim.h	131
+DISCONNECT	disksim_iosim.h	168
+DISCONNECT_PENDING	disksim_ctlr.h	124
+DISKACCESS	disksim_iosim.h	184
+DISKACCTIME	disksim_iosim.h	185
+DISKPOS	disksim_iosim.h	186
+DISKPOSTIME	disksim_iosim.h	187
+DISKSEEK	disksim_iosim.h	188
+DISKSEEKTIME	disksim_iosim.h	189
+DISKSERVTIME	disksim_iosim.h	190
+DISKSIM	raw_layout.c	56
+DISKSIM_ASSERTLIB_H	disksim_assertlib.h	102
+DISKSIM_ASYNC	disksim_reqflags.h	45
+DISKSIM_BATCH_COMPLETE	disksim_reqflags.h	49
+DISKSIM_BUS_H	disksim_bus.h	108
+DISKSIM_CACHEDEV_H	disksim_cachedev.h	102
+DISKSIM_CACHEMEM_H	disksim_cachemem.h	102
+DISKSIM_CACHE_H	disksim_cache.h	102
+DISKSIM_CONTROLLER_H	disksim_controller.h	102
+DISKSIM_CTLR_H	disksim_ctlr.h	102
+DISKSIM_DEVICE_H	disksim_device.h	59
+DISKSIM_DISKMAP_H	disksim_diskmap.h	102
+DISKSIM_DISK_H	disksim_disk.h	102
+DISKSIM_EVENT_SIZE	disksim_global.h	258
+DISKSIM_EVENT_SPACESIZE	disksim_global.h	259
+DISKSIM_GLOBAL_H	disksim_global.h	103
+DISKSIM_HALF_OUT	disksim_reqflags.h	41
+DISKSIM_IODRIVER_H	disksim_iodriver.h	102
+DISKSIM_IOFACE_H	disksim_ioface.h	102
+DISKSIM_IOQUEUE_H	disksim_ioqueue.h	102
+DISKSIM_IOSIM_H	disksim_iosim.h	102
+DISKSIM_IOTRACE_H	disksim_iotrace.h	59
+DISKSIM_IO_FLAG_PAGEIO	disksim_reqflags.h	46
+DISKSIM_LOCAL	disksim_reqflags.h	48
+DISKSIM_LOGORG_H	disksim_logorg.h	102
+DISKSIM_MALLOC_H	disksim_malloc.h	59
+DISKSIM_MAPPED	disksim_reqflags.h	42
+DISKSIM_MASTER	disksim_global.h	482
+DISKSIM_NONE	disksim_global.h	482
+DISKSIM_ORGFACE_H	disksim_orgface.h	102
+DISKSIM_PFFACE_H	disksim_pfface.h	102
+DISKSIM_PFSIM_H	disksim_pfsim.h	102
+DISKSIM_RAND48_H	disksim_rand48.h	59
+DISKSIM_READ	disksim_reqflags.h	37
+DISKSIM_READ_AFTR_WRITE	disksim_reqflags.h	43
+DISKSIM_SEQ	disksim_reqflags.h	47
+DISKSIM_SIMPLEDISK_H	disksim_simpledisk.h	66
+DISKSIM_SLAVE	disksim_global.h	482
+DISKSIM_STAT_H	disksim_stat.h	102
+DISKSIM_SYNC	disksim_reqflags.h	44
+DISKSIM_SYNTHIO_H	disksim_synthio.h	111
+DISKSIM_TIMED_OUT	disksim_reqflags.h	40
+DISKSIM_TIME_CRITICAL	disksim_reqflags.h	38
+DISKSIM_TIME_LIMITED	disksim_reqflags.h	39
+DISKSIM_TIME_THRESHOLD	disksim_global.h	241
+DISKSIM_WRITE	disksim_reqflags.h	36
+DISKSIM__dorand48	disksim_rand48.c	/^DISKSIM__dorand48(unsigned short xseed[3])$/
+DISKSIM_drand48	disksim_rand48.c	/^DISKSIM_drand48(void)$/
+DISKSIM_erand48	disksim_rand48.c	/^DISKSIM_erand48(unsigned short xseed[3])$/
+DISKSIM_jrand48	disksim_rand48.c	/^DISKSIM_jrand48(unsigned short xseed[3])$/
+DISKSIM_ldexp	disksim_rand48.c	/^DISKSIM_ldexp (double x, int exp)$/
+DISKSIM_lrand48	disksim_rand48.c	/^DISKSIM_lrand48(void)$/
+DISKSIM_malloc	disksim_malloc.c	/^void *DISKSIM_malloc (int size)$/
+DISKSIM_mrand48	disksim_rand48.c	/^DISKSIM_mrand48(void)$/
+DISKSIM_nrand48	disksim_rand48.c	/^DISKSIM_nrand48(unsigned short xseed[3])$/
+DISKSIM_srand48	disksim_rand48.c	/^DISKSIM_srand48(long seed)$/
+DISKSIM_time	disksim_global.h	/^#define DISKSIM_time()		time(NULL)$/
+DISK_IDLE	disksim_disk.h	113
+DISK_TRANSFERING	disksim_disk.h	114
+DISK_WAIT_FOR_CONTROLLER	disksim_disk.h	115
+DISTSIZE	disksim_stat.h	107
+DOWN	disksim_ctlr.h	131
+DRIVER_C700	disksim_iodriver.h	118
+DRIVER_CTLR_BUSY	disksim_iodriver.h	119
+ELEVATOR_CYL	disksim_ioqueue.h	148
+ELEVATOR_LBN	disksim_ioqueue.h	145
+EMCBACKEND	disksim_global.h	176
+EMCSYMM	disksim_global.h	175
+EXCLUSIVE	disksim_bus.c	117
+EXIT_DISKSIM	disksim_global.h	221
+EXTRAEVENTS	disksim.c	136
+EXTRA_WRITE_DISCONNECT	disksim_disk.h	162
+FALSE	hplcomb.c	60
+FALSE	disksim_global.h	156
+FCFS	disksim_ioqueue.h	144
+FIFO_ARB	disksim_bus.c	125
+FINAL_WRITE_RECONNECTION_1	disksim_disk.h	165
+FINAL_WRITE_RECONNECTION_2	disksim_disk.h	166
+FREE	disksim_ctlr.h	120
+FULL_FASTWRITE	disksim_disk.h	180
+HALFTIMEOUT	disksim_ioqueue.c	145
+HALF_OUT	disksim_global.h	199
+HASH_OUTSTAND	disksim_logorg.h	146
+HDA_OWNED	disksim_disk.h	161
+HPL	disksim_global.h	168
+HPL_ASYNC	disksim_hptrace.h	175
+HPL_BAD	disksim_hptrace.h	190
+HPL_BDWRITEFS	disksim_hptrace.h	145
+HPL_BREADAAFS	disksim_hptrace.h	144
+HPL_BREADAFS	disksim_hptrace.h	143
+HPL_BREADFS	disksim_hptrace.h	142
+HPL_BUSY	disksim_hptrace.h	168
+HPL_BWRITEFS	disksim_hptrace.h	146
+HPL_CACHE	disksim_hptrace.h	183
+HPL_CALL	disksim_hptrace.h	191
+HPL_CREATE_OPENFS	disksim_hptrace.h	147
+HPL_DELWRITE	disksim_hptrace.h	176
+HPL_DONE	disksim_hptrace.h	166
+HPL_DUX_REM_REQ	disksim_hptrace.h	192
+HPL_END_OF_DATA	disksim_hptrace.h	171
+HPL_ERROR	disksim_hptrace.h	167
+HPL_FSYSIO	disksim_hptrace.h	188
+HPL_HEAD	disksim_hptrace.h	187
+HPL_INVAL	disksim_hptrace.h	185
+HPL_LOCKED	disksim_hptrace.h	186
+HPL_LONGIO	disksim_hptrace.h	139
+HPL_NDELAY	disksim_hptrace.h	173
+HPL_NETBUF	disksim_hptrace.h	197
+HPL_NOCACHE	disksim_hptrace.h	193
+HPL_ORDWRI	disksim_hptrace.h	177
+HPL_PFTIMEOUT	disksim_hptrace.h	182
+HPL_PHYS	disksim_hptrace.h	170
+HPL_PRIVATE	disksim_hptrace.h	180
+HPL_RAW	disksim_hptrace.h	196
+HPL_READ	disksim_hptrace.h	165
+HPL_REWRITE	disksim_hptrace.h	178
+HPL_SHORTIO	disksim_hptrace.h	138
+HPL_SRT	hplcomb.c	68
+HPL_SUSPECTIO	disksim_hptrace.h	141
+HPL_SYNC	disksim_hptrace.h	195
+HPL_TEXTIO	disksim_hptrace.h	140
+HPL_UNKNOWN	disksim_hptrace.h	137
+HPL_WANTED	disksim_hptrace.h	172
+HPL_WRITE	disksim_hptrace.h	164
+HPL_WRITEV	disksim_hptrace.h	181
+HPTRACE_H	disksim_hptrace.h	102
+IDEAL	disksim_logorg.h	115
+IDLELOOP_EVENT	disksim_pfsim.h	115
+INLINE	inline.h	38
+INLINE	inline.h	40
+INTDISTMAX	disksim_logorg.h	150
+INTEND_EVENT	disksim_global.h	215
+INTERFEREMAX	disksim_logorg.h	149
+INTERLEAVED	disksim_bus.c	118
+INTR_EVENT	disksim_global.h	214
+INV_BITS_PER_INT_MASK	disksim_global.h	160
+IOACC_EVENT	disksim_pfsim.h	111
+IODRIVER	disksim_ioface.h	117
+IODRIVER	disksim_iosim.h	176
+IODRIVER_BASE_COMPLETION_TIME	disksim_iodriver.h	127
+IODRIVER_COMPLETION_RESPTODEV_TIME	disksim_iodriver.h	129
+IODRIVER_COMPLETION_RESPTOREQ_TIME	disksim_iodriver.h	135
+IODRIVER_COMPLETION_RESPTOSCHED_TIME	disksim_iodriver.h	130
+IODRIVER_COMPLETION_RESPTOWAKEUP_TIME	disksim_iodriver.h	134
+IODRIVER_COMPLETION_SCHEDTOEND_TIME	disksim_iodriver.h	131
+IODRIVER_COMPLETION_SCHEDTOWAKEUP_TIME	disksim_iodriver.h	132
+IODRIVER_COMPLETION_WAKEUPTOEND_TIME	disksim_iodriver.h	133
+IODRIVER_IMMEDSCHED_TIME	disksim_iodriver.h	123
+IODRIVER_READ_DISCONNECT_TIME	disksim_iodriver.h	125
+IODRIVER_RECONNECT_TIME	disksim_iodriver.h	126
+IODRIVER_TRACED_ACCESS_TIMES	disksim_iodriver.h	139
+IODRIVER_TRACED_BOTH_TIMES	disksim_iodriver.h	141
+IODRIVER_TRACED_QUEUE_TIMES	disksim_iodriver.h	140
+IODRIVER_WRITE_DISCONNECT_TIME	disksim_iodriver.h	124
+IOQUEUE_BASE	disksim_ioqueue.c	127
+IOQUEUE_CONCAT_BOTH	disksim_ioqueue.c	120
+IOQUEUE_CONCAT_READS	disksim_ioqueue.c	118
+IOQUEUE_CONCAT_WRITES	disksim_ioqueue.c	119
+IOQUEUE_PRIORITY	disksim_ioqueue.c	129
+IOQUEUE_SEQSTREAM_EITHER	disksim_ioqueue.c	123
+IOQUEUE_SEQSTREAM_READS	disksim_ioqueue.c	121
+IOQUEUE_SEQSTREAM_WRITES	disksim_ioqueue.c	122
+IOQUEUE_TIMEOUT	disksim_ioqueue.c	128
+IOREQ_EVENT	disksim_pfsim.h	110
+IOSIM	disksim_ioface.h	116
+IO_ACCESS_ARRIVE	disksim_iosim.h	124
+IO_ACCESS_COMPLETE	disksim_iosim.h	127
+IO_FLAG_PAGEIO	disksim_global.h	204
+IO_INTERRUPT	disksim_global.h	231
+IO_INTERRUPT_ARRIVE	disksim_iosim.h	125
+IO_INTERRUPT_COMPLETE	disksim_iosim.h	128
+IO_MAX_EVENT	disksim_global.h	217
+IO_MIN_EVENT	disksim_global.h	216
+IO_QLEN_MAXCHECK	disksim_iosim.h	143
+IO_REQUEST_ARRIVE	disksim_ioface.h	112
+IO_RESPOND_TO_DEVICE	disksim_iosim.h	126
+IO_TRACE_REQUEST_START	disksim_iosim.h	142
+IOwaiters	disksim_cachemem.h	233
+IPEAK	disksim_global.h	173
+LAYOUT_CYLSWITCHONSURF1	disksim_diskmap.h	130
+LAYOUT_CYLSWITCHONSURF2	disksim_diskmap.h	132
+LAYOUT_MAX	disksim_diskmap.h	136
+LAYOUT_NORMAL	disksim_diskmap.h	129
+LAYOUT_RAWFILE	disksim_diskmap.h	135
+LAYOUT_SERPENTINE	disksim_diskmap.h	134
+LIMITED_FASTWRITE	disksim_disk.h	179
+LINELEN	raw_layout.c	240
+LOCAL	disksim_global.h	206
+LOGORG_PARITY_SEQGIVE	disksim_logorg.h	143
+LRU_at_seg_list_head	disksim_disk.h	490
+LRU_at_seg_list_head	disksim_disk.h	537
+MAPPED	disksim_global.h	200
+MAXCOPIES	disksim_logorg.h	144
+MAXCPUS	disksim_pfsim.h	118
+MAXCTLTYPE	disksim_ctlr.h	116
+MAXDEFECTS	disksim_diskmap.h	108
+MAXDEPTH	disksim_iosim.h	111
+MAXDEVICES	disksim_iosim.h	110
+MAXDISKS	disksim_disk.h	190
+MAXINBUSES	disksim_iosim.h	112
+MAXINT	disksim_global.h	140
+MAXLOGORGS	disksim_iosim.h	115
+MAXOUTBUSES	disksim_iosim.h	113
+MAXSCHED	disksim_ioqueue.h	172
+MAXSECTORS	raw_layout.c	83
+MAXSLIPS	disksim_diskmap.h	107
+MAXSLOTS	disksim_iosim.h	114
+MAXSPARESCHEME	disksim_diskmap.h	124
+MAXSTATS	disksim_disk.h	189
+MAX_POINTS	rms.c	108
+MAX_QUEUE_LENGTH	disksim_logorg.c	108
+MAX_TSPS	disksim_ioqueue.c	1471
+MEMS_BUS_INITIATE	disksim_iosim.h	152
+MEMS_BUS_TRANSFER	disksim_iosim.h	153
+MEMS_BUS_UPDATE	disksim_iosim.h	154
+MEMS_MAX_EVENT	disksim_global.h	223
+MEMS_MIN_EVENT	disksim_global.h	222
+MEMS_SLED_DATA	disksim_iosim.h	150
+MEMS_SLED_SCHEDULE	disksim_iosim.h	147
+MEMS_SLED_SEEK	disksim_iosim.h	148
+MEMS_SLED_SERVO	disksim_iosim.h	149
+MEMS_SLED_UPDATE	disksim_iosim.h	151
+MICRO	disksim_global.h	183
+MILLI	disksim_global.h	182
+MINCTLTYPE	disksim_ctlr.h	112
+MINSCHED	disksim_ioqueue.h	143
+MIN_CYL_DISTANCE	raw_layout.c	91
+MSECS_PER_MIN	disksim_global.h	234
+Mdisksim_main	disksim_main.c	/^int main (int argc, char **argv)$/
+Mhplcomb	hplcomb.c	/^int main(argc, argv)$/
+Mrms	rms.c	/^int main(argc, argv)$/
+Msyssim_driver	syssim_driver.c	/^main(int argc, char *argv[])$/
+NANO	disksim_global.h	184
+NCR_ASCII	hplcomb.c	67
+NOTIMEOUT	disksim_ioqueue.c	143
+NOT_COMPLETE	disksim_orgface.h	107
+NOVAL	raw_layout.c	93
+NO_FASTWRITE	disksim_disk.h	178
+NO_PRESEEK	disksim_disk.h	171
+NO_REDUN	disksim_logorg.h	121
+NO_SPARING	disksim_diskmap.h	113
+NULL_EVENT	disksim_global.h	211
+NUMDISKS	disksim_disk.h	518
+NUMGENS	disksim_logorg.h	145
+PARITY_DISK	disksim_logorg.h	123
+PARITY_LEFT_ASYM	disksim_logorg.h	139
+PARITY_LEFT_SYM	disksim_logorg.h	138
+PARITY_RIGHT_ASYM	disksim_logorg.h	140
+PARITY_RIGHT_SYM	disksim_logorg.h	141
+PARITY_ROTATED	disksim_logorg.h	124
+PARITY_TABLE	disksim_logorg.h	125
+PASSTHRU_DELAY	disksim_ctlrdumb.c	110
+PENDING	disksim_ioqueue.c	134
+PERCENT	raw_layout.c	88
+PF_BUF_WANTED	disksim_pfsim.h	123
+PF_CSWITCH_TIME	disksim_pfsim.h	144
+PF_IDLE_CHECK_DISPQ_TIME	disksim_pfsim.h	145
+PF_INTER_CLOCK_TIME	disksim_pfsim.h	140
+PF_INTER_LONG_CLOCKS	disksim_pfsim.h	141
+PF_IO_WAKEUP_TIME	disksim_pfsim.h	146
+PF_LONG_CLOCK_TIME	disksim_pfsim.h	142
+PF_MAX_EVENT	disksim_global.h	213
+PF_MIN_EVENT	disksim_global.h	212
+PF_SHORT_CLOCK_TIME	disksim_pfsim.h	143
+PF_SLEEP_FLAG	disksim_pfsim.h	120
+PF_WAKED	disksim_pfsim.h	121
+POSTGRES	disksim_global.h	174
+PRESEEK_BEFORE_COMPLETION	disksim_disk.h	173
+PRESEEK_DURING_COMPLETION	disksim_disk.h	172
+PRINTTRACESTATS	disksim_iosim.h	261
+PRINT_TRACEFILE_HEADER	disksim.c	128
+PRI_ASPCTF_OPT	disksim_ioqueue.h	164
+PRI_ASPTF_OPT	disksim_ioqueue.h	163
+PRI_VSCAN_LBN	disksim_ioqueue.h	162
+PROC_ONPROC	disksim_pfsim.h	136
+PROC_RUN	disksim_pfsim.h	135
+PROC_SLEEP	disksim_pfsim.h	134
+RAND48_ADD	disksim_rand48.c	84
+RAND48_MULT_0	disksim_rand48.c	81
+RAND48_MULT_1	disksim_rand48.c	82
+RAND48_MULT_2	disksim_rand48.c	83
+RAND48_SEED_0	disksim_rand48.c	78
+RAND48_SEED_1	disksim_rand48.c	79
+RAND48_SEED_2	disksim_rand48.c	80
+RANDOM	disksim_logorg.h	116
+RAW	disksim_global.h	171
+READ	disksim_global.h	195
+READY_TO_GO	disksim_ioqueue.c	/^#define READY_TO_GO(iobufptr,queue) ( \\$/
+READY_TO_TRANSFER	disksim_iosim.h	169
+READ_AFTR_WRITE	disksim_global.h	201
+READ_DATA_TRANSFER	disksim_ctlr.h	121
+RECONNECT	disksim_iosim.h	167
+RECONNECTING	disksim_ctlr.h	125
+REQUEST_PENDING	disksim_ctlr.h	126
+RMS_INCR	rms.c	106
+SATF_OPT	disksim_ioqueue.h	153
+SDF_APPROX	disksim_ioqueue.h	165
+SDF_EXACT	disksim_ioqueue.h	166
+SECONDS_PER_DAY	disksim_global.h	188
+SECONDS_PER_HOUR	disksim_global.h	187
+SECONDS_PER_MINUTE	disksim_global.h	186
+SECTATEND_SPARING	disksim_diskmap.h	120
+SECTOR	syssim_driver.c	56
+SECTPERCYL_SPARING	disksim_diskmap.h	115
+SECTPERCYL_SPARING_ATFRONT	disksim_diskmap.h	118
+SECTPERCYL_SPARING_ATFRONT_SLIPTOEND	disksim_diskmap.h	119
+SECTPERCYL_SPARING_SLIPTOEND	disksim_diskmap.h	117
+SECTPERRANGE_SPARING	disksim_diskmap.h	121
+SECTPERTRACK_SPARING	disksim_diskmap.h	116
+SECTSPERZONE_SPARING	disksim_diskmap.h	122
+SECTSPERZONE_SPARING_SLIPTOEND	disksim_diskmap.h	123
+SEG_OWNED	disksim_disk.h	160
+SEQ	disksim_global.h	205
+SHADOWED	disksim_logorg.h	122
+SHADOW_PRIMARY	disksim_logorg.h	129
+SHADOW_RANDOM	disksim_logorg.h	130
+SHADOW_ROUNDROBIN	disksim_logorg.h	131
+SHADOW_SHORTDIST	disksim_logorg.h	132
+SHADOW_SHORTQUEUE	disksim_logorg.h	133
+SHADOW_SHORTQUEUE2	disksim_logorg.h	134
+SLEEP_EVENT	disksim_pfsim.h	108
+SLOTPRIORITY_ARB	disksim_bus.c	124
+SPCTF_OPT	disksim_ioqueue.h	152
+SPTF_OPT	disksim_ioqueue.h	151
+SPTF_ROT_OPT	disksim_ioqueue.h	167
+SPTF_ROT_WEIGHT	disksim_ioqueue.h	168
+SPTF_SEEK_WEIGHT	disksim_ioqueue.h	169
+SSD_CLEAN_ELEMENT	disksim_iosim.h	158
+SSD_CLEAN_GANG	disksim_iosim.h	159
+SSD_MAX_EVENT	disksim_global.h	225
+SSD_MIN_EVENT	disksim_global.h	224
+SSD_REFRESH_ELEMENT	disksim_iosim.h	160
+SSD_REFRESH_GANG	disksim_iosim.h	161
+SSTF_CYL	disksim_ioqueue.h	150
+SSTF_LBN	disksim_ioqueue.h	147
+STANDALONE	disksim_iodriver.h	111
+STOP_SIM	disksim_global.h	220
+STRIPED	disksim_logorg.h	117
+SUBCLOCK_INTERRUPT	disksim_global.h	230
+SUPPORT_CHECKPOINTS	disksim_global.h	129
+SYNCHRONOUS	disksim_global.h	202
+SYNTHIO_EVENT	disksim_pfsim.h	114
+SYNTHIO_EXPONENTIAL	disksim_synthio.c	107
+SYNTHIO_NORMAL	disksim_synthio.c	106
+SYNTHIO_OVERRIDE	disksim_pfface.h	106
+SYNTHIO_POISSON	disksim_synthio.c	108
+SYNTHIO_TWOVALUE	disksim_synthio.c	109
+SYNTHIO_UNIFORM	disksim_synthio.c	105
+SYSORG	disksim_ioface.h	118
+Stat	syssim_driver.c	63
+StaticAssert	disksim_global.h	/^#define StaticAssert(c) switch (c) case 0: case (c/
+SysTime	syssim_driver.h	42
+TIMED_OUT	disksim_global.h	198
+TIMER_EXPIRED	disksim_global.h	218
+TIMESTAMP_LOGORG	disksim_iosim.h	141
+TIME_CRITICAL	disksim_global.h	196
+TIME_LIMITED	disksim_global.h	197
+TRACEMAPPINGS	disksim_iosim.h	259
+TRACK_SPARING	disksim_diskmap.h	114
+TRUE	hplcomb.c	59
+TRUE	disksim_global.h	153
+TSPS	disksim_ioqueue.h	170
+TWOQUEUE	disksim_ioqueue.c	139
+UP	disksim_ctlr.h	130
+VALIDATE	disksim_global.h	170
+VSCAN_CYL	disksim_ioqueue.h	161
+VSCAN_LBN	disksim_ioqueue.h	160
+WAITING	disksim_ioqueue.c	133
+WAKEUP_EVENT	disksim_pfsim.h	109
+WATF_OPT	disksim_ioqueue.h	156
+WPCTF_OPT	disksim_ioqueue.h	155
+WPTF_OPT	disksim_ioqueue.h	154
+WRITE	disksim_global.h	194
+WRITE_DATA_TRANSFER	disksim_ctlr.h	122
+_BIG_ENDIAN	hplcomb.c	62
+_BIG_ENDIAN	disksim_global.h	162
+_BITSTRING_H_	disksim_bitstring.h	59
+_DISKSIM_INLINE_H	inline.h	35
+_DISKSIM_INST_H	inst.h	33
+_DISKSIM_INTERFACE_H	disksim_interface.h	33
+_DISKSIM_INTERFACE_PRIVATE_H	disksim_interface_private.h	33
+_DISKSIM_REQFLAGS_H	disksim_reqflags.h	33
+_LITTLE_ENDIAN	hplcomb.c	63
+_LITTLE_ENDIAN	disksim_global.h	163
+_bit_byte	disksim_bitstring.h	/^#define	_bit_byte(bit) \\$/
+_bit_mask	disksim_bitstring.h	/^#define	_bit_mask(bit) \\$/
+_rand48_add	disksim_rand48.c	91
+_rand48_add	disksim_rand48.c	98
+_rand48_add	disksim_rand48.c	134
+_rand48_mult	disksim_rand48.c	90
+_rand48_mult	disksim_rand48.c	97
+_rand48_mult	disksim_rand48.c	129
+_rand48_seed	disksim_rand48.c	89
+_rand48_seed	disksim_rand48.c	96
+_rand48_seed	disksim_rand48.c	124
+accblkno	disksim_cachemem.h	151
+access	disksim_disk.h	213
+access_time	disksim_global.h	334
+accstats	disksim_ioqueue.h	249
+acctime	disksim_disk.h	288
+acctime	disksim_simpledisk.h	116
+acctimestats	disksim_disk.h	249
+acctimestats	disksim_simpledisk.h	107
+accumulated_event_time	disksim_iotrace.h	90
+accumulated_event_time	disksim_iotrace.h	120
+active	disksim_pfsim.h	159
+actualblksperpart	disksim_logorg.h	254
+actualnumdisks	disksim_logorg.h	245
+add_driver	disksim_iodriver.c	/^static void add_driver(iodriver *d) {$/
+add_statistics	syssim_driver.c	/^add_statistics(Stat *s, double x)$/
+addlisttoextraq	disksim.c	/^void addlisttoextraq (event **headptr)$/
+addrbyparts	disksim_logorg.h	241
+addtoextraq	disksim.c	/^INLINE void addtoextraq (event *temp)$/
+addtoextraq_check	disksim.c	/^int addtoextraq_check(event *ev)$/
+addtointq	disksim.c	/^INLINE void addtointq (event *newint)$/
+addtolatency	disksim_disk.h	486
+addtolatency	disksim_disk.h	527
+aligned	disksim_logorg.h	201
+allocateextra	disksim.c	/^static void allocateextra ()$/
+allocatepolicy	disksim_cachemem.h	222
+allocstop	disksim_cachemem.h	156
+almostreadhits	disksim_disk.h	314
+appendhits	disksim_disk.h	254
+arbtime	disksim_bus.h	148
+arbtype	disksim_bus.h	146
+arbwaitstats	disksim_bus.h	158
+arbwinner	disksim_bus.h	151
+arraydisk	disksim_logorg.h	246
+arrtime	disksim_logorg.h	162
+asyncreads	disksim_iotrace.h	69
+asyncreads	disksim_iotrace.h	99
+asyncwrites	disksim_iotrace.h	70
+asyncwrites	disksim_iotrace.h	100
+atomsize	disksim_cachemem.h	208
+atomsperbit	disksim_cachemem.h	211
+avgcyl	raw_layout.c	110
+band	raw_layout.c	74
+bandstart	disksim_disk.h	484
+bandstart	disksim_disk.h	524
+base	disksim_ioqueue.h	255
+base	disksim_synthio.h	126
+basebigtime	disksim_iotrace.h	81
+basebigtime	disksim_iotrace.h	111
+baseday	hplcomb.c	85
+baseday	disksim_iotrace.h	79
+baseday	disksim_iotrace.h	109
+basehighshort	disksim_iotrace.h	74
+basehighshort	disksim_iotrace.h	104
+basehighshort2	disksim_iotrace.h	75
+basehighshort2	disksim_iotrace.h	105
+basesecond	hplcomb.c	86
+basesecond	disksim_iotrace.h	80
+basesecond	disksim_iotrace.h	110
+basesimtime	disksim_iotrace.h	83
+basesimtime	disksim_iotrace.h	113
+basesmalltime	disksim_iotrace.h	82
+basesmalltime	disksim_iotrace.h	112
+baseyear	hplcomb.c	84
+baseyear	disksim_iotrace.h	78
+baseyear	disksim_iotrace.h	108
+batch_complete	disksim_global.h	294
+batch_complete	disksim_interface.h	51
+batch_complete	disksim_ioqueue.h	186
+batch_list	disksim_ioqueue.h	195
+batch_next	disksim_global.h	296
+batch_prev	disksim_global.h	297
+batch_size	disksim_global.h	295
+batch_size	disksim_ioqueue.h	185
+batchno	disksim_global.h	293
+batchno	disksim_interface.h	50
+batchno	disksim_ioqueue.h	184
+batchsizestats	disksim_ioqueue.h	296
+bcount	disksim_global.h	275
+bcount	disksim_logorg.h	166
+bigqueue	disksim_ioqueue.h	205
+bit_alloc	disksim_bitstring.h	/^#define	bit_alloc(nbits) \\$/
+bit_clear	disksim_bitstring.h	/^#define	bit_clear(name, bit) \\$/
+bit_decl	disksim_bitstring.h	/^#define	bit_decl(name, nbits) \\$/
+bit_ffc	disksim_bitstring.h	/^#define	bit_ffc(name, nbits, value) do { \\$/
+bit_ffs	disksim_bitstring.h	/^#define	bit_ffs(name, nbits, value) do { \\$/
+bit_ffs	disksim_bitstring.h	/^#define	bit_ffs(name, nbits, value) do { \\$/
+bit_nclear	disksim_bitstring.h	/^#define	bit_nclear(name, start, stop) do { \\$/
+bit_nset	disksim_bitstring.h	/^#define	bit_nset(name, start, stop) do { \\$/
+bit_set	disksim_bitstring.h	/^#define	bit_set(name, bit) \\$/
+bit_test	disksim_bitstring.h	/^#define	bit_test(name, bit) \\$/
+bitstr_size	disksim_bitstring.h	/^#define	bitstr_size(nbits) \\$/
+bitstr_t	disksim_bitstring.h	68
+blkno	disksim_global.h	276
+blkno	disksim_global.h	332
+blkno	disksim_interface.h	47
+blkno	disksim_ioqueue.h	182
+blkno	disksim_logorg.h	154
+blkno	disksim_logorg.h	167
+blkno	disksim_logorg.h	233
+blksdone	disksim_disk.h	441
+blksperdisk	disksim_synthio.h	147
+blksperpart	disksim_logorg.h	253
+blktranstime	disksim_ctlr.h	144
+blktranstime	disksim_disk.h	428
+blktranstime	disksim_simpledisk.h	126
+blocked	disksim_logorg.h	200
+blocksize	disksim_synthio.h	148
+buf	disksim_global.h	282
+buf	disksim_logorg.h	174
+buffer_partial_servtime	disksim_disk.h	500
+buffer_partial_servtime	disksim_disk.h	542
+buffer_whole_servtime	disksim_disk.h	502
+buffer_whole_servtime	disksim_disk.h	544
+bufferspace	disksim_cachedev.h	187
+bus	disksim_bus.h	143
+bus	disksim_bus.h	161
+bus_arbitrate_for_ownership	disksim_bus.c	/^static bus_event * bus_arbitrate_for_ownership(bus/
+bus_cleanstats	disksim_bus.c	/^void bus_cleanstats()$/
+bus_copy	disksim_bus.c	/^bus *bus_copy(bus *orig) {$/
+bus_delay	disksim_bus.c	/^void bus_delay(int busno, int devtype, int devno, /
+bus_delay_complete	disksim_device.h	/^  void    (*bus_delay_complete)(int devno, $/
+bus_deliver_event	disksim_bus.c	/^void bus_deliver_event(int busno, int slotno, iore/
+bus_ev	disksim_bus.h	118
+bus_event	disksim_bus.h	129
+bus_event_arrive	disksim_bus.c	/^void bus_event_arrive(ioreq_event *ptr)$/
+bus_fifo_arbitration	disksim_bus.c	/^static bus_event * bus_fifo_arbitration(bus *currb/
+bus_get_controller_slot	disksim_bus.c	/^bus_get_controller_slot (int busno, int ctlno)$/
+bus_get_data_transfered	disksim_bus.c	/^int bus_get_data_transfered(ioreq_event *curr, int/
+bus_get_transfer_time	disksim_bus.c	/^double bus_get_transfer_time(int busno, int bcount/
+bus_initialize	disksim_bus.c	/^void bus_initialize()$/
+bus_next	disksim_disk.h	225
+bus_ownership_get	disksim_bus.c	/^int bus_ownership_get(int busno, int slotno, ioreq/
+bus_ownership_grant	disksim_device.h	/^  void    (*bus_ownership_grant)(int devno, $/
+bus_ownership_release	disksim_bus.c	/^void bus_ownership_release(int busno)$/
+bus_printarbwaitstats	disksim_bus.h	138
+bus_printidlestats	disksim_bus.h	137
+bus_printstats	disksim_bus.c	/^void bus_printstats()$/
+bus_remove_from_arbitration	disksim_bus.c	/^void bus_remove_from_arbitration(int busno, ioreq_/
+bus_resetstats	disksim_bus.c	/^void bus_resetstats()$/
+bus_set_depths	disksim_bus.c	/^void bus_set_depths()$/
+bus_set_to_zero_depth	disksim_bus.c	/^void bus_set_to_zero_depth (int busno)$/
+bus_setcallbacks	disksim_bus.c	/^void bus_setcallbacks ()$/
+bus_slotpriority_arbitration	disksim_bus.c	/^static bus_event * bus_slotpriority_arbitration(bu/
+bus_transaction_latency	disksim_simpledisk.h	118
+buses	disksim_bus.h	134
+buses_len	disksim_bus.h	135
+busidlestats	disksim_bus.h	159
+businfo	disksim_bus.h	133
+businfo	disksim_global.h	470
+businfo_t	disksim_bus.h	139
+busno	disksim_bus.h	125
+busno	disksim_cachemem.h	138
+busno	disksim_global.h	278
+busno	disksim_logorg.h	169
+busowned	disksim_disk.h	443
+busowned	disksim_simpledisk.h	128
+buspath	disksim_iosim.h	215
+buspath	disksim_iosim.h	230
+buswait	disksim_ctlr.h	163
+buswait	disksim_disk.h	444
+buswait	disksim_simpledisk.h	129
+busy	disksim_disk.h	330
+busy	disksim_iosim.h	228
+byte	hplcomb.c	56
+byte	disksim_global.h	245
+bytecount	disksim_interface.h	48
+bzero	disksim_global.h	/^#define bzero(ptr,size)  memset(ptr,0,size)$/
+cache	disksim_ctlr.h	140
+cache_access	disksim_cachemem.c	/^static void cache_access (struct cache_mem *cache,/
+cache_add_to_lockstruct	disksim_cachemem.c	/^static void cache_add_to_lockstruct (struct cachel/
+cache_add_to_lrulist	disksim_cachemem.c	/^static void cache_add_to_lrulist (cache_mapentry */
+cache_allocate_space	disksim_cachemem.c	/^static struct cache_mem_event * cache_allocate_spa/
+cache_allocate_space_continue	disksim_cachemem.c	/^struct cache_mem_event *cache_allocate_space_conti/
+cache_atom	disksim_cachemem.h	140
+cache_atom_islocked	disksim_cachemem.c	/^static int cache_atom_islocked (struct cache_mem */
+cache_atom_iswritelocked	disksim_cachemem.c	/^static int cache_atom_iswritelocked (struct cache_/
+cache_check_for_residence	disksim_cachemem.c	/^static void cache_check_for_residence (struct cach/
+cache_cleanstats	disksim_cache.h	/^  void(*cache_cleanstats)(struct cache_if *cache);/
+cache_cleanup_flushdesc	disksim_cachemem.c	/^static void cache_cleanup_flushdesc (struct cache_/
+cache_concatok	disksim_cachemem.c	/^static int cache_concatok (void *concatokparam, in/
+cache_copy	disksim_cache.h	/^  struct cache_if *(*cache_copy)(struct cache_if */
+cache_count_dirty_atoms	disksim_cachemem.c	/^static int cache_count_dirty_atoms (struct cache_m/
+cache_dev	disksim_cachedev.h	170
+cache_dev_event	disksim_cachedev.h	138
+cache_dev_stats	disksim_cachedev.h	151
+cache_devno	disksim_cachedev.h	180
+cache_disk_access_complete	disksim_cache.h	/^  void*(*cache_disk_access_complete)(struct cache_/
+cache_empty_donefunc	disksim_cachemem.c	/^static void cache_empty_donefunc (void *doneparam,/
+cache_find_atom	disksim_cachemem.c	/^static cache_atom * cache_find_atom (struct cache_/
+cache_flush_cluster	disksim_cachemem.c	/^static int cache_flush_cluster (struct cache_mem */
+cache_free_block_clean	disksim_cache.h	/^  void(*cache_free_block_clean)(struct cache_if *c/
+cache_free_block_dirty	disksim_cache.h	/^  int(*cache_free_block_dirty)(struct cache_if *ca/
+cache_free_read_lock	disksim_cachemem.c	/^static int cache_free_read_lock (struct cache_mem /
+cache_free_write_lock	disksim_cachemem.c	/^static int cache_free_write_lock (struct cache_mem/
+cache_get_block	disksim_cache.h	/^  int (*cache_get_block)(struct cache_if *cache, $/
+cache_get_flushdesc	disksim_cachemem.c	/^static struct cache_mem_event *cache_get_flushdesc/
+cache_get_free_atom	disksim_cachemem.c	/^static int cache_get_free_atom (struct cache_mem */
+cache_get_maxreqsize	disksim_cache.h	/^  int (*cache_get_maxreqsize)(struct cache_if *cac/
+cache_get_read_lock	disksim_cachemem.c	/^static int cache_get_read_lock (struct cache_mem */
+cache_get_read_lock_range	disksim_cachemem.c	/^static void cache_get_read_lock_range (struct cach/
+cache_get_replace_startpoint	disksim_cachemem.c	/^static cache_atom *cache_get_replace_startpoint (s/
+cache_get_rw_lock	disksim_cachemem.c	/^static int cache_get_rw_lock (struct cache_mem *ca/
+cache_get_write_lock	disksim_cachemem.c	/^static int cache_get_write_lock (struct cache_mem /
+cache_give_lock_to_waiter	disksim_cachemem.c	/^static void cache_give_lock_to_waiter (struct cach/
+cache_idletime_detected	disksim_cachemem.c	/^static void cache_idletime_detected (void *idlewor/
+cache_if	disksim_cache.h	109
+cache_initialize	disksim_cache.h	/^  void(*cache_initialize)(struct cache_if *cache, /
+cache_initiate_dirty_block_flush	disksim_cachemem.c	/^static int cache_initiate_dirty_block_flush (struc/
+cache_insert_new_into_hash	disksim_cachemem.c	/^static void cache_insert_new_into_hash (struct cac/
+cache_issue_fillreq	disksim_cachemem.c	/^static int cache_issue_fillreq (struct cache_mem */
+cache_issue_flushreq	disksim_cachemem.c	/^static int cache_issue_flushreq (struct cache_mem /
+cache_lock_free	disksim_cachemem.c	/^static void cache_lock_free (struct cache_mem *cac/
+cache_lockholders	disksim_cachemem.h	118
+cache_lockwaiters	disksim_cachemem.h	123
+cache_mapentry	disksim_cachemem.h	195
+cache_mem	disksim_cachemem.h	197
+cache_mem_event	disksim_cachemem.h	142
+cache_mem_stats	disksim_cachemem.h	162
+cache_periodic_flush	disksim_cachemem.c	/^static void cache_periodic_flush (timer_event *tim/
+cache_printstats	disksim_cache.h	/^  void(*cache_printstats)(struct cache_if *cache, /
+cache_read_continue	disksim_cachemem.c	/^static int cache_read_continue (struct cache_mem */
+cache_remove_entry_from_hash	disksim_cachemem.c	/^static void cache_remove_entry_from_hash (struct c/
+cache_remove_from_lrulist	disksim_cachemem.c	/^static void cache_remove_from_lrulist (cache_mapen/
+cache_remove_lbn_from_hash	disksim_cachemem.c	/^static void cache_remove_lbn_from_hash (struct cac/
+cache_replace	disksim_cachemem.c	/^static int cache_replace (struct cache_mem *cache,/
+cache_replace_waitforline	disksim_cachemem.c	/^static void cache_replace_waitforline (struct cach/
+cache_reset_state	disksim_cachemem.c	/^static void cache_reset_state (struct cache_mem *c/
+cache_resetstats	disksim_cache.h	/^  void(*cache_resetstats)(struct cache_if *cache);/
+cache_set_state	disksim_cachemem.c	/^static void cache_set_state (struct cache_mem *cac/
+cache_setcallbacks	disksim_cache.c	/^void cache_setcallbacks(void) {$/
+cache_setcallbacks	disksim_cache.h	/^  void(*cache_setcallbacks)(void);$/
+cache_sync	disksim_cache.h	/^  int (*cache_sync)(struct cache_if *cache);$/
+cache_unlock_attached_prefetch	disksim_cachemem.c	/^static void cache_unlock_attached_prefetch (struct/
+cache_unmap_line	disksim_cachemem.c	/^static void cache_unmap_line (struct cache_mem *ca/
+cache_waitfor_IO	disksim_cachemem.c	/^static void cache_waitfor_IO (struct cache_mem *ca/
+cache_wakeup_complete	disksim_cache.h	/^  void (*cache_wakeup_complete)(struct cache_if *c/
+cache_write_continue	disksim_cachemem.c	/^static int cache_write_continue (struct cache_mem /
+cache_write_line_by_line	disksim_cachemem.c	/^cache_write_line_by_line (struct cache_mem *cache,/
+cacheatom	disksim_cachemem.h	125
+cachedev_add_ongoing_request	disksim_cachedev.c	/^cachedev_add_ongoing_request (struct cache_dev *ca/
+cachedev_cleanstats	disksim_cachedev.c	/^cachedev_cleanstats (struct cache_if *cache)$/
+cachedev_clearbits	disksim_cachedev.c	/^static void cachedev_clearbits (bitstr_t *bitmap, /
+cachedev_copy	disksim_cachedev.c	/^cachedev_copy (struct cache_if *c)$/
+cachedev_count_dirty_blocks	disksim_cachedev.c	/^static int cachedev_count_dirty_blocks (struct cac/
+cachedev_disk_access_complete	disksim_cachedev.c	/^cachedev_disk_access_complete (struct cache_if *c,/
+cachedev_empty_donefunc	disksim_cachedev.c	/^static void cachedev_empty_donefunc (void *donepar/
+cachedev_find_dirty_cache_blocks	disksim_cachedev.c	/^static int cachedev_find_dirty_cache_blocks (struc/
+cachedev_find_ongoing_request	disksim_cachedev.c	/^static struct cache_dev_event * cachedev_find_ongo/
+cachedev_free_block_clean	disksim_cachedev.c	/^cachedev_free_block_clean (struct cache_if *c, $/
+cachedev_free_block_dirty	disksim_cachedev.c	/^cachedev_free_block_dirty (struct cache_if *c, $/
+cachedev_get_block	disksim_cachedev.c	/^cachedev_get_block (struct cache_if *c, $/
+cachedev_get_maxreqsize	disksim_cachedev.c	/^cachedev_get_maxreqsize (struct cache_if *c)$/
+cachedev_idlework_callback	disksim_cachedev.c	/^static void cachedev_idlework_callback (void *idle/
+cachedev_initialize	disksim_cachedev.c	/^cachedev_initialize (struct cache_if *c, $/
+cachedev_isreadhit	disksim_cachedev.c	/^static int cachedev_isreadhit (struct cache_dev *c/
+cachedev_iswritehit	disksim_cachedev.c	/^static int cachedev_iswritehit (struct cache_dev */
+cachedev_periodic_callback	disksim_cachedev.c	/^static void cachedev_periodic_callback (timer_even/
+cachedev_printstats	disksim_cachedev.c	/^cachedev_printstats (struct cache_if *c, char *pre/
+cachedev_remove_ongoing_request	disksim_cachedev.c	/^cachedev_remove_ongoing_request (struct cache_dev /
+cachedev_resetstats	disksim_cachedev.c	/^cachedev_resetstats (struct cache_if *c)$/
+cachedev_setbits	disksim_cachedev.c	/^static void cachedev_setbits (bitstr_t *bitmap, io/
+cachedev_setcallbacks	disksim_cachedev.c	/^cachedev_setcallbacks(void)$/
+cachedev_sync	disksim_cachedev.c	/^int cachedev_sync (struct cache_if *c)$/
+cachedev_wakeup_complete	disksim_cachedev.c	/^cachedev_wakeup_complete (struct cache_if *c, $/
+cachelockh	disksim_cachemem.h	115
+cachelockw	disksim_cachemem.h	120
+cachemem_cleanstats	disksim_cachemem.c	/^static void cachemem_cleanstats (struct cache_if */
+cachemem_copy	disksim_cachemem.c	/^cachemem_copy (struct cache_if *c)$/
+cachemem_disk_access_complete	disksim_cachemem.c	/^cachemem_disk_access_complete (struct cache_if *c,/
+cachemem_free_block_clean	disksim_cachemem.c	/^cachemem_free_block_clean (struct cache_if *c, $/
+cachemem_free_block_dirty	disksim_cachemem.c	/^cachemem_free_block_dirty (struct cache_if *c, $/
+cachemem_get_block	disksim_cachemem.c	/^cachemem_get_block (struct cache_if *c, $/
+cachemem_get_maxreqsize	disksim_cachemem.c	/^int cachemem_get_maxreqsize (struct cache_if *c)$/
+cachemem_initialize	disksim_cachemem.c	/^cachemem_initialize (struct cache_if *c, $/
+cachemem_printstats	disksim_cachemem.c	/^cachemem_printstats (struct cache_if *c, char *pre/
+cachemem_resetstats	disksim_cachemem.c	/^static void cachemem_resetstats (struct cache_if */
+cachemem_setcallbacks	disksim_cachemem.c	/^cachemem_setcallbacks(void)$/
+cachemem_setup_segs	disksim_cachemem.c	/^void cachemem_setup_segs(struct cache_mem *result,/
+cachemem_sync	disksim_cachemem.c	/^static int cachemem_sync (struct cache_if *c)$/
+cachemem_wakeup_complete	disksim_cachemem.c	/^cachemem_wakeup_complete (struct cache_if *c, void/
+calc_sp	disksim_ioqueue.c	/^static void calc_sp(iobuf **array, subqueue *queue/
+calculate_distance	disksim_device.h	/^  double     (*calculate_distance)(FILE *prev_snap/
+cause	disksim_global.h	283
+chan	disksim_pfsim.h	155
+chan	disksim_pfsim.h	244
+chan	disksim_pfsim.h	255
+check_send_out_request	disksim_iodriver.c	/^static int check_send_out_request (iodriver *curri/
+checkpoint_disable	disksim_global.h	372
+checkpoint_event	disksim_global.h	375
+checkpoint_interval	disksim_global.h	374
+checkpoint_iocnt	disksim_global.h	373
+checkpoint_starttime	disksim_global.h	367
+checkpoint_starttime	disksim_global.h	494
+checkpointfilename	disksim_global.h	428
+cleaned	disksim_cachemem.h	152
+clockintrs	disksim_pfsim.h	203
+closedios	disksim_global.h	362
+closedthinktime	disksim_global.h	363
+coalesceok	disksim_ioqueue.h	/^   int		(**coalesceok)(void *,int,int,int,int);$/
+coalesceokparam	disksim_ioqueue.h	264
+comboverlaps	disksim_ioqueue.h	268
+complete_fn	disksim_interface_private.h	42
+completed	syssim_driver.c	68
+compute_rms	rms.c	/^double compute_rms(x1, y1, x2, y2)$/
+concat	disksim_ioqueue.h	190
+concatmax	disksim_ioqueue.h	267
+concatok	disksim_ioqueue.h	/^   int		(**concatok)(void *,int,int,int,int);$/
+concatok_cachemem	disksim_global.h	/^   int          (*concatok_cachemem)       (void */
+concatokparam	disksim_ioqueue.h	266
+connections	disksim_ctlr.h	155
+const_acctime	disksim_disk.h	286
+const_seektime	disksim_disk.h	292
+constintarrtime	disksim_iosim.h	281
+constintarrtime	disksim_iosim.h	304
+consttime	disksim_iodriver.h	149
+cont	disksim_logorg.h	157
+contread	disksim_disk.h	348
+controller	disksim_ctlr.h	134
+controller	disksim_ctlr.h	173
+controller_53c700_data_transfer	disksim_ctlrdumb.c	/^static void controller_53c700_data_transfer (contr/
+controller_53c700_data_transfer_complete	disksim_ctlrdumb.c	/^static void controller_53c700_data_transfer_comple/
+controller_53c700_disconnect	disksim_ctlrdumb.c	/^static void controller_53c700_disconnect (controll/
+controller_53c700_event_arrive	disksim_ctlrdumb.c	/^void controller_53c700_event_arrive (controller *c/
+controller_53c700_interrupt_arrive	disksim_ctlrdumb.c	/^static void controller_53c700_interrupt_arrive (co/
+controller_53c700_interrupt_complete	disksim_ctlrdumb.c	/^static void controller_53c700_interrupt_complete (/
+controller_53c700_printstats	disksim_ctlrdumb.c	/^void controller_53c700_printstats (controller *cur/
+controller_53c700_ready_to_transfer	disksim_ctlrdumb.c	/^static void controller_53c700_ready_to_transfer (c/
+controller_53c700_reconnect_to_transfer	disksim_ctlrdumb.c	/^static void controller_53c700_reconnect_to_transfe/
+controller_53c700_reconnection_complete	disksim_ctlrdumb.c	/^static void controller_53c700_reconnection_complet/
+controller_53c700_request_arrive	disksim_ctlrdumb.c	/^static void controller_53c700_request_arrive (cont/
+controller_53c700_request_complete	disksim_ctlrdumb.c	/^static void controller_53c700_request_complete (co/
+controller_53c700_reset_complete	disksim_ctlrdumb.c	/^static void controller_53c700_reset_complete (cont/
+controller_C700_based	disksim_controller.c	/^int controller_C700_based (int ctlno)$/
+controller_bus_delay_complete	disksim_controller.c	/^void controller_bus_delay_complete(int ctlno, iore/
+controller_bus_ownership_grant	disksim_controller.c	/^void controller_bus_ownership_grant (int ctlno, io/
+controller_cleanstats	disksim_controller.c	/^void controller_cleanstats()$/
+controller_copy	disksim_controller.c	/^controller *controller_copy(controller *orig) {$/
+controller_disown_busno	disksim_controller.c	/^static void controller_disown_busno (controller *c/
+controller_event_arrive	disksim_controller.c	/^void controller_event_arrive (int ctlno, ioreq_eve/
+controller_get_bus_master	disksim_controller.c	/^int controller_get_bus_master (int busno)$/
+controller_get_data_transfered	disksim_controller.c	/^int controller_get_data_transfered(int ctlno, int /
+controller_get_depth	disksim_controller.c	/^int controller_get_depth (int ctlno)$/
+controller_get_downward_busno	disksim_controller.c	/^int controller_get_downward_busno (controller *cur/
+controller_get_inbus	disksim_controller.c	/^int controller_get_inbus (int ctlno)$/
+controller_get_maxoutstanding	disksim_controller.c	/^int controller_get_maxoutstanding (int ctlno)$/
+controller_get_numcontrollers	disksim_controller.c	/^int controller_get_numcontrollers ()$/
+controller_get_outslot	disksim_controller.c	/^int controller_get_outslot (int ctlno, int busno)$/
+controller_get_slotno	disksim_controller.c	/^int controller_get_slotno (int ctlno)$/
+controller_get_upward_busno	disksim_controller.c	/^static int controller_get_upward_busno (controller/
+controller_initialize	disksim_controller.c	/^void controller_initialize()$/
+controller_passthru_event_arrive	disksim_ctlrdumb.c	/^void controller_passthru_event_arrive (controller /
+controller_passthru_printstats	disksim_ctlrdumb.c	/^void controller_passthru_printstats (controller *c/
+controller_printstats	disksim_controller.c	/^void controller_printstats()$/
+controller_read_logorg	disksim_controller.c	/^void controller_read_logorg (FILE *parfile)$/
+controller_remove_type_from_buswait	disksim_controller.c	/^void controller_remove_type_from_buswait (controll/
+controller_resetstats	disksim_controller.c	/^void controller_resetstats()$/
+controller_send_event_down_path	disksim_controller.c	/^void controller_send_event_down_path (controller */
+controller_send_event_up_path	disksim_controller.c	/^void controller_send_event_up_path (controller *cu/
+controller_set_depth	disksim_controller.c	/^controller_set_depth (int ctlno, $/
+controller_setcallbacks	disksim_controller.c	/^void controller_setcallbacks ()$/
+controller_smart_access_complete	disksim_ctlrsmart.c	/^static void controller_smart_access_complete (cont/
+controller_smart_disconnect	disksim_ctlrsmart.c	/^static void controller_smart_disconnect (controlle/
+controller_smart_disk_data_transfer	disksim_ctlrsmart.c	/^static void controller_smart_disk_data_transfer (c/
+controller_smart_disk_data_transfer_complete	disksim_ctlrsmart.c	/^static void controller_smart_disk_data_transfer_co/
+controller_smart_event_arrive	disksim_ctlrsmart.c	/^void controller_smart_event_arrive (controller *cu/
+controller_smart_host_data_transfer	disksim_ctlrsmart.c	/^static void controller_smart_host_data_transfer (v/
+controller_smart_host_data_transfer_complete	disksim_ctlrsmart.c	/^static void controller_smart_host_data_transfer_co/
+controller_smart_initialize	disksim_ctlrsmart.c	/^void controller_smart_initialize (controller *curr/
+controller_smart_interrupt_arrive	disksim_ctlrsmart.c	/^static void controller_smart_interrupt_arrive (con/
+controller_smart_interrupt_complete	disksim_ctlrsmart.c	/^static void controller_smart_interrupt_complete (c/
+controller_smart_issue_access	disksim_ctlrsmart.c	/^static void controller_smart_issue_access (void *i/
+controller_smart_printstats	disksim_ctlrsmart.c	/^void controller_smart_printstats (controller *curr/
+controller_smart_queuefind	disksim_ctlrsmart.c	/^static struct ioq * controller_smart_queuefind (vo/
+controller_smart_ready_to_transfer	disksim_ctlrsmart.c	/^static void controller_smart_ready_to_transfer (co/
+controller_smart_reconnect_to_transfer	disksim_ctlrsmart.c	/^static void controller_smart_reconnect_to_transfer/
+controller_smart_request_arrive	disksim_ctlrsmart.c	/^static void controller_smart_request_arrive (contr/
+controller_smart_request_complete	disksim_ctlrsmart.c	/^static void controller_smart_request_complete (voi/
+controller_smart_resetstats	disksim_ctlrsmart.c	/^void controller_smart_resetstats (controller *curr/
+controller_smart_setcallbacks	disksim_ctlrsmart.c	/^void controller_smart_setcallbacks ()$/
+controller_smart_wakeup	disksim_ctlrsmart.c	/^static void controller_smart_wakeup (void *wakeupf/
+controllers	disksim_ctlr.h	178
+copies	disksim_logorg.h	248
+copychoice	disksim_logorg.h	249
+count	raw_layout.c	96
+count	raw_layout.c	109
+count	disksim_stat.h	110
+cpu	disksim_pfsim.h	213
+cpu_event	disksim_pfsim.h	189
+cpunum	disksim_pfsim.h	186
+cpus	disksim_pfsim.h	261
+cpus	disksim_pfsim.h	289
+critreads	disksim_logorg.h	190
+critreadstats	disksim_ioqueue.h	244
+critwrites	disksim_logorg.h	191
+critwritestats	disksim_ioqueue.h	245
+cswitch_event	disksim_pfsim.h	229
+cswitches	disksim_pfsim.h	158
+cswitches	disksim_pfsim.h	211
+ctl	disksim_iosim.h	233
+ctl_printblockingstats	disksim_ctlr.h	185
+ctl_printcachestats	disksim_ctlr.h	182
+ctl_printcritstats	disksim_ctlr.h	188
+ctl_printidlestats	disksim_ctlr.h	189
+ctl_printintarrstats	disksim_ctlr.h	190
+ctl_printinterferestats	disksim_ctlr.h	186
+ctl_printlocalitystats	disksim_ctlr.h	184
+ctl_printperdiskstats	disksim_ctlr.h	193
+ctl_printqueuestats	disksim_ctlr.h	187
+ctl_printsizestats	disksim_ctlr.h	183
+ctl_printstampstats	disksim_ctlr.h	192
+ctl_printstreakstats	disksim_ctlr.h	191
+ctlno	disksim_ctlr.h	135
+ctlno	disksim_iosim.h	212
+ctlorgs	disksim_ctlr.h	181
+ctlr	disksim_iosim.h	221
+ctlrinfo	disksim_ctlr.h	176
+ctlrinfo	disksim_global.h	471
+ctlrinfo_t	disksim_ctlr.h	194
+ctlrs	disksim_iodriver.h	155
+ctlrs_len	disksim_ctlr.h	179
+ctx	disksim_interface_private.h	45
+cur_detailed_trace_count	disksim_global.h	408
+cur_repeat	disksim_global.h	409
+curlbolt	disksim_pfsim.h	266
+curlbolt	disksim_pfsim.h	294
+curr_len	disksim_global.h	327
+curr_record	disksim_global.h	414
+curr_snapshot_output_file	disksim_global.h	396
+current	disksim_ioqueue.h	211
+current	disksim_pfsim.h	194
+current_head	disksim_ioqueue.c	1474
+currentbus	disksim_disk.h	436
+currenthda	disksim_disk.h	434
+currentsecond	hplcomb.c	87
+curroffset	disksim_global.h	360
+currseg	disksim_diskcache.c	378
+currtime	disksim_disk.h	414
+currtime_i	disksim_disk.h	415
+curstreak	disksim_logorg.h	226
+cylinder	disksim_ioqueue.h	197
+cylmaptype	disksim_ioqueue.h	275
+cylno	disksim_hptrace.h	214
+cyls	raw_layout.c	96
+datatransfers	disksim_ctlr.h	156
+dbsd_check_times	disksim_diskctlr.c	/^void dbsd_check_times(void) $/
+dbsd_setup	disksim_diskctlr.c	/^dbsd_setup(disk *cd, $/
+dbskdone_check_times	disksim_diskctlr.c	/^dbskdone_check_times(void) {$/
+dedicatedwriteseg	disksim_disk.h	341
+delayed_event	disksim_bus.h	127
+dep	disksim_logorg.h	152
+depend	disksim_logorg.h	175
+depends	disksim_logorg.h	159
+deps	disksim_logorg.h	158
+depth	disksim_bus.h	153
+depth	disksim_ctlr.h	166
+depth	disksim_disk.h	449
+depth	disksim_simpledisk.h	133
+desched_fn	disksim_interface_private.h	44
+destagereadblocks	disksim_cachedev.h	163
+destagereads	disksim_cachedev.h	162
+destagewriteatoms	disksim_cachemem.h	180
+destagewriteblocks	disksim_cachedev.h	165
+destagewrites	disksim_cachedev.h	164
+destagewrites	disksim_cachemem.h	179
+detailed_simulation_duration	disksim_global.h	404
+determine_zones	raw_layout.c	/^determine_zones(disk *currdisk, sfreq_t *sectfreq,/
+dev_copy	disksim_device.h	/^  struct device_header*(*dev_copy)(struct device_h/
+dev_map_devno	disksim_device.c	/^INLINE int dev_map_devno(int n)$/
+device	disksim_iosim.h	235
+device_add	disksim_device.c	/^void device_add(struct device_header *d, int ldevn/
+device_bus_delay_complete	disksim_device.c	/^INLINE void device_bus_delay_complete (int devno, /
+device_bus_ownership_grant	disksim_device.c	/^INLINE void device_bus_ownership_grant (int devno,/
+device_calculate_distance	disksim_device.c	/^INLINE double device_calculate_distance(FILE *prev/
+device_cleanstats	disksim_device.c	/^void device_cleanstats (void)$/
+device_event_arrive	disksim_device.c	/^INLINE void device_event_arrive (ioreq_event *curr/
+device_fast_forward_simulation	disksim_device.c	/^INLINE int device_fast_forward_simulation(int cur_/
+device_get_acctime	disksim_device.c	/^INLINE double device_get_acctime (int devno, $/
+device_get_avg_sectpercyl	disksim_device.c	/^INLINE int device_get_avg_sectpercyl (int devno)$/
+device_get_blktranstime	disksim_device.c	/^INLINE double device_get_blktranstime (ioreq_event/
+device_get_busno	disksim_device.c	/^INLINE int device_get_busno (ioreq_event *curr)$/
+device_get_depth	disksim_device.c	/^INLINE int device_get_depth (int devno)$/
+device_get_distance	disksim_device.c	/^INLINE int device_get_distance (int devno, $/
+device_get_inbus	disksim_device.c	/^INLINE int device_get_inbus (int devno)$/
+device_get_mapping	disksim_device.c	/^INLINE void device_get_mapping (int maptype, $/
+device_get_maxoutstanding	disksim_device.c	/^INLINE int device_get_maxoutstanding (int devno)$/
+device_get_number_of_blocks	disksim_device.c	/^INLINE int device_get_number_of_blocks (int devno)/
+device_get_numcyls	disksim_device.c	/^INLINE int device_get_numcyls (int devno)$/
+device_get_numdevices	disksim_device.c	/^int device_get_numdevices (void)$/
+device_get_seektime	disksim_device.c	/^double device_get_seektime (int devno, $/
+device_get_servtime	disksim_device.c	/^INLINE double device_get_servtime (int devno, $/
+device_get_slotno	disksim_device.c	/^INLINE int device_get_slotno (int devno)$/
+device_header	disksim_device.h	170
+device_info	disksim_device.h	79
+device_info_t	disksim_device.h	111
+device_initialize	disksim_device.c	/^void device_initialize (void)$/
+device_initialize_deviceinfo	disksim_device.c	/^void device_initialize_deviceinfo (void)$/
+device_len	disksim_device.h	172
+device_name	disksim_device.h	173
+device_notify_trace_done	disksim_device.c	/^INLINE void device_notify_trace_done()$/
+device_printacctimestats	disksim_device.h	107
+device_printacctimestats	disksim_device.h	133
+device_printbufferstats	disksim_device.h	109
+device_printbufferstats	disksim_device.h	135
+device_printcritstats	disksim_device.h	100
+device_printcritstats	disksim_device.h	126
+device_printidlestats	disksim_device.h	101
+device_printidlestats	disksim_device.h	127
+device_printintarrstats	disksim_device.h	102
+device_printintarrstats	disksim_device.h	128
+device_printinterferestats	disksim_device.h	108
+device_printinterferestats	disksim_device.h	134
+device_printlatencystats	disksim_device.h	105
+device_printlatencystats	disksim_device.h	131
+device_printqueuestats	disksim_device.h	99
+device_printqueuestats	disksim_device.h	125
+device_printseekstats	disksim_device.h	104
+device_printseekstats	disksim_device.h	130
+device_printsetstats	disksim_device.c	/^void device_printsetstats (int *set, int setsize, /
+device_printsizestats	disksim_device.h	103
+device_printsizestats	disksim_device.h	129
+device_printstats	disksim_device.c	/^void device_printstats (void)$/
+device_printxferstats	disksim_device.h	106
+device_printxferstats	disksim_device.h	132
+device_resetstats	disksim_device.c	/^void device_resetstats (void)$/
+device_set_depth	disksim_device.c	/^INLINE int device_set_depth (int devno, int inbusn/
+device_setcallbacks	disksim_device.c	/^void device_setcallbacks (void)$/
+device_type	disksim_device.h	171
+device_type_t	disksim_device.h	74
+deviceinfo	disksim_global.h	464
+devicenames	disksim_device.h	92
+devicenos	disksim_device.c	86
+devicenos	disksim_device.h	86
+devices	disksim_ctlr.h	142
+devices	disksim_device.h	95
+devices	disksim_iodriver.h	154
+devicetypes	disksim_device.c	84
+devicetypes	disksim_device.h	82
+devno	disksim_bus.h	113
+devno	disksim_bus.h	123
+devno	disksim_cachemem.h	130
+devno	disksim_disk.h	282
+devno	disksim_global.h	280
+devno	disksim_hptrace.h	212
+devno	disksim_interface.h	46
+devno	disksim_ioqueue.h	181
+devno	disksim_ioqueue.h	258
+devno	disksim_iosim.h	227
+devno	disksim_logorg.h	153
+devno	disksim_logorg.h	171
+devno	disksim_logorg.h	215
+devno	disksim_logorg.h	232
+devno	disksim_simpledisk.h	120
+devno	disksim_synthio.h	144
+devs	disksim_logorg.h	279
+devs_len	disksim_device.h	97
+devtype	disksim_bus.h	112
+devtype	disksim_bus.h	124
+diff	disksim_global.h	/^#define diff(x,y)	((x) < (y) ? (y)-(x) : (x)-(y))$/
+dir	disksim_ioqueue.h	213
+dirtymap	disksim_cachedev.h	190
+disconnectinseek	disksim_disk.h	363
+disk	raw_layout.c	75
+disk	disksim_disk.h	275
+disk	disksim_disk.h	472
+disk_acctime_printstats	disksim_disk.c	/^static void disk_acctime_printstats (int *set, int/
+disk_acctimestats	disksim_disk.c	/^void disk_acctimestats (disk *currdisk, int distan/
+disk_activate_read	disksim_diskctlr.c	/^disk_activate_read(disk *currdisk, $/
+disk_activate_write	disksim_diskctlr.c	/^disk_activate_write(disk *currdisk, $/
+disk_add	disksim_disk.c	/^int disk_add(struct disk *d) {$/
+disk_buffer_attempt_access_swap	disksim_diskctlr.c	/^disk_buffer_attempt_access_swap(disk *currdisk, $/
+disk_buffer_attempt_seg_ownership	disksim_diskcache.c	/^int disk_buffer_attempt_seg_ownership (disk *currd/
+disk_buffer_block_available	disksim_diskcache.c	/^int disk_buffer_block_available (disk *currdisk, s/
+disk_buffer_check_read_segments	disksim_diskcache.c	/^static int disk_buffer_check_read_segments (disk */
+disk_buffer_check_segments	disksim_diskcache.c	/^int disk_buffer_check_segments (disk *currdisk, io/
+disk_buffer_check_write_segments	disksim_diskcache.c	/^static int disk_buffer_check_write_segments (disk /
+disk_buffer_estimate_acctime	disksim_diskctlr.c	/^static double disk_buffer_estimate_acctime(disk *c/
+disk_buffer_estimate_seektime	disksim_diskctlr.c	/^disk_buffer_estimate_seektime(disk *currdisk, $/
+disk_buffer_estimate_servtime	disksim_diskctlr.c	/^disk_buffer_estimate_servtime(disk *currdisk, $/
+disk_buffer_get_max_readahead	disksim_diskcache.c	/^int disk_buffer_get_max_readahead (disk *currdisk,/
+disk_buffer_outstate_t	disksim_disk.h	133
+disk_buffer_overlap	disksim_diskcache.c	/^int disk_buffer_overlap (segment *seg, ioreq_event/
+disk_buffer_printstats	disksim_disk.c	/^static void disk_buffer_printstats (int *set, int /
+disk_buffer_recyclable_segment	disksim_diskcache.c	/^segment* disk_buffer_recyclable_segment (disk *cur/
+disk_buffer_recyclable_segment_check	disksim_diskcache.c	/^static int disk_buffer_recyclable_segment_check (d/
+disk_buffer_remove_from_seg	disksim_diskcache.c	/^void disk_buffer_remove_from_seg (diskreq *currdis/
+disk_buffer_request_complete	disksim_diskctlr.c	/^disk_buffer_request_complete(disk *currdisk, diskr/
+disk_buffer_reusable_segment_check	disksim_diskcache.c	/^int disk_buffer_reusable_segment_check (disk *curr/
+disk_buffer_sector_done	disksim_diskctlr.c	/^disk_buffer_sector_done (disk *currdisk, ioreq_eve/
+disk_buffer_seekdone	disksim_diskctlr.c	/^disk_buffer_seekdone(disk *currdisk, ioreq_event */
+disk_buffer_seg_owner	disksim_diskcache.c	/^diskreq* disk_buffer_seg_owner (segment *seg, int /
+disk_buffer_segment_wrap	disksim_diskcache.c	/^void disk_buffer_segment_wrap (segment *seg, int e/
+disk_buffer_segment_wrap_needed	disksim_diskcache.c	/^static int disk_buffer_segment_wrap_needed (segmen/
+disk_buffer_select_read_segment	disksim_diskcache.c	/^disk_buffer_select_read_segment(disk *currdisk, di/
+disk_buffer_select_segment	disksim_diskcache.c	/^segment * disk_buffer_select_segment (disk *currdi/
+disk_buffer_select_write_segment	disksim_diskcache.c	/^static segment* disk_buffer_select_write_segment(d/
+disk_buffer_set_segment	disksim_diskcache.c	/^void disk_buffer_set_segment (disk *currdisk, disk/
+disk_buffer_state_t	disksim_disk.h	125
+disk_buffer_stats	disksim_diskcache.c	/^static void disk_buffer_stats (disk *currdisk, ior/
+disk_buffer_stop_access	disksim_diskctlr.c	/^static void disk_buffer_stop_access (disk *currdis/
+disk_buffer_stopable_access	disksim_diskctlr.c	/^int disk_buffer_stopable_access (disk *currdisk, d/
+disk_buffer_transfer_size	disksim_diskctlr.c	/^disk_buffer_transfer_size(disk *currdisk, $/
+disk_buffer_update_outbuffer	disksim_diskctlr.c	/^disk_buffer_update_outbuffer(disk *currdisk, segme/
+disk_bus_delay_complete	disksim_diskctlr.c	/^disk_bus_delay_complete(int devno, $/
+disk_bus_ownership_grant	disksim_diskctlr.c	/^disk_bus_ownership_grant(int devno, $/
+disk_cache_hit_t	disksim_disk.h	143
+disk_check_bus	disksim_diskctlr.c	/^disk_check_bus (disk *currdisk, diskreq *currdiskr/
+disk_check_hda	disksim_diskctlr.c	/^static void disk_check_hda(disk *currdisk, $/
+disk_check_hda_pending	disksim_diskctlr.c	/^disk_check_hda_pending(disk *currdisk, $/
+disk_check_prefetch_swap	disksim_diskctlr.c	/^static void disk_check_prefetch_swap (disk *currdi/
+disk_cleanstats	disksim_disk.c	/^void disk_cleanstats (void)$/
+disk_completion	disksim_diskctlr.c	/^static void disk_completion (ioreq_event *curr)$/
+disk_cont_read_t	disksim_disk.h	157
+disk_copy	disksim_disk.c	/^struct device_header *disk_copy(struct device_head/
+disk_currstate	disksim_disk.h	270
+disk_disconnect	disksim_diskctlr.c	/^static void disk_disconnect (ioreq_event *curr)$/
+disk_enablement_function	disksim_diskctlr.c	/^int disk_enablement_function(ioreq_event *curriore/
+disk_event_arrive	disksim_diskctlr.c	/^void disk_event_arrive (ioreq_event *curr)$/
+disk_fastwrite_t	disksim_disk.h	181
+disk_find_new_seg_owner	disksim_diskctlr.c	/^static void disk_find_new_seg_owner(disk *currdisk/
+disk_get_acctime	disksim_diskctlr.c	/^double disk_get_acctime (int diskno, ioreq_event */
+disk_get_avg_sectpercyl	disksim_disk.c	/^int disk_get_avg_sectpercyl(int devno)$/
+disk_get_blktranstime	disksim_diskctlr.c	/^double disk_get_blktranstime (ioreq_event *curr)$/
+disk_get_busno	disksim_diskctlr.c	/^INLINE int disk_get_busno (ioreq_event *curr)$/
+disk_get_depth	disksim_diskctlr.c	/^int disk_get_depth (int diskno)$/
+disk_get_distance	disksim_diskctlr.c	/^int disk_get_distance(int diskno, ioreq_event *req/
+disk_get_effectivehda	disksim_diskctlr.c	/^disk_get_effectivehda(disk *currdisk,$/
+disk_get_inbus	disksim_diskctlr.c	/^int disk_get_inbus (int diskno)$/
+disk_get_mapping	disksim_disk.c	/^disk_get_mapping(int maptype, $/
+disk_get_maxoutstanding	disksim_diskctlr.c	/^int disk_get_maxoutstanding (int diskno)$/
+disk_get_number_of_blocks	disksim_disk.c	/^static int disk_get_number_of_blocks(int n) {$/
+disk_get_numcyls	disksim_disk.c	/^static int disk_get_numcyls(int n) {$/
+disk_get_numdisks	disksim_disk.c	/^int disk_get_numdisks (void)$/
+disk_get_remapped_sector	disksim_diskctlr.c	/^disk_get_remapped_sector(disk *currdisk, ioreq_eve/
+disk_get_seektime	disksim_diskctlr.c	/^disk_get_seektime(int diskno, $/
+disk_get_servtime	disksim_diskctlr.c	/^disk_get_servtime(int diskno, $/
+disk_get_slotno	disksim_diskctlr.c	/^int disk_get_slotno (int diskno)$/
+disk_got_remapped_sector	disksim_diskctlr.c	/^static void disk_got_remapped_sector (disk *currdi/
+disk_goto_remapped_sector	disksim_diskctlr.c	/^static void disk_goto_remapped_sector (disk *currd/
+disk_hdr_initializer	disksim_disk.c	1155
+disk_info	disksim_disk.h	475
+disk_info_t	disksim_disk.h	504
+disk_initialize	disksim_disk.c	/^void disk_initialize (void)$/
+disk_initialize_diskinfo	disksim_disk.c	/^static void disk_initialize_diskinfo ()$/
+disk_initiate_seek	disksim_diskctlr.c	/^disk_initiate_seek (disk *currdisk, $/
+disk_interfere_printstats	disksim_disk.c	/^static void disk_interfere_printstats (int *set, i/
+disk_interferestats	disksim_diskcache.c	/^void disk_interferestats (disk *currdisk, ioreq_ev/
+disk_interrupt_complete	disksim_diskctlr.c	/^static void disk_interrupt_complete (ioreq_event */
+disk_last_acctime	disksim_disk.h	534
+disk_last_angle	disksim_disk.h	516
+disk_last_cylno	disksim_disk.h	535
+disk_last_distance	disksim_disk.h	530
+disk_last_latency	disksim_disk.h	532
+disk_last_seektime	disksim_disk.h	531
+disk_last_surface	disksim_disk.h	536
+disk_last_xfertime	disksim_disk.h	533
+disk_latency_printstats	disksim_disk.c	/^static void disk_latency_printstats (int *set, int/
+disk_load_syncsets	disksim_disk.c	/^int disk_load_syncsets(struct lp_block *b) {$/
+disk_postpass	disksim_disk.c	/^static void disk_postpass (void)$/
+disk_postpass_perdisk	disksim_disk.c	/^static void disk_postpass_perdisk (disk *currdisk)/
+disk_prepare_for_data_transfer	disksim_diskctlr.c	/^disk_prepare_for_data_transfer(ioreq_event *curr)$/
+disk_preseek_t	disksim_disk.h	174
+disk_printhack	disksim_disk.h	479
+disk_printhack	disksim_disk.h	519
+disk_printhacktime	disksim_disk.h	480
+disk_printhacktime	disksim_disk.h	520
+disk_printsetstats	disksim_disk.c	/^void disk_printsetstats (int *set, int setsize, ch/
+disk_printstats	disksim_disk.c	/^void disk_printstats (void)$/
+disk_read_arrive	disksim_diskctlr.c	/^disk_read_arrive(disk *currdisk,$/
+disk_reconnection_or_transfer_complete	disksim_diskctlr.c	/^static void disk_reconnection_or_transfer_complete/
+disk_release_hda	disksim_diskctlr.c	/^static void disk_release_hda(disk *currdisk, diskr/
+disk_request_arrive	disksim_diskctlr.c	/^disk_request_arrive(ioreq_event *curr)$/
+disk_request_complete	disksim_diskctlr.c	/^static void disk_request_complete(disk *currdisk, /
+disk_request_needs_bus	disksim_diskctlr.c	/^disk_request_needs_bus(disk *currdisk, $/
+disk_resetstats	disksim_disk.c	/^void disk_resetstats (void)$/
+disk_seek_printstats	disksim_disk.c	/^static void disk_seek_printstats (int *set, int se/
+disk_seek_stoptime	disksim_disk.h	487
+disk_seek_stoptime	disksim_disk.h	529
+disk_select_bus_request	disksim_diskctlr.c	/^disk_select_bus_request(disk *currdisk, ioreq_even/
+disk_send_event_up_path	disksim_diskctlr.c	/^static void disk_send_event_up_path (ioreq_event */
+disk_set_depth	disksim_diskctlr.c	/^disk_set_depth(int diskno, int inbusno, int depth,/
+disk_set_syncset	disksim_disk.c	/^void disk_set_syncset (int setstart, int setend)$/
+disk_setcallbacks	disksim_disk.c	/^void disk_setcallbacks ()$/
+disk_state_t	disksim_disk.h	116
+disk_syncset_init	disksim_disk.c	/^static void disk_syncset_init (void)$/
+disk_transfer_printstats	disksim_disk.c	/^static void disk_transfer_printstats (int *set, in/
+disk_write_arrive	disksim_diskctlr.c	/^static void disk_write_arrive(disk *currdisk,$/
+diskinfo	disksim_global.h	465
+diskreq	disksim_disk.h	233
+diskreq_t	disksim_disk.h	221
+diskreqlist	disksim_disk.h	205
+disks	disksim_disk.h	476
+disks_len	disksim_disk.h	477
+disksim	disksim.c	125
+disksim	disksim_global.h	357
+disksim	disksim_interface_private.h	41
+disksim_bus_loadparams	disksim_bus.c	/^bus *disksim_bus_loadparams(struct lp_block *b, $/
+disksim_bus_printarbwaitstats	disksim_bus.c	565
+disksim_bus_printidlestats	disksim_bus.c	564
+disksim_bus_stats_loadparams	disksim_bus.c	/^int disksim_bus_stats_loadparams(struct lp_block */
+disksim_cache_dev	disksim_cachedev.c	767
+disksim_cache_loadparams	disksim_cache.c	/^struct cache_if *disksim_cache_loadparams(struct l/
+disksim_cache_mem	disksim_cachemem.c	2414
+disksim_cachedev_loadparams	disksim_cachedev.c	/^struct cache_if *disksim_cachedev_loadparams(struc/
+disksim_cachemem_loadparams	disksim_cachemem.c	/^struct cache_if *disksim_cachemem_loadparams(struc/
+disksim_checkpoint	disksim.c	/^void disksim_checkpoint (char *checkpointfilename)/
+disksim_cleanstats	disksim.c	/^void disksim_cleanstats ()$/
+disksim_cleanup	disksim.c	/^void disksim_cleanup(void) $/
+disksim_cleanup_and_printstats	disksim.c	/^void disksim_cleanup_and_printstats ()$/
+disksim_ctlr_loadparams	disksim_controller.c	/^struct controller *disksim_ctlr_loadparams(struct /
+disksim_ctlr_stats_loadparams	disksim_controller.c	/^int disksim_ctlr_stats_loadparams(struct lp_block /
+disksim_device_loadparams	disksim_device.c	/^void disksim_device_loadparams(void) {$/
+disksim_device_stats_loadparams	disksim_device.c	/^int disksim_device_stats_loadparams(struct lp_bloc/
+disksim_disk_loadparams	disksim_disk.c	/^disk *disksim_disk_loadparams(struct lp_block *b,$/
+disksim_dumpintq	disksim.c	/^static void disksim_dumpintq ()$/
+disksim_exectrace	disksim.c	/^disksim_exectrace(char *fmt, ...) {$/
+disksim_free_disksim	disksim_interface.c	/^void disksim_free_disksim(struct disksim_interface/
+disksim_getdiskmodel	disksim_interface.c	/^disksim_getdiskmodel(struct disksim_interface *i, /
+disksim_global_loadparams	disksim.c	/^int disksim_global_loadparams(struct lp_block *b)$/
+disksim_initialize_disksim_structure	disksim.c	/^disksim_initialize_disksim_structure (struct disks/
+disksim_inst_enter	inst.h	/^#define disksim_inst_enter() \\$/
+disksim_inst_enter	inst.h	/^#define disksim_inst_enter()$/
+disksim_int_t	disksim_iosim.h	170
+disksim_interface	disksim_interface_private.h	40
+disksim_interface_callback_t	disksim_interface.h	63
+disksim_interface_complete_t	disksim_interface.h	58
+disksim_interface_desched_t	disksim_interface.h	75
+disksim_interface_dump_stats	disksim_interface.c	/^disksim_interface_dump_stats (struct disksim_inter/
+disksim_interface_initialize	disksim_interface.c	/^disksim_interface_initialize (const char *pfile, $/
+disksim_interface_initialize_latency	disksim_interface.c	/^disksim_interface_initialize_latency (struct disks/
+disksim_interface_internal_event	disksim_interface.c	/^disksim_interface_internal_event (struct disksim_i/
+disksim_interface_io_done_notify	disksim_interface.c	/^disksim_interface_io_done_notify (ioreq_event *cur/
+disksim_interface_request_arrive	disksim_interface.c	/^disksim_interface_request_arrive (struct disksim_i/
+disksim_interface_sched_t	disksim_interface.h	70
+disksim_interface_shutdown	disksim_interface.c	/^disksim_interface_shutdown (struct disksim_interfa/
+disksim_iodone_notify_t	disksim_global.h	355
+disksim_iodriver_loadparams	disksim_iodriver.c	/^struct iodriver *disksim_iodriver_loadparams(struc/
+disksim_iodriver_stats_loadparams	disksim_iodriver.c	/^int disksim_iodriver_stats_loadparams(struct lp_bl/
+disksim_iomap_loadparams	disksim_iosim.c	/^int disksim_iomap_loadparams(struct lp_block *b) {/
+disksim_ioqueue_loadparams	disksim_ioqueue.c	/^struct ioq *disksim_ioqueue_loadparams(struct lp_b/
+disksim_iosim_loadparams	disksim_iosim.c	/^int disksim_iosim_loadparams(struct lp_block *b) {/
+disksim_loadparams	disksim_loadparams.c	/^int disksim_loadparams(char *inputfile, int synthg/
+disksim_logorg_loadparams	disksim_logorg.c	/^struct logorg *disksim_logorg_loadparams(struct lp/
+disksim_pf_loadparams	disksim_pfsim.c	/^int disksim_pf_loadparams(struct lp_block *b) {$/
+disksim_pf_stats_loadparams	disksim_pfsim.c	/^int disksim_pf_stats_loadparams(struct lp_block *b/
+disksim_printstats	disksim.c	/^void disksim_printstats(void) {$/
+disksim_printstats2	disksim.c	/^void disksim_printstats2(int sub_status)$/
+disksim_rand48_initialize	disksim_rand48.c	/^static void disksim_rand48_initialize ()$/
+disksim_register_checkpoint	disksim.c	/^void disksim_register_checkpoint (double attime)$/
+disksim_request	disksim_interface.h	44
+disksim_restore_from_checkpoint	disksim.c	/^void disksim_restore_from_checkpoint (char *filena/
+disksim_run_simulation	disksim.c	/^void disksim_run_simulation ()$/
+disksim_set_external_io_done_notify	disksim.c	/^void disksim_set_external_io_done_notify (disksim_/
+disksim_setup_disksim	disksim.c	/^void disksim_setup_disksim (int argc, char **argv)/
+disksim_setup_iotracefile	disksim.c	/^static void disksim_setup_iotracefile (char *filen/
+disksim_setup_outputfile	disksim.c	/^static void disksim_setup_outputfile (char *filena/
+disksim_simpledisk_loadparams	disksim_simpledisk.c	/^struct simpledisk *disksim_simpledisk_loadparams(s/
+disksim_simstop	disksim.c	/^void disksim_simstop ()$/
+disksim_simulate_event	disksim.c	/^void disksim_simulate_event (int num)$/
+disksim_stats_loadparams	disksim_statload.c	/^int disksim_stats_loadparams(struct lp_block *b) {/
+disksim_syncset_loadparams	disksim_device.c	/^int disksim_syncset_loadparams(struct lp_block *b)/
+disksim_synthgen_loadparams	disksim_synthio.c	/^int disksim_synthgen_loadparams(struct lp_block *b/
+disksim_synthio_loadparams	disksim_synthio.c	/^int disksim_synthio_loadparams(struct lp_block *b)/
+disksim_t	disksim_global.h	487
+disksim_time_from_msec	disksim_interface.c	/^double disksim_time_from_msec(double x) { return x/
+disksim_time_to_msec	disksim_interface.c	/^double disksim_time_to_msec(double x) { return x; /
+disksim_topoloader	disksim_loadparams.c	/^static void disksim_topoloader(struct lp_topospec /
+diskstat	disksim_disk.h	266
+diskstatinit	disksim_disk.c	/^static void diskstatinit (int diskno, int firsttim/
+dist	disksim_synthio.h	125
+distavgdiff	disksim_logorg.h	194
+distbrks	disksim_stat.h	121
+distmaxdiff	disksim_logorg.h	195
+distname	disksim_synthio.c	/^static int distname(char *name) {$/
+distnames	disksim_synthio.c	753
+distnumout	disksim_logorg.h	225
+do_free_blocks	disksim_disk.h	515
+donefunc	disksim_cachedev.h	/^   void (**donefunc)(void *,ioreq_event *);	\/* Fun/
+donefunc	disksim_cachemem.h	/^   void (**donefunc)(void *,ioreq_event *);	\/* Fun/
+donefunc_cachedev_empty	disksim_global.h	/^   void         (*donefunc_cachedev_empty) (void */
+donefunc_cachemem_empty	disksim_global.h	/^   void         (*donefunc_cachemem_empty) (void */
+donefunc_ctlrsmart_read	disksim_global.h	/^   void         (*donefunc_ctlrsmart_read) (void */
+donefunc_ctlrsmart_write	disksim_global.h	/^   void         (*donefunc_ctlrsmart_write)(void */
+doneiolist	disksim_pfsim.h	268
+doneiolist	disksim_pfsim.h	296
+doneparam	disksim_cachedev.h	144
+doneparam	disksim_cachemem.h	148
+driver_copy	disksim_iodriver.c	/^static iodriver *driver_copy(iodriver *orig) {$/
+drivertype	disksim_hptrace.h	213
+dropit	disksim_pfsim.h	256
+drv_printblockingstats	disksim_iodriver.h	170
+drv_printblockingstats	disksim_iodriver.h	192
+drv_printcritstats	disksim_iodriver.h	173
+drv_printcritstats	disksim_iodriver.h	195
+drv_printidlestats	disksim_iodriver.h	174
+drv_printidlestats	disksim_iodriver.h	196
+drv_printintarrstats	disksim_iodriver.h	175
+drv_printintarrstats	disksim_iodriver.h	197
+drv_printinterferestats	disksim_iodriver.h	171
+drv_printinterferestats	disksim_iodriver.h	193
+drv_printlocalitystats	disksim_iodriver.h	169
+drv_printlocalitystats	disksim_iodriver.h	191
+drv_printperdiskstats	disksim_iodriver.h	178
+drv_printperdiskstats	disksim_iodriver.h	200
+drv_printqueuestats	disksim_iodriver.h	172
+drv_printqueuestats	disksim_iodriver.h	194
+drv_printsizestats	disksim_iodriver.h	168
+drv_printsizestats	disksim_iodriver.h	190
+drv_printstampstats	disksim_iodriver.h	177
+drv_printstampstats	disksim_iodriver.h	199
+drv_printstreakstats	disksim_iodriver.h	176
+drv_printstreakstats	disksim_iodriver.h	198
+ds_snapshotfile	disksim_global.h	394
+ds_snapshotfile	disksim_global.h	500
+duration	disksim_global.h	418
+effectivebus	disksim_disk.h	437
+effectivehda	disksim_disk.h	435
+element_id	disksim_iotrace.c	595
+elemno	disksim_global.h	333
+else	disksim_diskcache.c	164
+else	disksim_diskcache.c	257
+else	disksim_diskcache.c	1438
+emptyqueuestats	disksim_iodriver.h	179
+emptyqueuestats	disksim_iodriver.h	201
+enablecache	disksim_disk.h	347
+enablement	disksim_ioqueue.h	/^   int		(**enablement)(ioreq_event *);$/
+enablement_disk	disksim_global.h	/^   int          (*enablement_disk)         (ioreq_/
+endblkno	disksim_disk.h	199
+enddev	disksim_logorg.h	283
+endian	hplcomb.c	72
+endian	disksim_global.h	377
+entry	disksim_cachemem.h	116
+entry	disksim_cachemem.h	121
+equals	disksim_stat.h	115
+error_handler	raw_layout.c	67
+ev	disksim_global.h	261
+event	disksim_global.h	268
+event_arrive	disksim_device.h	/^  void    (*event_arrive)(ioreq_event *curr);$/
+event_copy	disksim.c	/^event *event_copy (event *orig)$/
+event_count	disksim_interface.c	357
+eventlist	disksim_global.h	318
+eventlist	disksim_pfsim.h	174
+exectrace	disksim_global.h	484
+exectrace_fn	disksim_global.h	485
+external_control	disksim_global.h	382
+external_io_done_notify	disksim_global.h	384
+extintrs	disksim_pfsim.h	205
+extra_process_q	disksim_pfsim.h	264
+extra_process_q	disksim_pfsim.h	292
+extra_process_qlen	disksim_pfsim.h	265
+extra_process_qlen	disksim_pfsim.h	293
+extra_write_disconnect	disksim_disk.h	400
+extra_write_disconnects	disksim_disk.h	482
+extra_write_disconnects	disksim_disk.h	522
+extradisc_command	disksim_disk.h	401
+extradisc_disconnect1	disksim_disk.h	402
+extradisc_disconnect2	disksim_disk.h	404
+extradisc_diskreq	disksim_disk.h	399
+extradisc_inter_disconnect	disksim_disk.h	403
+extradisc_seekdelta	disksim_disk.h	405
+extraq	disksim_global.h	437
+extraqlen	disksim_global.h	439
+falseidletime	disksim_pfsim.h	167
+falseidletime	disksim_pfsim.h	199
+fast_forward_duration	disksim_global.h	406
+fast_forward_simulation	disksim_device.h	/^  int     (*fast_forward_simulation)(int cur_repea/
+fast_forward_strategy	disksim_global.h	405
+fastwrites	disksim_disk.h	353
+fillreadatoms	disksim_cachemem.h	171
+fillreads	disksim_cachemem.h	170
+firstio	disksim_iotrace.h	73
+firstio	disksim_iotrace.h	103
+flag	disksim_iosim.h	226
+flags	disksim_cachedev.h	145
+flags	disksim_cachemem.h	149
+flags	disksim_disk.h	222
+flags	disksim_global.h	277
+flags	disksim_global.h	317
+flags	disksim_interface.h	45
+flags	disksim_ioqueue.h	183
+flags	disksim_iosim.h	213
+flags	disksim_logorg.h	168
+flags	disksim_pfsim.h	154
+flush_idledelay	disksim_cachedev.h	186
+flush_idledelay	disksim_cachemem.h	229
+flush_maxlinecluster	disksim_cachemem.h	230
+flush_period	disksim_cachedev.h	185
+flush_period	disksim_cachemem.h	228
+flush_policy	disksim_cachedev.h	184
+flush_policy	disksim_cachemem.h	227
+foo	disksim_global.h	250
+foo	disksim_global.h	256
+force_absolute_fcfs	disksim_ioqueue.h	208
+fpcheck	disksim_disk.h	470
+freeblockcleans	disksim_cachemem.h	185
+freeblockdirtys	disksim_cachemem.h	186
+freelist	disksim_cachemem.h	190
+fullreadhits	disksim_disk.h	253
+func	disksim_global.h	/^   void (**func)(struct timer_ev *);$/
+gen	disksim_synthio.h	133
+genintr	disksim_synthio.h	150
+gens	disksim_logorg.h	186
+get_acctime	disksim_device.h	/^  double  (*get_acctime)(int diskno, $/
+get_avg_sectpercyl	disksim_device.h	/^  int     (*get_avg_sectpercyl)(int devno);$/
+get_blktranstime	disksim_device.h	/^  double  (*get_blktranstime)(ioreq_event *curr);$/
+get_busno	disksim_device.h	/^  int     (*get_busno)(ioreq_event *curr);$/
+get_depth	disksim_device.h	/^  int     (*get_depth)(int diskno);$/
+get_device_maxoutstanding	disksim_iodriver.c	/^static void get_device_maxoutstanding (iodriver *c/
+get_distance	disksim_device.h	/^  int     (*get_distance)(int diskno, $/
+get_inbus	disksim_device.h	/^  int     (*get_inbus)(int diskno);$/
+get_line	rms.c	/^void get_line(filename, x, y, distname)$/
+get_mapping	disksim_device.h	/^  void    (*get_mapping)(int maptype, $/
+get_maxoutstanding	disksim_device.h	/^  int     (*get_maxoutstanding)(int diskno);$/
+get_number_of_blocks	disksim_device.h	/^  int     (*get_number_of_blocks)(int diskno);$/
+get_numcyls	disksim_device.h	/^  int     (*get_numcyls)(int diskno);$/
+get_seektime	disksim_device.h	/^  double  (*get_seektime)(int diskno, $/
+get_servtime	disksim_device.h	/^  double  (*get_servtime)(int diskno, $/
+get_slotno	disksim_device.h	/^  int     (*get_slotno)(int diskno);$/
+getblockreaddones	disksim_cachemem.h	182
+getblockreadstarts	disksim_cachemem.h	181
+getblockwritedones	disksim_cachemem.h	184
+getblockwritestarts	disksim_cachemem.h	183
+getbus	disksim_bus.c	/^\/* INLINE *\/ static struct bus * getbus (int busno/
+getbusbyname	disksim_bus.c	/^struct bus *getbusbyname(char *name, int *num) {$/
+getctlr	disksim_controller.c	/^INLINE controller * getctlr (int ctlrno)$/
+getctlrbyname	disksim_controller.c	/^controller *getctlrbyname(char *name, int *num) {$/
+getdevbyname	disksim_device.c	/^getdevbyname(char *name, $/
+getdisk	disksim_disk.c	/^INLINE struct disk *getdisk (int diskno)$/
+getfromextraq	disksim.c	/^INLINE event * getfromextraq ()$/
+getfromintq	disksim.c	/^INLINE static event * getfromintq ()$/
+getiodriverbyname	disksim_iodriver.c	/^struct iodriver *getiodriverbyname(char *name, int/
+getlogorgbyname	disksim_logorg.c	/^logorg *getlogorgbyname(logorg **logorgs, $/
+getlogorgdevs	disksim_logorg.c	/^int getlogorgdevs(logorg *result, struct lp_list */
+getnextevent	disksim.c	/^getnextevent(void)$/
+getparam_bool	disksim.c	/^void getparam_bool (FILE *parfile, char *parname, /
+getparam_double	disksim.c	/^void getparam_double (FILE *parfile, char *parname/
+getparam_int	disksim.c	/^void getparam_int (FILE *parfile, char *parname, i/
+getsimpledisk	disksim_simpledisk.c	/^struct simpledisk *getsimpledisk (int devno)$/
+halfoutreads	disksim_ioqueue.h	283
+halfouts	disksim_ioqueue.h	282
+handle_new_request	disksim_iodriver.c	/^static ioreq_event * handle_new_request (iodriver /
+hash	disksim_cachemem.h	199
+hash_next	disksim_cachemem.h	126
+hash_prev	disksim_cachemem.h	127
+hashoutstand	disksim_logorg.h	238
+hdr	disksim_cachedev.h	171
+hdr	disksim_cachemem.h	198
+hdr	disksim_disk.h	276
+hdr	disksim_simpledisk.h	115
+head	disksim_global.h	325
+highblkno	disksim_disk.h	243
+hittype	disksim_diskcache.c	596
+hittype	disksim_diskcache.c	798
+hittype	disksim_disk.h	230
+hold_bcount	disksim_disk.h	216
+hold_blkno	disksim_disk.h	215
+hold_bus_for_whole_read_xfer	disksim_disk.h	310
+hold_bus_for_whole_write_xfer	disksim_disk.h	311
+hosttransfer	disksim_ctlr.h	157
+hostwaiters	disksim_ctlr.h	158
+hpl_record_id	disksim_hptrace.h	204
+hpl_short_iorec_ki	disksim_hptrace.h	220
+hpl_srt_initialize_file	hplcomb.c	/^void hpl_srt_initialize_file(iotracefile)$/
+hpreads	disksim_iotrace.h	71
+hpreads	disksim_iotrace.h	101
+hpwrites	disksim_iotrace.h	72
+hpwrites	disksim_iotrace.h	102
+id	disksim_hptrace.h	201
+idealno	disksim_logorg.h	261
+idledelay	disksim_ioqueue.h	261
+idledetect	disksim_ioqueue.h	262
+idleevents	disksim_pfsim.h	196
+idlein	disksim_pfsim.h	272
+idlein	disksim_pfsim.h	300
+idleloop_event	disksim_pfsim.h	236
+idler	disksim_pfsim.h	150
+idlereset	disksim_pfsim.h	273
+idlereset	disksim_pfsim.h	301
+idlestart	disksim_ioqueue.h	284
+idlestart	disksim_logorg.h	196
+idlestart	disksim_pfsim.h	197
+idlestats	disksim_ioqueue.h	289
+idlestats	disksim_logorg.h	205
+idletime	disksim_pfsim.h	198
+idlework	disksim_ioqueue.h	/^   void		(**idlework)(void *,int);$/
+idlework_cachedev	disksim_global.h	/^   void         (*idlework_cachedev)       (void */
+idlework_cachemem	disksim_global.h	/^   void         (*idlework_cachemem)       (void */
+idleworkparam	disksim_ioqueue.h	260
+idleworktime	disksim_pfsim.h	200
+immed	disksim_disk.h	458
+immedend	disksim_disk.h	367
+immedread	disksim_disk.h	459
+immedstart	disksim_disk.h	366
+immedtrans_any_readhit	disksim_disk.h	336
+immedwrite	disksim_disk.h	460
+inblkno	disksim_disk.h	227
+inbuses	disksim_ctlr.h	165
+inbuses	disksim_disk.h	448
+inbuses	disksim_simpledisk.h	132
+inbusowned	disksim_ctlr.h	161
+index	disksim_global.h	326
+info	disksim_hptrace.h	216
+info	disksim_pfsim.h	243
+info	disksim_pfsim.h	254
+infopenalty	disksim_ioqueue.h	251
+infoptr	disksim_global.h	319
+inited	disksim_simpledisk.h	121
+initialize	disksim.c	/^static void initialize ()$/
+initiatenextstats	disksim_iodriver.h	180
+initiatenextstats	disksim_iodriver.h	202
+instqueuelen	disksim_ioqueue.h	250
+int32_t	hplcomb.c	51
+int32_t	disksim_global.h	122
+int32_t	disksim_global.h	125
+intarrstats	disksim_ioqueue.h	290
+intarrstats	disksim_logorg.h	209
+intchar	hplcomb.c	57
+intchar	disksim_global.h	246
+intdist	disksim_logorg.h	203
+intend_event	disksim_pfsim.h	221
+interfere	disksim_disk.h	262
+internal_error	raw_layout.c	66
+intq	disksim_global.h	435
+intqhint	disksim_global.h	436
+intqlen	disksim_global.h	438
+intr_acknowledge	disksim_intr.c	/^void intr_acknowledge (event *intrp)$/
+intr_ev	disksim_global.h	310
+intr_event	disksim_global.h	321
+intr_request	disksim_intr.c	/^void intr_request (event *curr)$/
+intreads	disksim_logorg.h	222
+intrp	disksim_pfsim.h	188
+intrs	disksim_pfsim.h	201
+intwrites	disksim_logorg.h	223
+io_catch_stray_events	disksim_iosim.c	/^void io_catch_stray_events (ioreq_event *curr)$/
+io_cleanstats	disksim_iosim.c	/^void io_cleanstats()$/
+io_done_notify	disksim.c	/^event *io_done_notify (ioreq_event *curr)$/
+io_extq	disksim_iosim.h	276
+io_extq	disksim_iosim.h	299
+io_extq_type	disksim_iosim.h	278
+io_extq_type	disksim_iosim.h	301
+io_extqlen	disksim_iosim.h	277
+io_extqlen	disksim_iosim.h	300
+io_get_next_external_event	disksim_iosim.c	/^event * io_get_next_external_event (FILE *iotracef/
+io_hpl_do_stats1	disksim_iosim.c	/^static void io_hpl_do_stats1 ()$/
+io_hpl_srt_tracefile_start	hplcomb.c	/^void io_hpl_srt_tracefile_start(tracedate)$/
+io_initialize	disksim_iosim.c	/^void io_initialize (int standalone)$/
+io_internal_event	disksim_iosim.c	/^void io_internal_event(ioreq_event *curr)$/
+io_interrupt_arrive	disksim_iosim.c	/^void io_interrupt_arrive (ioreq_event *intrp)$/
+io_interrupt_complete	disksim_iosim.c	/^void io_interrupt_complete (ioreq_event *intrp)$/
+io_map_trace_request	disksim_iosim.c	/^void io_map_trace_request (ioreq_event *temp)$/
+io_month_convert	hplcomb.c	/^int io_month_convert(monthstr, year)$/
+io_printstats	disksim_iosim.c	/^void io_printstats(int sub_status)$/
+io_raise_priority	disksim_iosim.c	/^double io_raise_priority (long int opid, int devno/
+io_readparams	disksim_iosim.c	/^void io_readparams (FILE *parfile)$/
+io_request	disksim_iosim.c	/^event * io_request (ioreq_event *curr)$/
+io_resetstats	disksim_iosim.c	/^void io_resetstats()$/
+io_schedule	disksim_iosim.c	/^void io_schedule (ioreq_event *curr)$/
+io_setcallbacks	disksim_iosim.c	/^void io_setcallbacks ()$/
+io_tick	disksim_iosim.c	/^double io_tick()$/
+io_using_external_event	disksim_iosim.c	/^int io_using_external_event (event *curr)$/
+io_validate_do_stats1	disksim_iosim.c	/^void io_validate_do_stats1 ()$/
+io_validate_do_stats2	disksim_iosim.c	/^void io_validate_do_stats2 (ioreq_event *new)$/
+iob	disksim_ioqueue.h	175
+iob_un	disksim_ioqueue.h	193
+iobuf	disksim_ioqueue.h	200
+iobufcnt	disksim_ioqueue.h	229
+iodriver	disksim_iodriver.h	144
+iodriver	disksim_iodriver.h	157
+iodriver_access_complete	disksim_iodriver.c	/^void iodriver_access_complete (int iodriverno, int/
+iodriver_add_to_intrp_eventlist	disksim_iodriver.c	/^static void iodriver_add_to_intrp_eventlist (intr_/
+iodriver_check_c700_based_status	disksim_iodriver.c	/^static void iodriver_check_c700_based_status (iodr/
+iodriver_cleanstats	disksim_iodriver.c	/^void iodriver_cleanstats()$/
+iodriver_cleanup	disksim_iodriver.c	/^void iodriver_cleanup(void) {$/
+iodriver_get_time_to_handle_interrupt	disksim_iodriver.c	/^static double iodriver_get_time_to_handle_interrup/
+iodriver_get_time_to_respond_to_device	disksim_iodriver.c	/^static double iodriver_get_time_to_respond_to_devi/
+iodriver_info	disksim_global.h	469
+iodriver_info	disksim_iodriver.h	160
+iodriver_info_t	disksim_iodriver.h	181
+iodriver_initialize	disksim_iodriver.c	/^void iodriver_initialize (int standalone)$/
+iodriver_interrupt_arrive	disksim_iodriver.c	/^void iodriver_interrupt_arrive (int iodriverno, in/
+iodriver_interrupt_complete	disksim_iodriver.c	/^void iodriver_interrupt_complete (int iodriverno, /
+iodriver_load_logorg	disksim_iodriver.c	/^int iodriver_load_logorg(struct lp_block *b) {$/
+iodriver_printstats	disksim_iodriver.c	/^void iodriver_printstats(int sub_status)$/
+iodriver_raise_priority	disksim_iodriver.c	/^double iodriver_raise_priority (int iodriverno, lo/
+iodriver_request	disksim_iodriver.c	/^event * iodriver_request (int iodriverno, ioreq_ev/
+iodriver_resetstats	disksim_iodriver.c	/^void iodriver_resetstats()$/
+iodriver_respond_to_device	disksim_iodriver.c	/^void iodriver_respond_to_device (int iodriverno, i/
+iodriver_schedule	disksim_iodriver.c	/^void iodriver_schedule (int iodriverno, ioreq_even/
+iodriver_send_event_down_path	disksim_iodriver.c	/^static void iodriver_send_event_down_path (ioreq_e/
+iodriver_set_ctl_to_device	disksim_iodriver.c	/^static void iodriver_set_ctl_to_device (int iodriv/
+iodriver_setcallbacks	disksim_iodriver.c	/^void iodriver_setcallbacks ()$/
+iodriver_tick	disksim_iodriver.c	/^double iodriver_tick ()$/
+iodriver_trace_request_start	disksim_iodriver.c	/^void iodriver_trace_request_start (int iodriverno,/
+iodrivers	disksim_iodriver.h	162
+iodrivers	disksim_iodriver.h	186
+iodrivers_len	disksim_iodriver.h	163
+ioflags	disksim_hptrace.h	215
+iointrs	disksim_pfsim.h	202
+iolist	disksim_ioqueue.h	194
+ioq	disksim_ioqueue.h	254
+ioqueue	disksim_ioqueue.h	315
+ioqueue_add_new_request	disksim_ioqueue.c	/^double ioqueue_add_new_request (ioqueue *queue, io/
+ioqueue_check_concat	disksim_ioqueue.c	/^static int ioqueue_check_concat (subqueue *queue, /
+ioqueue_cleanstats	disksim_ioqueue.c	/^void ioqueue_cleanstats (ioqueue *queue)$/
+ioqueue_clobber_overlaps_subqueue	disksim_ioqueue.c	/^static void ioqueue_clobber_overlaps_subqueue (sub/
+ioqueue_copy	disksim_ioqueue.c	/^ioqueue * ioqueue_copy (ioqueue *queue)$/
+ioqueue_createdefaultqueue	disksim_ioqueue.c	/^ioqueue * ioqueue_createdefaultqueue ()$/
+ioqueue_get_cylinder_mapping	disksim_ioqueue.c	/^ioqueue_get_cylinder_mapping(ioqueue *queue, $/
+ioqueue_get_dist	disksim_ioqueue.c	/^int ioqueue_get_dist (ioqueue *queue, int blkno)$/
+ioqueue_get_next_request	disksim_ioqueue.c	/^ioreq_event * ioqueue_get_next_request (ioqueue *q/
+ioqueue_get_next_request_from_subqueue	disksim_ioqueue.c	/^static ioreq_event * ioqueue_get_next_request_from/
+ioqueue_get_number_in_queue	disksim_ioqueue.c	/^int ioqueue_get_number_in_queue (ioqueue *queue)$/
+ioqueue_get_number_of_requests	disksim_ioqueue.c	/^int ioqueue_get_number_of_requests (ioqueue *queue/
+ioqueue_get_number_of_requests_initiated	disksim_ioqueue.c	/^int ioqueue_get_number_of_requests_initiated (ioqu/
+ioqueue_get_number_pending	disksim_ioqueue.c	/^int ioqueue_get_number_pending (ioqueue *queue)$/
+ioqueue_get_priority_level	disksim_ioqueue.c	/^static int ioqueue_get_priority_level (ioqueue *io/
+ioqueue_get_reqoutstanding	disksim_ioqueue.c	/^int ioqueue_get_reqoutstanding (ioqueue *queue)$/
+ioqueue_get_request_from_batch_fcfs_queue	disksim_ioqueue.c	/^static iobuf *ioqueue_get_request_from_batch_fcfs_/
+ioqueue_get_request_from_cyl_scan_queue	disksim_ioqueue.c	/^static iobuf * ioqueue_get_request_from_cyl_scan_q/
+ioqueue_get_request_from_cyl_vscan_queue	disksim_ioqueue.c	/^static iobuf * ioqueue_get_request_from_cyl_vscan_/
+ioqueue_get_request_from_fcfs_queue	disksim_ioqueue.c	/^static iobuf * ioqueue_get_request_from_fcfs_queue/
+ioqueue_get_request_from_lbn_scan_queue	disksim_ioqueue.c	/^static iobuf * ioqueue_get_request_from_lbn_scan_q/
+ioqueue_get_request_from_lbn_vscan_queue	disksim_ioqueue.c	/^static iobuf * ioqueue_get_request_from_lbn_vscan_/
+ioqueue_get_request_from_opt_sptf_queue	disksim_ioqueue.c	/^static iobuf *ioqueue_get_request_from_opt_sptf_qu/
+ioqueue_get_request_from_opt_sptf_rot_weight_queue	disksim_ioqueue.c	/^static iobuf *ioqueue_get_request_from_opt_sptf_ro/
+ioqueue_get_request_from_opt_sptf_seek_weight_queue	disksim_ioqueue.c	/^static iobuf *ioqueue_get_request_from_opt_sptf_se/
+ioqueue_get_request_from_opt_sptf_weight_queue	disksim_ioqueue.c	/^static iobuf *ioqueue_get_request_from_opt_sptf_we/
+ioqueue_get_request_from_opt_tsps_queue	disksim_ioqueue.c	/^ioqueue_get_request_from_opt_tsps_queue(subqueue */
+ioqueue_get_request_from_pri_lbn_vscan_queue	disksim_ioqueue.c	/^static iobuf * ioqueue_get_request_from_pri_lbn_vs/
+ioqueue_get_request_from_sdf_queue	disksim_ioqueue.c	/^static iobuf *ioqueue_get_request_from_sdf_queue (/
+ioqueue_get_specific_request	disksim_ioqueue.c	/^ioreq_event *ioqueue_get_specific_request(ioqueue /
+ioqueue_get_specific_request_from_subqueue	disksim_ioqueue.c	/^static ioreq_event * ioqueue_get_specific_request_/
+ioqueue_identify_request_on_cylinder	disksim_ioqueue.c	/^static iobuf *ioqueue_identify_request_on_cylinder/
+ioqueue_idledetected	disksim_ioqueue.c	/^static void ioqueue_idledetected (timer_event *tim/
+ioqueue_implement_timeouts	disksim_ioqueue.c	/^static int ioqueue_implement_timeouts (subqueue *q/
+ioqueue_initialize	disksim_ioqueue.c	/^void ioqueue_initialize (ioqueue *queue, int devno/
+ioqueue_insert_batch_fcfs_to_queue	disksim_ioqueue.c	/^static void ioqueue_insert_batch_fcfs_to_queue (su/
+ioqueue_insert_fcfs_to_queue	disksim_ioqueue.c	/^static void ioqueue_insert_fcfs_to_queue (subqueue/
+ioqueue_insert_new_request	disksim_ioqueue.c	/^static void ioqueue_insert_new_request (subqueue */
+ioqueue_insert_ordered_to_queue	disksim_ioqueue.c	/^static void ioqueue_insert_ordered_to_queue (subqu/
+ioqueue_physical_access_done	disksim_ioqueue.c	/^ioreq_event * ioqueue_physical_access_done (ioqueu/
+ioqueue_print_contents	disksim_ioqueue.c	/^void ioqueue_print_contents (ioqueue *queue)$/
+ioqueue_print_subqueue_state	disksim_ioqueue.c	/^static void ioqueue_print_subqueue_state (subqueue/
+ioqueue_printcritstats	disksim_ioqueue.c	/^static void ioqueue_printcritstats (subqueue **set/
+ioqueue_printidlestats	disksim_ioqueue.c	/^static void ioqueue_printidlestats (ioqueue **set,/
+ioqueue_printintarrstats	disksim_ioqueue.c	/^static void ioqueue_printintarrstats (ioqueue **se/
+ioqueue_printqueuestats	disksim_ioqueue.c	/^static void ioqueue_printqueuestats (ioqueue **set/
+ioqueue_printsizestats	disksim_ioqueue.c	/^static void ioqueue_printsizestats (ioqueue **set,/
+ioqueue_printstats	disksim_ioqueue.c	/^void ioqueue_printstats (ioqueue **set, int setsiz/
+ioqueue_raise_priority	disksim_ioqueue.c	/^int ioqueue_raise_priority (ioqueue *queue, long i/
+ioqueue_raise_priority_subqueue	disksim_ioqueue.c	/^static int ioqueue_raise_priority_subqueue (subque/
+ioqueue_remove_completed_request	disksim_ioqueue.c	/^static ioreq_event * ioqueue_remove_completed_requ/
+ioqueue_remove_from_batch_fcfs_subqueue	disksim_ioqueue.c	/^static void ioqueue_remove_from_batch_fcfs_subqueu/
+ioqueue_remove_from_subqueue	disksim_ioqueue.c	/^static void ioqueue_remove_from_subqueue (subqueue/
+ioqueue_request_match	disksim_ioqueue.c	/^static int ioqueue_request_match (ioreq_event *wan/
+ioqueue_reset_idledetecter	disksim_ioqueue.c	/^void ioqueue_reset_idledetecter (ioqueue *queue, i/
+ioqueue_resetstats	disksim_ioqueue.c	/^void ioqueue_resetstats (ioqueue *queue)$/
+ioqueue_seqstream_head	disksim_ioqueue.c	/^static int ioqueue_seqstream_head (ioqueue *queue,/
+ioqueue_set_concatok_function	disksim_ioqueue.c	/^void ioqueue_set_concatok_function (ioqueue *queue/
+ioqueue_set_enablement_function	disksim_ioqueue.c	/^void ioqueue_set_enablement_function (ioqueue *que/
+ioqueue_set_idlework_function	disksim_ioqueue.c	/^void ioqueue_set_idlework_function (ioqueue *queue/
+ioqueue_set_starttime	disksim_ioqueue.c	/^ioreq_event * ioqueue_set_starttime (ioqueue *queu/
+ioqueue_set_starttime_in_subqueue	disksim_ioqueue.c	/^static ioreq_event * ioqueue_set_starttime_in_subq/
+ioqueue_setcallbacks	disksim_ioqueue.c	/^void ioqueue_setcallbacks ()$/
+ioqueue_show_next_request	disksim_ioqueue.c	/^ioreq_event * ioqueue_show_next_request (ioqueue */
+ioqueue_show_next_request_from_subqueue	disksim_ioqueue.c	/^static ioreq_event * ioqueue_show_next_request_fro/
+ioqueue_subqueue_copy	disksim_ioqueue.c	/^static void ioqueue_subqueue_copy (subqueue *queue/
+ioqueue_subqueue_initialize	disksim_ioqueue.c	/^static void ioqueue_subqueue_initialize (subqueue /
+ioqueue_subqueue_printstats	disksim_ioqueue.c	/^static void ioqueue_subqueue_printstats (subqueue /
+ioqueue_subqueue_resetstats	disksim_ioqueue.c	/^static void ioqueue_subqueue_resetstats (subqueue /
+ioqueue_tick	disksim_ioqueue.c	/^double ioqueue_tick (ioqueue *queue)$/
+ioqueue_update_arrival_stats	disksim_ioqueue.c	/^static void ioqueue_update_arrival_stats (ioqueue /
+ioqueue_update_subqueue_statistics	disksim_ioqueue.c	/^static void ioqueue_update_subqueue_statistics (su/
+ioreads	disksim_pfsim.h	157
+ioreq	disksim_pfsim.h	173
+ioreq_compare	disksim_iosim.c	/^int ioreq_compare (ioreq_event *first, ioreq_event/
+ioreq_copy	disksim_iosim.c	/^ioreq_event * ioreq_copy (ioreq_event *old)$/
+ioreq_ev	disksim_global.h	270
+ioreq_event	disksim_global.h	298
+ioreq_hold_disk	disksim_disk.h	185
+ioreq_hold_diskreq	disksim_disk.h	186
+ioreqlist	disksim_disk.h	223
+ios	disksim_pfsim.h	156
+ioscale	disksim_iosim.h	279
+ioscale	disksim_iosim.h	302
+iosim_get_path_to_controller	disksim_iosim.c	/^void iosim_get_path_to_controller (int iodriverno,/
+iosim_get_path_to_device	disksim_iosim.c	/^void iosim_get_path_to_device (int iodriverno, int/
+iosim_info	disksim_global.h	463
+iosim_info	disksim_iosim.h	275
+iosim_info_t	disksim_iosim.h	295
+iosim_initialize_iosim_info	disksim_iosim.c	/^void iosim_initialize_iosim_info (void)$/
+iosim_load_map	disksim_iosim.c	/^static int iosim_load_map(struct lp_block *b, int /
+iosim_load_mappings	disksim_iosim.c	/^int iosim_load_mappings(struct lp_list *l) {$/
+iosleep	disksim_pfsim.h	161
+iosleep	disksim_pfsim.h	245
+iosleeps	disksim_pfsim.h	162
+iotrace	disksim_global.h	380
+iotrace_ascii_get_ioreq_event	disksim_iotrace.c	/^ioreq_event * iotrace_ascii_get_ioreq_event (FILE*/
+iotrace_ascii_get_ioreq_event_detailed_simulation	disksim_iotrace.c	/^ioreq_event * iotrace_ascii_get_ioreq_event_detail/
+iotrace_ascii_get_ioreq_event_fast_forward_1	disksim_iotrace.c	/^ioreq_event * iotrace_ascii_get_ioreq_event_fast_f/
+iotrace_batch_get_ioreq_event	disksim_iotrace.c	/^static ioreq_event * iotrace_batch_get_ioreq_event/
+iotrace_dec_get_ioreq_event	disksim_iotrace.c	/^static ioreq_event * iotrace_dec_get_ioreq_event (/
+iotrace_emcbackend_get_ioreq_event	disksim_iotrace.c	/^static ioreq_event * iotrace_emcbackend_get_ioreq_/
+iotrace_emcsymm_get_ioreq_event	disksim_iotrace.c	/^static ioreq_event * iotrace_emcsymm_get_ioreq_eve/
+iotrace_get_ioreq_event	disksim_iotrace.c	/^ioreq_event * iotrace_get_ioreq_event (FILE *trace/
+iotrace_hpl_get_ioreq_event	disksim_iotrace.c	/^static ioreq_event * iotrace_hpl_get_ioreq_event (/
+iotrace_hpl_initialize_file	disksim_iotrace.c	/^static void iotrace_hpl_initialize_file (FILE *tra/
+iotrace_hpl_srt_convert_flags	disksim_iotrace.c	/^static void iotrace_hpl_srt_convert_flags (ioreq_e/
+iotrace_hpl_srt_tracefile_start	disksim_iotrace.c	/^static void iotrace_hpl_srt_tracefile_start (char /
+iotrace_info	disksim_global.h	474
+iotrace_info	disksim_iotrace.h	65
+iotrace_info_t	disksim_iotrace.h	92
+iotrace_initialize_file	disksim_iotrace.c	/^void iotrace_initialize_file (FILE *tracefile, int/
+iotrace_initialize_iotrace_info	disksim_iotrace.c	/^static void iotrace_initialize_iotrace_info ()$/
+iotrace_month_convert	disksim_iotrace.c	/^static int iotrace_month_convert (char *monthstr, /
+iotrace_printstats	disksim_iotrace.c	/^void iotrace_printstats (FILE *outfile)$/
+iotrace_raw_get_hirestime	disksim_iotrace.c	/^static double iotrace_raw_get_hirestime (int bigti/
+iotrace_raw_get_ioreq_event	disksim_iotrace.c	/^static ioreq_event * iotrace_raw_get_ioreq_event (/
+iotrace_read_char	disksim_iotrace.c	/^static int iotrace_read_char (FILE *tracefile, cha/
+iotrace_read_float	disksim_iotrace.c	/^#define iotrace_read_float(a, b) iotrace_read_int3/
+iotrace_read_int32	disksim_iotrace.c	/^static int iotrace_read_int32 (FILE *tracefile, in/
+iotrace_read_short	disksim_iotrace.c	/^static int iotrace_read_short (FILE *tracefile, sh/
+iotrace_read_space	disksim_iotrace.c	/^static int iotrace_read_space (FILE *tracefile, ch/
+iotrace_set_format	disksim_iotrace.c	/^void iotrace_set_format (char *formatname)$/
+iotrace_validate_get_ioreq_event	disksim_iotrace.c	/^ioreq_event * iotrace_validate_get_ioreq_event (FI/
+iotracebatch	hplcomb.c	80
+iotracefile	hplcomb.c	79
+iotracefile	disksim_global.h	388
+iotracefilename	hplcomb.c	82
+iotracefilename	disksim_global.h	424
+iotracefileposition	disksim_global.h	432
+ip_snapshotfilename	disksim_global.h	395
+ip_snapshotfilename	disksim_global.h	499
+is_past_threshold	disksim_global.h	410
+issectpercyl	disksim_diskmap.h	/^#define issectpercyl(currdisk) \\$/
+issliptoend	disksim_diskmap.h	/^#define issliptoend(currdisk) \\$/
+isspareatfront	disksim_diskmap.h	/^#define isspareatfront(currdisk) \\$/
+issuefunc	disksim_cachedev.h	/^   void (**issuefunc)(void *,ioreq_event *);	\/* to/
+issuefunc	disksim_cachemem.h	/^   void (**issuefunc)(void *,ioreq_event *);	\/* to/
+issuefunc_ctlrsmart	disksim_global.h	/^   void         (*issuefunc_ctlrsmart)     (void */
+issueparam	disksim_cachedev.h	173
+issueparam	disksim_cachemem.h	201
+keeprequestdata	disksim_disk.h	351
+largediststarts	disksim_stat.h	120
+largedistvals	disksim_stat.h	119
+last_request_arrive	disksim_iosim.h	280
+last_request_arrive	disksim_iosim.h	303
+lastaccesstime	disksim_iotrace.h	91
+lastaccesstime	disksim_iotrace.h	121
+lastalt	disksim_ioqueue.h	227
+lastarr	disksim_ioqueue.h	285
+lastarr	disksim_logorg.h	197
+lastblkno	disksim_ioqueue.h	216
+lastblkno	disksim_logorg.h	218
+lastblkno2	disksim_logorg.h	221
+lastcylno	disksim_ioqueue.h	218
+lastdisk	disksim_disk.h	488
+lastdisk	disksim_disk.h	517
+lastdiskaccessed	disksim_logorg.h	263
+lastevent	disksim_iosim.h	225
+lasteventtime	disksim_pfsim.h	168
+lastflags	disksim_disk.h	421
+lastgen	disksim_disk.h	418
+lastowned	disksim_bus.h	156
+lastphystime	disksim_global.h	442
+lastread	disksim_ioqueue.h	286
+lastread	disksim_logorg.h	198
+lastreq	disksim_logorg.h	202
+lastsleep	disksim_pfsim.h	164
+lastsubqueue	disksim_ioqueue.h	279
+lastsurface	disksim_ioqueue.h	217
+lasttime	disksim_iotrace.h	77
+lasttime	disksim_iotrace.h	107
+lasttime1	disksim_iotrace.h	76
+lasttime1	disksim_iotrace.h	106
+lastuser	disksim_pfsim.h	271
+lastuser	disksim_pfsim.h	299
+lastwrite	disksim_ioqueue.h	287
+lastwrite	disksim_logorg.h	199
+latency	disksim_disk.h	238
+latency_weight	disksim_ioqueue.h	288
+lbn	disksim_cachemem.h	131
+limits	disksim_synthio.h	142
+line1_x	rms.c	110
+line1_y	rms.c	111
+line2_x	rms.c	112
+line2_y	rms.c	113
+line_next	disksim_cachemem.h	128
+line_prev	disksim_cachemem.h	129
+linebylinetmp	disksim_cachemem.h	232
+lineprev	disksim_cachemem.h	153
+linesize	disksim_cachemem.h	210
+linewaiters	disksim_cachemem.h	235
+link	disksim_pfsim.h	177
+list	disksim_ioqueue.h	210
+listlen	disksim_ioqueue.h	228
+livelist	disksim_pfsim.h	176
+load_bus_topo	disksim_bus.c	/^int load_bus_topo(struct lp_topospec *t, int *pare/
+load_ctlr_topo	disksim_controller.c	/^int load_ctlr_topo(struct lp_topospec *t, int *inb/
+load_iodriver_topo	disksim_iodriver.c	/^int load_iodriver_topo(struct lp_topospec *t, int /
+loaddistn	disksim_synthio.c	/^int loaddistn(struct lp_list *l, struct dist *resu/
+loadgen	disksim_synthio.c	/^static int loadgen(struct lp_block *b, synthio_gen/
+loadsynthdevs	disksim_synthio.c	/^loadsynthdevs(synthio_generator *result, struct lp/
+loadsynthgenerators	disksim_synthio.c	/^loadsynthgenerators(synthio_generator *junk,$/
+localitystats	disksim_logorg.h	228
+locdiskswitches	disksim_logorg.h	188
+locdist	disksim_synthio.h	153
+locintr	disksim_synthio.h	152
+lockgran	disksim_cachemem.h	212
+lockstop	disksim_cachemem.h	155
+locktype	disksim_cachemem.h	154
+lockwaiters	disksim_cachemem.h	137
+logorg	disksim_logorg.h	236
+logorg	disksim_logorg.h	284
+logorg_addnewtooutstandq	disksim_logorg.c	/^static void logorg_addnewtooutstandq (logorg *curr/
+logorg_addr	disksim_logorg.c	/^int logorg_addr(logorg *result, char *s) {$/
+logorg_addtooutstandq	disksim_logorg.c	/^static void logorg_addtooutstandq (logorg *currlog/
+logorg_check_dependencies	disksim_redun.c	/^int logorg_check_dependencies (logorg *currlogorg,/
+logorg_cleanstats	disksim_logorg.c	/^void logorg_cleanstats (logorg **logorgs, int numl/
+logorg_cleanup	disksim_logorg.c	/^void logorg_cleanup(logorg *l) {$/
+logorg_create_table	disksim_redun.c	/^void logorg_create_table (logorg *currlogorg)$/
+logorg_create_table_left_sym	disksim_redun.c	/^static void logorg_create_table_left_sym (logorg */
+logorg_diffdist	disksim_logorg.c	/^static void logorg_diffdist (double mydiff, int *d/
+logorg_distn	disksim_logorg.c	/^int logorg_distn(logorg *result, char *s) {$/
+logorg_getfromoutstandq	disksim_logorg.c	/^static outstand * logorg_getfromoutstandq (logorg /
+logorg_initialize	disksim_logorg.c	/^void logorg_initialize (logorg **logorgs, $/
+logorg_join_seqreqs	disksim_redun.c	/^static int logorg_join_seqreqs (ioreq_event *reqli/
+logorg_mapcomplete	disksim_logorg.c	/^int logorg_mapcomplete (logorg **logorgs, int numl/
+logorg_mapcomplete_update_stats	disksim_logorg.c	/^static void logorg_mapcomplete_update_stats (logor/
+logorg_mapideal	disksim_logorg.c	/^static void logorg_mapideal (logorg *currlogorg, i/
+logorg_mapinterleaved	disksim_logorg.c	/^static int logorg_mapinterleaved (logorg *currlogo/
+logorg_maprandom	disksim_logorg.c	/^static void logorg_maprandom (logorg *currlogorg, /
+logorg_maprequest	disksim_logorg.c	/^int logorg_maprequest (logorg **logorgs, int numlo/
+logorg_maprequest_update_stats	disksim_logorg.c	/^static void logorg_maprequest_update_stats (logorg/
+logorg_mapstriped	disksim_logorg.c	/^static int logorg_mapstriped (logorg *currlogorg, /
+logorg_modulus_update	disksim_redun.c	/^static int logorg_modulus_update (int inc, int val/
+logorg_numoutdist	disksim_logorg.c	/^static void logorg_numoutdist (int numout, int *di/
+logorg_overlap	disksim_logorg.c	/^static int logorg_overlap (logorg *currlogorg, int/
+logorg_parity_disk	disksim_redun.c	/^int logorg_parity_disk (logorg *currlogorg, ioreq_/
+logorg_parity_read_old_nosync	disksim_redun.c	/^static void logorg_parity_read_old_nosync (logorg /
+logorg_parity_read_old_sync	disksim_redun.c	/^static void logorg_parity_read_old_sync (logorg *c/
+logorg_parity_rotate	disksim_redun.c	/^int logorg_parity_rotate (logorg *currlogorg, iore/
+logorg_parity_rotate_ideal	disksim_redun.c	/^static void logorg_parity_rotate_ideal (logorg *cu/
+logorg_parity_rotate_random	disksim_redun.c	/^static void logorg_parity_rotate_random (logorg *c/
+logorg_parity_rotate_updates	disksim_redun.c	/^static int logorg_parity_rotate_updates (logorg *c/
+logorg_parity_table	disksim_redun.c	/^int logorg_parity_table (logorg *currlogorg, ioreq/
+logorg_parity_table_dodeps_nosync	disksim_redun.c	/^static void logorg_parity_table_dodeps_nosync (log/
+logorg_parity_table_dodeps_sync	disksim_redun.c	/^static void logorg_parity_table_dodeps_sync (logor/
+logorg_parity_table_insert	disksim_redun.c	/^static void logorg_parity_table_insert (ioreq_even/
+logorg_parity_table_read_old	disksim_redun.c	/^static void logorg_parity_table_read_old (logorg */
+logorg_parity_table_recon	disksim_redun.c	/^static void logorg_parity_table_recon (logorg *cur/
+logorg_postpass	disksim_logorg.c	/^static void logorg_postpass(struct logorg **logorg/
+logorg_postpass_per	disksim_logorg.c	/^static void logorg_postpass_per(logorg *currlogorg/
+logorg_printblockingstats	disksim_logorg.c	/^static void logorg_printblockingstats (logorg *cur/
+logorg_printinterferestats	disksim_logorg.c	/^static void logorg_printinterferestats (logorg *cu/
+logorg_printlocalitystats	disksim_logorg.c	/^static void logorg_printlocalitystats (logorg *cur/
+logorg_printreqtimestats	disksim_logorg.c	/^static void logorg_printreqtimestats (logorg *curr/
+logorg_printstampstats	disksim_logorg.c	/^static void logorg_printstampstats (logorg *currlo/
+logorg_printstats	disksim_logorg.c	/^void logorg_printstats (logorg **logorgs, int numl/
+logorg_raise_priority	disksim_logorg.c	/^void logorg_raise_priority (logorg **logorgs, int /
+logorg_redun	disksim_logorg.c	/^int logorg_redun(logorg *result, char *s) {$/
+logorg_resetstats	disksim_logorg.c	/^void logorg_resetstats (logorg **logorgs, int numl/
+logorg_set_arraydisk	disksim_logorg.c	/^INLINE void logorg_set_arraydisk(struct logorg *l,/
+logorg_shadowed	disksim_redun.c	/^int logorg_shadowed (logorg *currlogorg, ioreq_eve/
+logorg_shadowed_get_short_dist	disksim_redun.c	/^static int logorg_shadowed_get_short_dist (logorg /
+logorg_shadowed_get_short_queue	disksim_redun.c	/^static int logorg_shadowed_get_short_queue (logorg/
+logorg_show_buf_from_outstandq	disksim_logorg.c	/^static outstand *logorg_show_buf_from_outstandq (l/
+logorg_streakstat	disksim_logorg.c	/^static void logorg_streakstat (logorg *currlogorg,/
+logorg_tabular_rottype	disksim_redun.c	/^int logorg_tabular_rottype (int maptype, int redun/
+logorg_timestamp	disksim_logorg.c	/^void logorg_timestamp (ioreq_event *curr)$/
+logorg_update_blocking_stats	disksim_logorg.c	/^static void logorg_update_blocking_stats (logorg */
+logorg_update_intarr_stats	disksim_logorg.c	/^static void logorg_update_intarr_stats (logorg *cu/
+logorg_update_interfere_stats	disksim_logorg.c	/^static void logorg_update_interfere_stats (logorg /
+logorgdev	disksim_logorg.h	229
+logorgstat	disksim_logorg.h	212
+lru	disksim_cachemem.h	192
+lru_next	disksim_cachemem.h	133
+lru_prev	disksim_cachemem.h	134
+map	disksim_cachemem.h	231
+mapmask	disksim_cachemem.h	216
+maptype	disksim_logorg.h	242
+master_trace_file	disksim_global.h	389
+master_trace_file	disksim_global.h	501
+max	disksim_global.h	/^#define	max(x,y)	((x) < (y) ? (y) : (x))$/
+max_block_per_device_in_trace	disksim_global.h	368
+maxactive	disksim_cachemem.h	194
+maxbufferspace	disksim_cachedev.h	166
+maxcyl	raw_layout.c	97
+maxdeviceno	disksim_device.c	88
+maxdeviceno	disksim_device.h	88
+maxdiskqsize	disksim_ctlr.h	160
+maxlistlen	disksim_ioqueue.h	230
+maxlistlen	disksim_ioqueue.h	298
+maxoutstanding	disksim_ctlr.h	159
+maxoutstanding	disksim_ioqueue.h	239
+maxoutstanding	disksim_ioqueue.h	300
+maxoutstanding	disksim_iosim.h	216
+maxoutstanding	disksim_iosim.h	231
+maxoutstanding	disksim_logorg.h	183
+maxqlen	disksim_disk.h	328
+maxqlen	disksim_ioqueue.h	226
+maxqlen	disksim_ioqueue.h	299
+maxqlen	disksim_simpledisk.h	127
+maxreadahead	disksim_disk.h	350
+maxreadaheadblkno	disksim_disk.h	203
+maxreadlen	disksim_ioqueue.h	233
+maxreadlen	disksim_ioqueue.h	301
+maxreqsize	disksim_cachedev.h	182
+maxreqsize	disksim_cachemem.h	214
+maxreqsize	disksim_iosim.h	218
+maxscatgath	disksim_cachemem.h	225
+maxval	disksim_stat.h	116
+maxwritelen	disksim_ioqueue.h	235
+maxwritelen	disksim_ioqueue.h	302
+mean	disksim_synthio.h	127
+mech_state	disksim_disk.h	279
+media_busy	disksim_simpledisk.h	123
+mems_reqinfo	disksim_global.h	289
+mems_sled	disksim_global.h	288
+memsinfo	disksim_global.h	467
+min	disksim_global.h	/^#define	min(x,y)	((x) < (y) ? (x) : (y))$/
+min_time	disksim_ioqueue.c	1473
+mincyl	raw_layout.c	97
+minimum_seek_delay	disksim_disk.h	407
+minreadahead	disksim_disk.h	349
+minreadaheadblkno	disksim_disk.h	202
+model	disksim_disk.h	277
+movefile	disksim.c	/^void movefile(char *src,char *dst)$/
+multi_disk_last	disksim_disk.h	514
+multi_disk_last_angle	disksim_disk.h	512
+multi_disk_last_cylno	disksim_disk.h	510
+multi_disk_last_latency	disksim_disk.h	509
+multi_disk_last_seektime	disksim_disk.h	508
+multi_disk_last_surface	disksim_disk.h	511
+multi_disk_last_xfertime	disksim_disk.h	513
+n	syssim_driver.c	60
+name	disksim_bus.h	160
+name	disksim_cachedev.h	192
+name	disksim_cachemem.h	237
+name	disksim_ctlr.h	172
+name	disksim_iodriver.h	156
+name	disksim_ioqueue.h	314
+name	disksim_logorg.h	237
+neverdisconnect	disksim_disk.h	324
+neverdisconnect	disksim_simpledisk.h	130
+newprocp	disksim_pfsim.h	228
+next	raw_layout.c	111
+next	disksim_bus.h	121
+next	disksim_cachedev.h	141
+next	disksim_cachemem.h	117
+next	disksim_cachemem.h	122
+next	disksim_cachemem.h	145
+next	disksim_disk.h	196
+next	disksim_global.h	253
+next	disksim_global.h	264
+next	disksim_global.h	273
+next	disksim_global.h	303
+next	disksim_global.h	313
+next	disksim_ioqueue.h	178
+next	disksim_logorg.h	156
+next	disksim_logorg.h	164
+next	disksim_pfsim.h	178
+next	disksim_pfsim.h	184
+next	disksim_pfsim.h	218
+next	disksim_pfsim.h	226
+next	disksim_pfsim.h	234
+next	disksim_pfsim.h	241
+next	disksim_pfsim.h	252
+next_event	syssim_driver.c	67
+no_of_devices_in_trace	disksim_global.h	370
+no_write_allocate	disksim_cachemem.h	226
+nocritreadstats	disksim_ioqueue.h	246
+nocritwritestats	disksim_ioqueue.h	247
+nonzeroouttime	disksim_logorg.h	184
+notify_ctx	disksim_global.h	385
+notify_trace_done	disksim_device.h	/^  void 	  (*notify_trace_done)();$/
+now	syssim_driver.c	66
+num_scheduling_decisions	disksim_ioqueue.h	242
+num_sptf_sdf_different	disksim_ioqueue.h	241
+numactive	disksim_cachemem.h	193
+numbatches	disksim_ioqueue.h	297
+number	disksim_synthio.h	140
+numblocks	disksim_simpledisk.h	119
+numblocks	disksim_synthio.h	145
+numbuses	disksim_bus.h	136
+numbuses	disksim_bus.h	141
+numbuswaits	disksim_disk.h	265
+numbuswaits	disksim_simpledisk.h	110
+numcomplete	disksim_ioqueue.h	236
+numcontrollers	disksim_ctlr.h	177
+numcpus	disksim_pfsim.h	262
+numcpus	disksim_pfsim.h	290
+numctlorgs	disksim_ctlr.h	180
+numctlrs	disksim_iodriver.h	152
+numdeps	disksim_logorg.h	155
+numdevices	disksim_device.c	82
+numdevices	disksim_ctlr.h	141
+numdevices	disksim_device.h	80
+numdevices	disksim_iodriver.h	151
+numdirty	disksim_disk.h	354
+numdisks	disksim_disk.h	478
+numdisks	disksim_logorg.h	244
+numdisks	disksim_synthio.h	143
+numfull	disksim_logorg.h	264
+numinbuses	disksim_ctlr.h	164
+numinbuses	disksim_disk.h	447
+numinbuses	disksim_simpledisk.h	131
+numiodrivers	disksim_iodriver.h	161
+numiodrivers	disksim_iodriver.h	185
+numlocal	disksim_logorg.h	189
+numout	disksim_logorg.h	224
+numoutbuses	disksim_ctlr.h	168
+numoutbuses	disksim_iodriver.h	147
+numoutstanding	disksim_ioqueue.h	238
+numoutstanding	disksim_iosim.h	217
+numreads	disksim_ioqueue.h	223
+numreqs	disksim_logorg.h	170
+numsegs	disksim_cachemem.h	209
+numsegs	disksim_disk.h	339
+numsimpledisks	disksim_simpledisk.c	114
+numsimpledisks	disksim_simpledisk.h	143
+numslots	disksim_bus.h	154
+numsyncsets	disksim_disk.h	481
+numsyncsets	disksim_disk.h	521
+numsysorgs	disksim_iodriver.h	164
+numsysorgs	disksim_iodriver.h	187
+numwrites	disksim_ioqueue.h	224
+numwritesegs	disksim_disk.h	340
+oldstate	disksim_global.h	316
+ongoing_requests	disksim_cachedev.h	188
+open_next_file	disksim.c	/^FILE* open_next_file()$/
+opid	disksim_global.h	281
+opid	disksim_ioqueue.h	199
+opid	disksim_logorg.h	172
+opid	disksim_logorg.h	240
+optcylno	disksim_ioqueue.h	219
+optsurface	disksim_ioqueue.h	220
+os	disksim_logorg.h	161
+outbcount	disksim_disk.h	201
+outblkno	disksim_disk.h	226
+outbus	disksim_iodriver.h	148
+outbuses	disksim_ctlr.h	169
+outbusowned	disksim_ctlr.h	162
+outios	disksim_global.h	423
+outios	disksim_global.h	502
+outiosfilename	disksim_global.h	427
+outiosfileposition	disksim_global.h	434
+output_file_prefix	disksim_global.h	426
+outputfile	disksim_global.h	391
+outputfile	disksim_global.h	496
+outputfilename	disksim_global.h	425
+outputfileposition	disksim_global.h	433
+outslot	disksim_ctlr.h	170
+outstand	disksim_logorg.h	176
+outstanding	disksim_logorg.h	181
+outstandqlen	disksim_logorg.h	239
+outstate	disksim_disk.h	200
+outstate	disksim_disk.h	430
+outtime	disksim_logorg.h	179
+outtimestats	disksim_ioqueue.h	243
+outwait	disksim_disk.h	445
+overallqueue	disksim_iodriver.h	167
+overallqueue	disksim_iodriver.h	189
+overhead	disksim_disk.h	297
+overhead	disksim_simpledisk.h	117
+overhead_command_readhit_afterread	disksim_disk.h	373
+overhead_command_readhit_afterwrite	disksim_disk.h	374
+overhead_command_readmiss_afterread	disksim_disk.h	376
+overhead_command_readmiss_afterwrite	disksim_disk.h	377
+overhead_command_writehit_afterread	disksim_disk.h	379
+overhead_command_writehit_afterwrite	disksim_disk.h	380
+overhead_command_writemiss_afterread	disksim_disk.h	382
+overhead_command_writemiss_afterwrite	disksim_disk.h	383
+overhead_complete_read	disksim_disk.h	385
+overhead_complete_write	disksim_disk.h	386
+overhead_data_prep	disksim_disk.h	388
+overhead_disconnect_read_afterread	disksim_disk.h	392
+overhead_disconnect_read_afterwrite	disksim_disk.h	393
+overhead_disconnect_write	disksim_disk.h	395
+overhead_done	disksim_disk.h	231
+overhead_reselect_first	disksim_disk.h	389
+overhead_reselect_other	disksim_disk.h	390
+overlapscombed	disksim_ioqueue.h	303
+overrides	disksim_global.h	477
+overrides_len	disksim_global.h	478
+oversized	disksim_iosim.h	220
+ovrhd_complete	disksim_ctlr.h	152
+ovrhd_disconnect	disksim_ctlr.h	148
+ovrhd_disk_complete	disksim_ctlr.h	153
+ovrhd_disk_disconnect	disksim_ctlr.h	149
+ovrhd_disk_ready	disksim_ctlr.h	147
+ovrhd_disk_reconnect	disksim_ctlr.h	151
+ovrhd_disk_request	disksim_ctlr.h	145
+ovrhd_ready	disksim_ctlr.h	146
+ovrhd_reconnect	disksim_ctlr.h	150
+ovrhd_reset	disksim_ctlr.h	154
+owners	disksim_bus.h	147
+pageno	disksim_global.h	331
+panic	syssim_driver.c	/^panic(const char *s)$/
+parfile	disksim_global.h	387
+parityunit	disksim_logorg.h	251
+parthits	disksim_disk.h	259
+partsperstripe	disksim_logorg.h	260
+partwrites	disksim_cachemem.h	234
+pend	disksim_ioqueue.h	191
+pendio	disksim_iosim.h	219
+pendio	disksim_synthio.h	141
+pendiolist	disksim_pfsim.h	267
+pendiolist	disksim_pfsim.h	295
+pendxfer	disksim_disk.h	433
+perm	disksim_ioqueue.c	/^static void perm(iobuf **array,$/
+pf_add_cswitch_event	disksim_pfsim.c	/^static void pf_add_cswitch_event (process *procp, /
+pf_add_false_idle_time	disksim_pfsim.c	/^static double pf_add_false_idle_time (double lengt/
+pf_add_to_intrp_eventlist	disksim_pfsim.c	/^static void pf_add_to_intrp_eventlist (intr_event /
+pf_add_to_pendiolist	disksim_pfsim.c	/^static void pf_add_to_pendiolist (process *procp, /
+pf_add_to_process_eventlist	disksim_pfsim.c	/^static void pf_add_to_process_eventlist (process */
+pf_addtoextra_process_q	disksim_pfsim.c	/^static void pf_addtoextra_process_q(temp)$/
+pf_allocate_process_structs	disksim_pfsim.c	/^static void pf_allocate_process_structs()$/
+pf_cleanstats	disksim_pfsim.c	/^void pf_cleanstats()$/
+pf_clock_interrupt_complete	disksim_pfsim.c	/^static void pf_clock_interrupt_complete (intr_even/
+pf_cpu_initialize	disksim_pfsim.c	/^static void pf_cpu_initialize()$/
+pf_cpu_resetstats	disksim_pfsim.c	/^static void pf_cpu_resetstats()$/
+pf_disp_get_from_sleep_queue	disksim_pfdisp.c	/^process *pf_disp_get_from_sleep_queue (void *chan)/
+pf_disp_get_specific_from_sleep_queue	disksim_pfdisp.c	/^process *pf_disp_get_specific_from_sleep_queue (u_/
+pf_disp_put_at_end_of_queue	disksim_pfdisp.c	/^static void pf_disp_put_at_end_of_queue(process *p/
+pf_disp_put_on_sleep_queue	disksim_pfdisp.c	/^void pf_disp_put_on_sleep_queue (process *procp)$/
+pf_disp_sleep	disksim_pfdisp.c	/^process * pf_disp_sleep (process *procp)$/
+pf_disp_wakeup	disksim_pfdisp.c	/^void pf_disp_wakeup (process *procp)$/
+pf_dispatch	disksim_pfdisp.c	/^process *pf_dispatch (int cpunum)$/
+pf_dispatcher_init	disksim_pfdisp.c	/^void pf_dispatcher_init (process *startprocs)$/
+pf_dispq	disksim_pfsim.h	283
+pf_dispq	disksim_pfsim.h	310
+pf_get_time_to_next_intr_event	disksim_pfsim.c	/^static double pf_get_time_to_next_intr_event (intr/
+pf_get_time_to_next_process_event	disksim_pfsim.c	/^static double pf_get_time_to_next_process_event (p/
+pf_getfromextra_process_q	disksim_pfsim.c	/^process *pf_getfromextra_process_q()$/
+pf_handle_clock_intr_arrive	disksim_pfsim.c	/^static void pf_handle_clock_intr_arrive (intr_even/
+pf_handle_cpu_event	disksim_pfsim.c	/^static void pf_handle_cpu_event (cpu_event *curr)$/
+pf_handle_cswitch_event	disksim_pfsim.c	/^static void pf_handle_cswitch_event (cswitch_event/
+pf_handle_event	disksim_pfsim.c	/^static void pf_handle_event (event *curr, cpu_even/
+pf_handle_idleloop_event	disksim_pfsim.c	/^static void pf_handle_idleloop_event (idleloop_eve/
+pf_handle_intend_event	disksim_pfsim.c	/^static void pf_handle_intend_event (intend_event */
+pf_handle_intr_event	disksim_pfsim.c	/^void pf_handle_intr_event (intr_event *intrp, int /
+pf_handle_io_internal_event	disksim_pfsim.c	/^static void pf_handle_io_internal_event (ioreq_eve/
+pf_handle_io_intr_arrive	disksim_pfsim.c	/^static void pf_handle_io_intr_arrive (intr_event */
+pf_handle_ioacc_event	disksim_pfsim.c	/^static void pf_handle_ioacc_event (ioreq_event *cu/
+pf_handle_ioreq_event	disksim_pfsim.c	/^static void pf_handle_ioreq_event (ioreq_event *cu/
+pf_handle_sleep_event	disksim_pfsim.c	/^static void pf_handle_sleep_event (sleep_event *cu/
+pf_handle_synthio_event	disksim_pfsim.c	/^static void pf_handle_synthio_event (event *curr, /
+pf_handle_wakeup_event	disksim_pfsim.c	/^static void pf_handle_wakeup_event(wakeup_event *c/
+pf_how_many_cpus	disksim_pfsim.c	/^int pf_how_many_cpus()$/
+pf_idle_cpu_recheck_dispq	disksim_pfsim.c	/^void pf_idle_cpu_recheck_dispq (int cpunum)$/
+pf_info	disksim_global.h	472
+pf_info	disksim_pfsim.h	259
+pf_info_t	disksim_pfsim.h	285
+pf_initialize	disksim_pfsim.c	/^void pf_initialize (int seedvalue)$/
+pf_internal_event	disksim_pfsim.c	/^void pf_internal_event (event *curr)$/
+pf_io_done_notify	disksim_pfsim.c	/^event * pf_io_done_notify (ioreq_event *curr, void/
+pf_iowait	disksim_pfsim.c	/^static int pf_iowait (void *chan, process *procp)$/
+pf_new_process	disksim_pfsim.c	/^process * pf_new_process()$/
+pf_print_interrupt_stats	disksim_pfsim.c	/^static void pf_print_interrupt_stats (int startcpu/
+pf_print_intrstats	disksim_pfsim.h	280
+pf_print_intrstats	disksim_pfsim.h	308
+pf_print_percpu_stats	disksim_pfsim.c	/^static void pf_print_percpu_stats()$/
+pf_print_percpustats	disksim_pfsim.h	279
+pf_print_percpustats	disksim_pfsim.h	307
+pf_print_perprocessstats	disksim_pfsim.h	278
+pf_print_perprocessstats	disksim_pfsim.h	306
+pf_print_pf_stats	disksim_pfsim.c	/^static void pf_print_pf_stats (int startcpu, int s/
+pf_print_process_stats	disksim_pfsim.c	/^static void pf_print_process_stats()$/
+pf_print_sleep_stats	disksim_pfsim.c	/^static void pf_print_sleep_stats()$/
+pf_print_sleepstats	disksim_pfsim.h	281
+pf_print_sleepstats	disksim_pfsim.h	309
+pf_printhack	disksim_pfsim.h	274
+pf_printhack	disksim_pfsim.h	302
+pf_printstats	disksim_pfsim.c	/^void pf_printstats()$/
+pf_remove_from_process_eventlist	disksim_pfsim.c	/^static event * pf_remove_from_process_eventlist (p/
+pf_resetstats	disksim_pfsim.c	/^void pf_resetstats()$/
+pf_setcallbacks	disksim_pfsim.c	/^void pf_setcallbacks()$/
+pfflags	disksim_pfsim.h	151
+pfscale	disksim_pfsim.h	270
+pfscale	disksim_pfsim.h	298
+pid	disksim_pfsim.h	149
+popwriteblocks	disksim_cachedev.h	157
+popwrites	disksim_cachedev.h	156
+postimestats	disksim_disk.h	248
+prefetch_waitfor_locks	disksim_cachemem.h	220
+prependhits	disksim_disk.h	255
+preprocess_tracefile	disksim.c	/^void preprocess_tracefile(FILE *tracefile)$/
+preseeking	disksim_disk.h	322
+prev	disksim_bus.h	122
+prev	disksim_cachedev.h	142
+prev	disksim_cachemem.h	146
+prev	disksim_disk.h	197
+prev	disksim_global.h	254
+prev	disksim_global.h	265
+prev	disksim_global.h	274
+prev	disksim_global.h	304
+prev	disksim_global.h	314
+prev	disksim_ioqueue.h	179
+prev	disksim_logorg.h	165
+prev	disksim_pfsim.h	185
+prev	disksim_pfsim.h	219
+prev	disksim_pfsim.h	227
+prev	disksim_pfsim.h	235
+prev	disksim_pfsim.h	242
+prev	disksim_pfsim.h	253
+prev_readahead_min	disksim_disk.h	333
+prev_trace_entry	disksim_global.h	330
+prev_trace_record	disksim_global.h	324
+pri_scheme	disksim_ioqueue.h	273
+prime_simulation	disksim.c	/^static void prime_simulation ()$/
+print_batch_fcfs_queue	disksim_ioqueue.c	/^void print_batch_fcfs_queue(subqueue *queue)$/
+print_paths_to_ctlrs	disksim_iodriver.c	/^static void print_paths_to_ctlrs()$/
+print_paths_to_devices	disksim_iodriver.c	/^static void print_paths_to_devices()$/
+print_statistics	syssim_driver.c	/^print_statistics(Stat *s, const char *title)$/
+print_tracefile_header	hplcomb.c	77
+printblockingstats	disksim_logorg.h	268
+printcritstats	disksim_ioqueue.h	310
+printidlestats	disksim_ioqueue.h	311
+printidlestats	disksim_logorg.h	270
+printintarrstats	disksim_ioqueue.h	312
+printintarrstats	disksim_logorg.h	271
+printinterferestats	disksim_logorg.h	269
+printlocalitystats	disksim_logorg.h	267
+printqueuestats	disksim_ioqueue.h	309
+printsizestats	disksim_ioqueue.h	313
+printsizestats	disksim_logorg.h	274
+printstampstats	disksim_logorg.h	273
+printstats	disksim_bus.h	152
+printstats	disksim_ctlr.h	138
+printstats	disksim_disk.h	454
+printstats	disksim_simpledisk.h	136
+printstreakstats	disksim_logorg.h	272
+prior	disksim_ioqueue.h	212
+priority	disksim_ioqueue.h	257
+priority_mix	disksim_ioqueue.h	274
+probloc	disksim_synthio.h	136
+probread	disksim_synthio.h	137
+probseq	disksim_synthio.h	135
+probtmcrit	disksim_synthio.h	138
+probtmlim	disksim_synthio.h	139
+process	disksim_pfsim.h	148
+process	disksim_pfsim.h	179
+process_livelist	disksim_pfsim.h	263
+process_livelist	disksim_pfsim.h	291
+procp	disksim_pfsim.h	187
+ptr	disksim_global.h	307
+qtimestats	disksim_ioqueue.h	248
+queue	disksim_ctlr.h	139
+queue	disksim_disk.h	305
+queue	disksim_iodriver.h	153
+queue	disksim_iosim.h	234
+queue	disksim_logorg.h	217
+queue	disksim_simpledisk.h	122
+queuectlr	disksim_iosim.h	232
+queuefind	disksim_cachedev.h	/^   struct ioq * (**queuefind)(void *,int);	\/* to g/
+queuefind	disksim_cachemem.h	/^   struct ioq * (**queuefind)(void *,int);	\/* to g/
+queuefind_ctlrsmart	disksim_global.h	/^   struct ioq * (*queuefind_ctlrsmart)     (void */
+queuefindparam	disksim_cachedev.h	175
+queuefindparam	disksim_cachemem.h	203
+queuelen	disksim_hptrace.h	217
+rand48_info	disksim_rand48.c	88
+rand48_info	disksim_global.h	475
+rand48_into_t	disksim_rand48.c	92
+read_direct_to_buffer	disksim_disk.h	335
+read_line_by_line	disksim_cachemem.h	223
+read_prefetch_type	disksim_cachemem.h	218
+read_raw_layout	raw_layout.c	/^read_raw_layout(disk *currdisk,char *rlfilename) {/
+readaheadifidle	disksim_disk.h	352
+readanyfreeblocks	disksim_disk.h	337
+readatoms	disksim_cachemem.h	164
+readblktranstime	disksim_bus.h	149
+readblocks	disksim_cachedev.h	153
+readdelay	disksim_ioqueue.h	277
+readhitsback	disksim_cachemem.h	167
+readhitsfront	disksim_cachemem.h	166
+readhitsfull	disksim_cachedev.h	154
+readhitsfull	disksim_cachemem.h	165
+readhitsmiddle	disksim_cachemem.h	168
+readhitsonwritedata	disksim_disk.h	318
+reading_buffer_partial_servtime	disksim_disk.h	501
+reading_buffer_partial_servtime	disksim_disk.h	543
+reading_buffer_whole_servtime	disksim_disk.h	503
+reading_buffer_whole_servtime	disksim_disk.h	545
+readinghits	disksim_disk.h	256
+readintarrstats	disksim_ioqueue.h	291
+readintarrstats	disksim_logorg.h	210
+readlen	disksim_ioqueue.h	232
+readlocks	disksim_cachemem.h	135
+readmisses	disksim_cachedev.h	155
+readmisses	disksim_cachemem.h	169
+readmisses	disksim_disk.h	251
+readmisslimitstats	disksim_pfsim.h	171
+readoutstanding	disksim_logorg.h	182
+readoverlapscombed	disksim_ioqueue.h	304
+reads	disksim_cachedev.h	152
+reads	disksim_cachemem.h	163
+reads	disksim_logorg.h	185
+readsizestats	disksim_ioqueue.h	294
+readsizestats	disksim_logorg.h	207
+readtimelimitstats	disksim_pfsim.h	169
+readwater	disksim_disk.h	344
+real_devno	disksim_cachedev.h	181
+realign_request	disksim_iotrace.c	/^void realign_request(ioreq_event *new_ioreq_event)/
+rec_id	disksim_hptrace.h	207
+reconnect_reason	disksim_simpledisk.h	124
+recyclereq	disksim_disk.h	217
+redunsizes	disksim_logorg.h	266
+reduntoggle	disksim_logorg.h	262
+reduntype	disksim_logorg.h	243
+remove_tsps	disksim_ioqueue.c	/^static void remove_tsps(iobuf *tmp){$/
+removefromintq	disksim.c	/^INLINE int removefromintq (event *curr)$/
+rempartsize	disksim_disk.h	261
+remreadingsize	disksim_disk.h	258
+repeat_trace	disksim_global.h	400
+replacepolicy	disksim_cachemem.h	215
+req	disksim_cachedev.h	146
+req	disksim_cachemem.h	150
+reqcnt	disksim_ioqueue.h	196
+reqctx	disksim_interface.h	52
+reqopid	disksim_logorg.h	173
+reqoutstanding	disksim_ioqueue.h	237
+reqsizestats	disksim_ioqueue.h	293
+requestedbus	disksim_disk.h	263
+requestedbus	disksim_simpledisk.h	108
+requests	disksim_ioqueue.c	1477
+reqwater	disksim_disk.h	345
+resetstats	disksim.c	/^void resetstats ()$/
+resptimestats	disksim_logorg.h	204
+rmwpoint	disksim_logorg.h	250
+rotlatstats	disksim_disk.h	246
+rottype	disksim_logorg.h	252
+rounduptomult	disksim_global.h	/^#define rounduptomult(val,mult)	((val) + ((mult) -/
+runclockintrtime	disksim_pfsim.h	208
+runcpu	disksim_pfsim.h	153
+runextintrtime	disksim_pfsim.h	210
+runidletime	disksim_bus.h	157
+runintrtime	disksim_pfsim.h	206
+runiointrtime	disksim_pfsim.h	207
+runiosleep	disksim_pfsim.h	163
+runlistlen	disksim_ioqueue.h	231
+runoutstanding	disksim_ioqueue.h	240
+runouttime	disksim_logorg.h	180
+runpartsize	disksim_disk.h	260
+runpreempt	disksim_pfsim.h	195
+runreadingsize	disksim_disk.h	257
+runreadlen	disksim_ioqueue.h	234
+runsleep	disksim_pfsim.h	165
+runsquares	disksim_stat.h	118
+runswitchtime	disksim_pfsim.h	212
+runtickintrtime	disksim_pfsim.h	209
+runtime	disksim_global.h	320
+runtime	disksim_pfsim.h	166
+runval	disksim_stat.h	117
+s	disksim_disk.h	271
+scale	disksim_iodriver.h	150
+scale	disksim_pfsim.h	192
+scale	disksim_stat.h	114
+scanparam_int	disksim.c	/^void scanparam_int (char *parline, char *parname, /
+sched_alg	disksim_ioqueue.h	206
+sched_count	disksim_ioqueue.c	1475
+sched_fn	disksim_interface_private.h	43
+schedule_disk_access	disksim_iodriver.c	/^static void schedule_disk_access (iodriver *currio/
+sec	disksim_hptrace.h	202
+sectbysect	disksim_disk.h	346
+sectionunit	disksim_logorg.h	256
+sectno	disksim_hptrace.h	211
+sectpercyl	disksim_disk.h	307
+sectpercyl	disksim_ioqueue.h	278
+sectsperdisk	disksim_synthio.h	146
+seedval	disksim_global.h	441
+seekdistance	disksim_disk.h	240
+seekdiststats	disksim_disk.h	244
+seektime	disksim_disk.h	237
+seektime	disksim_disk.h	294
+seektimestats	disksim_disk.h	245
+seg	disksim_diskcache.c	176
+seg	disksim_diskcache.c	595
+seg	disksim_diskcache.c	597
+seg	disksim_diskcache.c	797
+seg	disksim_diskcache.c	799
+seg	disksim_diskcache.c	1077
+seg	disksim_diskcache.c	1175
+seg	disksim_disk.h	193
+seg	disksim_disk.h	228
+seg_next	disksim_disk.h	224
+seglist	disksim_disk.h	370
+segment	disksim_disk.h	218
+segsize	disksim_disk.h	342
+seqblkno	disksim_ioqueue.h	305
+seqdiskswitches	disksim_logorg.h	187
+seqflags	disksim_ioqueue.h	306
+seqintr	disksim_synthio.h	151
+seqreads	disksim_ioqueue.h	307
+seqreads	disksim_logorg.h	192
+seqreads	disksim_logorg.h	219
+seqscheme	disksim_ioqueue.h	269
+seqstreamdiff	disksim_ioqueue.h	270
+seqwrites	disksim_ioqueue.h	308
+seqwrites	disksim_logorg.h	193
+seqwrites	disksim_logorg.h	220
+service_time	disksim_ioqueue.c	/^service_time(unsigned int current_cyl,$/
+setEndian	disksim.c	/^static void setEndian(void) {$/
+set_depth	disksim_device.h	/^  int     (*set_depth)(int diskno, int inbusno, in/
+set_prev_trace_file	disksim.c	/^void set_prev_trace_file(struct prev_trace_record /
+set_snapshot_file	disksim.c	/^void set_snapshot_file()$/
+setcallbacks	disksim.c	/^static void setcallbacks ()$/
+sfreq	raw_layout.c	95
+sfreq_t	raw_layout.c	98
+sharedreadlocks	disksim_cachemem.h	213
+simpledisk	disksim_simpledisk.h	114
+simpledisk_access_complete	disksim_simpledisk.c	/^static void simpledisk_access_complete (ioreq_even/
+simpledisk_acctime_printstats	disksim_simpledisk.c	/^static void simpledisk_acctime_printstats (int *se/
+simpledisk_add	disksim_simpledisk.c	/^int simpledisk_add(struct simpledisk *d) {$/
+simpledisk_bus_delay_complete	disksim_simpledisk.c	/^void simpledisk_bus_delay_complete (int devno, ior/
+simpledisk_bus_ownership_grant	disksim_simpledisk.c	/^void simpledisk_bus_ownership_grant (int devno, io/
+simpledisk_bustransfer_complete	disksim_simpledisk.c	/^static void simpledisk_bustransfer_complete (ioreq/
+simpledisk_cleanstats	disksim_simpledisk.c	/^void simpledisk_cleanstats (void)$/
+simpledisk_completion_done	disksim_simpledisk.c	/^static void simpledisk_completion_done (ioreq_even/
+simpledisk_copy	disksim_simpledisk.c	/^struct simpledisk *simpledisk_copy(struct simpledi/
+simpledisk_disconnect_done	disksim_simpledisk.c	/^static void simpledisk_disconnect_done (ioreq_even/
+simpledisk_event_arrive	disksim_simpledisk.c	/^void simpledisk_event_arrive (ioreq_event *curr)$/
+simpledisk_get_acctime	disksim_simpledisk.c	/^double  simpledisk_get_acctime (int devno, ioreq_e/
+simpledisk_get_avg_sectpercyl	disksim_simpledisk.c	/^int simpledisk_get_avg_sectpercyl (int devno)$/
+simpledisk_get_blktranstime	disksim_simpledisk.c	/^double simpledisk_get_blktranstime (ioreq_event *c/
+simpledisk_get_busno	disksim_simpledisk.c	/^int simpledisk_get_busno (ioreq_event *curr)$/
+simpledisk_get_depth	disksim_simpledisk.c	/^int simpledisk_get_depth (int devno)$/
+simpledisk_get_distance	disksim_simpledisk.c	/^int simpledisk_get_distance (int devno, ioreq_even/
+simpledisk_get_inbus	disksim_simpledisk.c	/^int simpledisk_get_inbus (int devno)$/
+simpledisk_get_mapping	disksim_simpledisk.c	/^void simpledisk_get_mapping (int maptype, int devn/
+simpledisk_get_maxoutstanding	disksim_simpledisk.c	/^int simpledisk_get_maxoutstanding (int devno)$/
+simpledisk_get_number_of_blocks	disksim_simpledisk.c	/^int simpledisk_get_number_of_blocks (int devno)$/
+simpledisk_get_numcyls	disksim_simpledisk.c	/^int simpledisk_get_numcyls (int devno)$/
+simpledisk_get_numdisks	disksim_simpledisk.c	/^int simpledisk_get_numdisks (void)$/
+simpledisk_get_seektime	disksim_simpledisk.c	/^double simpledisk_get_seektime (int devno, $/
+simpledisk_get_servtime	disksim_simpledisk.c	/^double  simpledisk_get_servtime (int devno, ioreq_/
+simpledisk_get_slotno	disksim_simpledisk.c	/^int simpledisk_get_slotno (int devno)$/
+simpledisk_hdr_initializer	disksim_simpledisk.c	1000
+simpledisk_info	disksim_simpledisk.h	141
+simpledisk_initialize	disksim_simpledisk.c	/^void simpledisk_initialize (void)$/
+simpledisk_initialize_diskinfo	disksim_simpledisk.c	/^static void simpledisk_initialize_diskinfo ()$/
+simpledisk_interrupt_complete	disksim_simpledisk.c	/^static void simpledisk_interrupt_complete (ioreq_e/
+simpledisk_other_printstats	disksim_simpledisk.c	/^static void simpledisk_other_printstats (int *set,/
+simpledisk_postpass	disksim_simpledisk.c	/^static void simpledisk_postpass (void)$/
+simpledisk_printsetstats	disksim_simpledisk.c	/^void simpledisk_printsetstats (int *set, int setsi/
+simpledisk_printstats	disksim_simpledisk.c	/^void simpledisk_printstats (void)$/
+simpledisk_reconnect_done	disksim_simpledisk.c	/^static void simpledisk_reconnect_done (ioreq_event/
+simpledisk_request_arrive	disksim_simpledisk.c	/^static void simpledisk_request_arrive (ioreq_event/
+simpledisk_request_complete	disksim_simpledisk.c	/^static void simpledisk_request_complete(ioreq_even/
+simpledisk_resetstats	disksim_simpledisk.c	/^void simpledisk_resetstats (void)$/
+simpledisk_send_event_up_path	disksim_simpledisk.c	/^static void simpledisk_send_event_up_path (ioreq_e/
+simpledisk_set_depth	disksim_simpledisk.c	/^int simpledisk_set_depth (int devno, int inbusno, /
+simpledisk_set_syncset	disksim_simpledisk.c	/^void simpledisk_set_syncset (int setstart, int set/
+simpledisk_setcallbacks	disksim_simpledisk.c	/^void simpledisk_setcallbacks ()$/
+simpledisk_stat_t	disksim_simpledisk.h	111
+simpledisk_statinit	disksim_simpledisk.c	/^static void simpledisk_statinit (int devno, int fi/
+simpledisk_t	disksim_simpledisk.h	138
+simplediskinfo	disksim_global.h	466
+simplediskinfo_t	disksim_simpledisk.h	145
+simpledisks	disksim_simpledisk.h	142
+simpledisks_len	disksim_simpledisk.h	144
+simtime	disksim_global.h	371
+simtime	disksim_global.h	493
+simulation_strategy	disksim_global.h	402
+size	disksim_cachedev.h	179
+size	disksim_cachemem.h	207
+size	disksim_disk.h	206
+size	disksim_hptrace.h	200
+size	disksim_hptrace.h	210
+sizedist	disksim_synthio.h	154
+sizes	disksim_logorg.h	265
+sizestats	disksim_logorg.h	206
+sleep_event	disksim_pfsim.h	247
+sleepqueue	disksim_pfsim.h	284
+sleepqueue	disksim_pfsim.h	311
+sleeps	disksim_pfsim.h	160
+sleeptime	disksim_pfsim.h	246
+slot	disksim_bus.h	116
+slotno	disksim_bus.h	126
+slotno	disksim_cachemem.h	139
+slotno	disksim_ctlr.h	167
+slotno	disksim_disk.h	450
+slotno	disksim_global.h	279
+slotno	disksim_simpledisk.h	134
+slotpath	disksim_iosim.h	214
+slotpath	disksim_iosim.h	229
+slots	disksim_bus.h	155
+smalldistvals	disksim_stat.h	122
+snapshot_currindex	disksim_global.h	401
+snapshot_output_path	disksim_global.h	369
+snapshotfile	disksim_global.h	392
+snapshotfile	disksim_global.h	497
+sneakyfullreadhits	disksim_disk.h	315
+sneakyintermediatereadhits	disksim_disk.h	317
+sneakypartialreadhits	disksim_disk.h	316
+sp	raw_layout.c	107
+space	disksim_cachemem.h	191
+space	disksim_disk.h	232
+space	disksim_global.h	267
+space	disksim_hptrace.h	219
+space	disksim_pfsim.h	175
+space	disksim_stat.h	113
+spt	raw_layout.c	108
+spt_t	raw_layout.c	112
+sqr	syssim_driver.c	62
+ssd_elem_num	disksim_global.h	290
+ssd_gang_num	disksim_global.h	291
+ssdinfo	disksim_global.h	468
+sstfupdown	disksim_ioqueue.h	221
+sstfupdowncnt	disksim_ioqueue.h	222
+st	syssim_driver.c	69
+stampfile	disksim_logorg.h	278
+stampinterval	disksim_logorg.h	275
+stampstart	disksim_logorg.h	276
+stampstop	disksim_logorg.h	277
+start	disksim_hptrace.h	208
+start	disksim_interface.h	49
+start_time	disksim_global.h	292
+startaddr	disksim_global.h	358
+startallflushes	disksim_cachemem.h	221
+startblkno	disksim_disk.h	198
+startblkno	disksim_logorg.h	216
+startdev	disksim_logorg.h	282
+starttime	disksim_ioqueue.h	176
+starttrans	disksim_disk.h	425
+stat	disksim_cachedev.h	191
+stat	disksim_cachemem.h	236
+stat	disksim_disk.h	453
+stat	disksim_logorg.h	280
+stat	disksim_pfsim.h	152
+stat	disksim_simpledisk.h	137
+stat_get_count	disksim_stat.c	/^int stat_get_count (statgen *statptr)$/
+stat_get_count_set	disksim_stat.c	/^int stat_get_count_set (statgen **statset, int sta/
+stat_get_large_dist	disksim_stat.c	/^static void stat_get_large_dist (FILE *statdef_fil/
+stat_get_runval	disksim_stat.c	/^double stat_get_runval (statgen *statptr)$/
+stat_initialize	disksim_stat.c	/^void stat_initialize (FILE *statdef_file, const ch/
+stat_print	disksim_stat.c	/^void stat_print (statgen *statptr, char *identstr)/
+stat_print_file	disksim_stat.c	/^void stat_print_file (statgen *statptr, char *iden/
+stat_print_large_dist	disksim_stat.c	/^static void stat_print_large_dist (statgen **stats/
+stat_print_set	disksim_stat.c	/^void stat_print_set (statgen **statset, int statcn/
+stat_reset	disksim_stat.c	/^void stat_reset (statgen *statptr)$/
+stat_update	disksim_stat.c	/^inline void stat_update (statgen *statptr, double /
+stat_warmup_done	disksim.c	/^static void stat_warmup_done (timer_event *timer)$/
+statdeffile	disksim_global.h	390
+statdeffile	disksim_global.h	495
+statdesc	disksim_stat.h	111
+statdesc_accstats	disksim_ioqueue.c	153
+statdesc_acctimestats	disksim_disk.c	118
+statdesc_acctimestats	disksim_simpledisk.c	109
+statdesc_batchsizestats	disksim_ioqueue.c	165
+statdesc_emptyqueue	disksim_iodriver.c	117
+statdesc_idles	disksim_logorg.c	118
+statdesc_idlestats	disksim_ioqueue.c	159
+statdesc_infopenalty	disksim_ioqueue.c	160
+statdesc_initiatenext	disksim_iodriver.c	118
+statdesc_instqueuelen	disksim_ioqueue.c	164
+statdesc_intarr	disksim_logorg.c	112
+statdesc_intarrstats	disksim_ioqueue.c	156
+statdesc_locality	disksim_logorg.c	121
+statdesc_outtimestats	disksim_ioqueue.c	155
+statdesc_postimestats	disksim_disk.c	117
+statdesc_qtimestats	disksim_ioqueue.c	154
+statdesc_readintarr	disksim_logorg.c	113
+statdesc_readintarrstats	disksim_ioqueue.c	157
+statdesc_readsize	disksim_logorg.c	116
+statdesc_readsizestats	disksim_ioqueue.c	162
+statdesc_reqsize	disksim_logorg.c	115
+statdesc_reqsizestats	disksim_ioqueue.c	161
+statdesc_resptime	disksim_logorg.c	119
+statdesc_rotlatstats	disksim_disk.c	115
+statdesc_seekdiststats	disksim_disk.c	113
+statdesc_seektimestats	disksim_disk.c	114
+statdesc_streak	disksim_logorg.c	120
+statdesc_traceaccdiffstats	disksim_iosim.h	270
+statdesc_traceaccdiffwritestats	disksim_iosim.h	272
+statdesc_traceaccstats	disksim_iosim.h	267
+statdesc_traceaccwritestats	disksim_iosim.h	271
+statdesc_tracenoqstats	disksim_iosim.h	269
+statdesc_traceqlenstats	disksim_iosim.h	268
+statdesc_tracequeuestats	disksim_iosim.h	265
+statdesc_tracerespstats	disksim_iosim.h	266
+statdesc_writeintarr	disksim_logorg.c	114
+statdesc_writeintarrstats	disksim_ioqueue.c	158
+statdesc_writesize	disksim_logorg.c	117
+statdesc_writesizestats	disksim_ioqueue.c	163
+statdesc_xfertimestats	disksim_disk.c	116
+state	disksim_bus.h	144
+state	disksim_cachemem.h	132
+state	disksim_ctlr.h	137
+state	disksim_disk.h	195
+state	disksim_ioqueue.h	177
+state	disksim_pfsim.h	193
+statfile	disksim_stat.h	112
+statgen	disksim_stat.h	123
+stop	disksim_hptrace.h	209
+stop_sim	disksim_global.h	440
+stopinsector	disksim_disk.h	360
+streakstats	disksim_logorg.h	227
+stress_dist_matrix	disksim_global.h	421
+stripeunit	disksim_logorg.h	255
+subq	disksim_ioqueue.h	204
+subqueue	disksim_ioqueue.h	252
+sum	syssim_driver.c	61
+surface	disksim_ioqueue.h	198
+surfoverforw	disksim_ioqueue.h	207
+susflags	disksim_hptrace.h	218
+swap_forward_only	disksim_disk.h	485
+swap_forward_only	disksim_disk.h	525
+switches	disksim_ioqueue.h	225
+syncreads	disksim_iotrace.h	67
+syncreads	disksim_iotrace.h	97
+syncset	disksim_disk.h	302
+syncwrites	disksim_iotrace.h	68
+syncwrites	disksim_iotrace.h	98
+synthgen	disksim_global.h	381
+synthio_appendio	disksim_synthio.c	/^static void synthio_appendio (process *procp, iore/
+synthio_cleanstats	disksim_synthio.c	/^void synthio_cleanstats()$/
+synthio_distr	disksim_synthio.h	130
+synthio_distrcopy	disksim_synthio.c	/^static void synthio_distrcopy (synthio_distr *dist/
+synthio_endiocnt	disksim_synthio.h	164
+synthio_endiocnt	disksim_synthio.h	176
+synthio_endtime	disksim_synthio.h	165
+synthio_endtime	disksim_synthio.h	177
+synthio_gencnt	disksim_synthio.h	160
+synthio_gencnt	disksim_synthio.h	174
+synthio_gencopy	disksim_synthio.c	/^static void synthio_gencopy (synthio_generator *ge/
+synthio_generate_io_activity	disksim_synthio.c	/^void synthio_generate_io_activity (process *procp)/
+synthio_generatenextio	disksim_synthio.c	/^static int synthio_generatenextio (synthio_generat/
+synthio_generator	disksim_synthio.h	155
+synthio_gens	disksim_synthio.h	159
+synthio_gens	disksim_synthio.h	173
+synthio_gens_len	disksim_synthio.h	161
+synthio_get_exponential	disksim_synthio.c	/^static double synthio_get_exponential (synthio_dis/
+synthio_get_normal	disksim_synthio.c	/^static double synthio_get_normal (synthio_distr *f/
+synthio_get_poisson	disksim_synthio.c	/^static double synthio_get_poisson (synthio_distr */
+synthio_get_twovalue	disksim_synthio.c	/^static double synthio_get_twovalue (synthio_distr /
+synthio_get_uniform	disksim_synthio.c	/^static double synthio_get_uniform (synthio_distr */
+synthio_getrand	disksim_synthio.c	/^static double synthio_getrand (synthio_distr *from/
+synthio_info	disksim_global.h	473
+synthio_info	disksim_synthio.h	158
+synthio_info_t	disksim_synthio.h	169
+synthio_initialize_generator	disksim_synthio.c	/^void synthio_initialize_generator (process *procp)/
+synthio_iocnt	disksim_synthio.h	163
+synthio_iocnt	disksim_synthio.h	175
+synthio_printstats	disksim_synthio.c	/^void synthio_printstats()$/
+synthio_read_distr	disksim_synthio.c	/^static void synthio_read_distr (FILE *parfile, syn/
+synthio_read_exponential	disksim_synthio.c	/^static void synthio_read_exponential (FILE *parfil/
+synthio_read_normal	disksim_synthio.c	/^static void synthio_read_normal (FILE *parfile, sy/
+synthio_read_poisson	disksim_synthio.c	/^static void synthio_read_poisson (FILE *parfile, s/
+synthio_read_twovalue	disksim_synthio.c	/^static void synthio_read_twovalue (FILE *parfile, /
+synthio_read_uniform	disksim_synthio.c	/^static void synthio_read_uniform (FILE *parfile, s/
+synthio_resetstats	disksim_synthio.c	/^void synthio_resetstats()$/
+synthio_syscall_time	disksim_synthio.h	167
+synthio_syscall_time	disksim_synthio.h	179
+synthio_syscalls	disksim_synthio.h	166
+synthio_syscalls	disksim_synthio.h	178
+synthio_sysret_time	disksim_synthio.h	168
+synthio_sysret_time	disksim_synthio.h	180
+synthlist	disksim_pfsim.h	269
+synthlist	disksim_pfsim.h	297
+sysorgs	disksim_iodriver.h	165
+sysorgs	disksim_iodriver.h	188
+sysorgs_len	disksim_iodriver.h	166
+syssim_deschedule_callback	syssim_driver.c	/^syssim_deschedule_callback(double t, void *ctx)$/
+syssim_report_completion	syssim_driver.c	/^syssim_report_completion(SysTime t, struct disksim/
+syssim_schedule_callback	syssim_driver.c	/^syssim_schedule_callback(disksim_interface_callbac/
+t	disksim_disk.h	272
+ta_snapshotfile	disksim_global.h	393
+ta_snapshotfile	disksim_global.h	498
+table	disksim_logorg.h	258
+tableentry	disksim_logorg.h	234
+tablesize	disksim_logorg.h	259
+tablestripes	disksim_logorg.h	257
+temp	disksim_global.h	255
+temp	disksim_global.h	266
+tempint1	disksim_global.h	284
+tempint2	disksim_global.h	285
+tempptr1	disksim_global.h	286
+tempptr2	disksim_global.h	287
+threshold	disksim_global.h	403
+tickintrs	disksim_pfsim.h	204
+time	disksim_bus.h	119
+time	disksim_cachedev.h	139
+time	disksim_cachemem.h	143
+time	disksim_disk.h	194
+time	disksim_global.h	251
+time	disksim_global.h	262
+time	disksim_global.h	271
+time	disksim_global.h	301
+time	disksim_global.h	311
+time	disksim_ioqueue.h	192
+time	disksim_pfsim.h	182
+time	disksim_pfsim.h	216
+time	disksim_pfsim.h	224
+time	disksim_pfsim.h	232
+time	disksim_pfsim.h	239
+time	disksim_pfsim.h	250
+time_to_checkpoint	disksim_iotrace.c	/^inline int time_to_checkpoint(double currtime)$/
+timecritrespstats	disksim_pfsim.h	275
+timecritrespstats	disksim_pfsim.h	303
+timelimitrespstats	disksim_pfsim.h	276
+timelimitrespstats	disksim_pfsim.h	304
+timenoncritrespstats	disksim_pfsim.h	277
+timenoncritrespstats	disksim_pfsim.h	305
+timeout	disksim_ioqueue.h	256
+timeoutreads	disksim_ioqueue.h	281
+timeouts	disksim_ioqueue.h	280
+timer_ev	disksim_global.h	300
+timer_event	disksim_global.h	308
+timerfunc_cachedev	disksim_global.h	/^   void         (*timerfunc_cachedev)      (timer_/
+timerfunc_cachemem	disksim_global.h	/^   void         (*timerfunc_cachemem)      (timer_/
+timerfunc_disksim	disksim_global.h	/^   void         (*timerfunc_disksim)       (timer_/
+timerfunc_ioqueue	disksim_global.h	/^   void         (*timerfunc_ioqueue)       (timer_/
+timescale	disksim_ctlr.h	143
+timescale	disksim_disk.h	298
+tmlimit	disksim_synthio.h	149
+tmp_diskreq	disksim_diskcache.c	1507
+tmp_ioreq	disksim_diskcache.c	1464
+to_scheme	disksim_ioqueue.h	271
+to_time	disksim_ioqueue.h	272
+tot_req	disksim_iotrace.c	594
+totallength	disksim_global.h	359
+totalreqs	disksim_global.h	361
+totalsize	disksim_ioqueue.h	180
+trace_batch_initialize	hplcomb.c	/^int trace_batch_initialize(batchfile, fileptr, tra/
+trace_mode	disksim_global.h	482
+tracebasetime	disksim_iotrace.h	66
+tracebasetime	disksim_iotrace.h	96
+tracebatch	hplcomb.c	75
+tracecompress	hplcomb.c	76
+traceendian	hplcomb.c	74
+traceendian	disksim_global.h	378
+tracefile	disksim_synthio.h	134
+traceformat	hplcomb.c	73
+traceformat	disksim_global.h	376
+traceheader	disksim_global.h	379
+tracemap	disksim_iosim.h	284
+tracemap	disksim_iosim.h	307
+tracemap1	disksim_iosim.h	285
+tracemap1	disksim_iosim.h	308
+tracemap2	disksim_iosim.h	286
+tracemap2	disksim_iosim.h	309
+tracemap3	disksim_iosim.h	287
+tracemap3	disksim_iosim.h	310
+tracemap4	disksim_iosim.h	288
+tracemap4	disksim_iosim.h	311
+tracemappings	disksim_iosim.h	283
+tracemappings	disksim_iosim.h	306
+tracepipes	disksim_global.h	481
+tracestats	disksim_iosim.h	289
+tracestats	disksim_iosim.h	312
+tracestats1	disksim_iosim.h	290
+tracestats1	disksim_iosim.h	313
+tracestats2	disksim_iosim.h	291
+tracestats2	disksim_iosim.h	314
+tracestats3	disksim_iosim.h	292
+tracestats3	disksim_iosim.h	315
+tracestats4	disksim_iosim.h	293
+tracestats4	disksim_iosim.h	316
+tracestats5	disksim_iosim.h	294
+tracestats5	disksim_iosim.h	317
+track_high	disksim_disk.h	280
+track_low	disksim_disk.h	280
+type	disksim_bus.h	120
+type	disksim_bus.h	145
+type	disksim_cachedev.h	140
+type	disksim_cachemem.h	144
+type	disksim_ctlr.h	136
+type	disksim_global.h	252
+type	disksim_global.h	263
+type	disksim_global.h	272
+type	disksim_global.h	302
+type	disksim_global.h	312
+type	disksim_iodriver.h	145
+type	disksim_logorg.h	163
+type	disksim_pfsim.h	183
+type	disksim_pfsim.h	217
+type	disksim_pfsim.h	225
+type	disksim_pfsim.h	233
+type	disksim_pfsim.h	240
+type	disksim_pfsim.h	251
+type	disksim_synthio.h	129
+u_int	disksim_global.h	115
+u_int	disksim_global.h	147
+u_int32_t	hplcomb.c	50
+u_int32_t	disksim_global.h	121
+u_int32_t	disksim_global.h	124
+u_int64_t	disksim_global.h	116
+update_iodriver_statistics	disksim_iodriver.c	/^static void update_iodriver_statistics()$/
+usec	disksim_hptrace.h	203
+usequeue	disksim_iodriver.h	146
+val	disksim_global.h	306
+validate_buffaction	disksim_iotrace.h	89
+validate_buffaction	disksim_iotrace.h	119
+validate_lastbcount	disksim_iotrace.h	86
+validate_lastbcount	disksim_iotrace.h	116
+validate_lastblkno	disksim_iotrace.h	85
+validate_lastblkno	disksim_iotrace.h	115
+validate_lastread	disksim_iotrace.h	87
+validate_lastread	disksim_iotrace.h	117
+validate_lastserv	disksim_iotrace.h	84
+validate_lastserv	disksim_iotrace.h	114
+validate_nextinter	disksim_iotrace.h	88
+validate_nextinter	disksim_iotrace.h	118
+validatebuf	disksim_iosim.h	282
+validatebuf	disksim_iosim.h	305
+validmap	disksim_cachedev.h	189
+validpoint	disksim_cachedev.h	148
+validpoint	disksim_cachemem.h	158
+value	hplcomb.c	55
+value	disksim_global.h	244
+var	disksim_synthio.h	128
+vector	disksim_global.h	315
+vector	disksim_pfsim.h	220
+verbosity	disksim_global.h	479
+vscan_cyls	disksim_ioqueue.h	215
+vscan_value	disksim_ioqueue.h	214
+wait_start	disksim_bus.h	128
+waitees	disksim_cachedev.h	147
+waitees	disksim_cachemem.h	157
+waitingforbus	disksim_ctlr.h	171
+waitingforbus	disksim_disk.h	264
+waitingforbus	disksim_simpledisk.h	109
+waittime	disksim_ioqueue.h	189
+wakeup_event	disksim_pfsim.h	257
+wakeupfunc	disksim_cachedev.h	/^   void (**wakeupfunc)(void *, struct cacheevent */
+wakeupfunc	disksim_cachemem.h	/^   void (**wakeupfunc)(void *, struct cacheevent */
+wakeupfunc_ctlrsmart	disksim_global.h	/^   void         (*wakeupfunc_ctlrsmart)    (void */
+wakeupparam	disksim_cachedev.h	178
+wakeupparam	disksim_cachemem.h	206
+warmup_event	disksim_global.h	366
+warmup_iocnt	disksim_global.h	364
+warmuptime	disksim_global.h	365
+warmuptime	disksim_global.h	492
+watermark	disksim_disk.h	229
+wrap	disksim_global.h	/^#define	wrap(x,y)	((y) < (x) ? 1 : 0)$/
+write_hit_stop_readahead	disksim_disk.h	334
+write_line_by_line	disksim_cachemem.h	224
+writeatoms	disksim_cachemem.h	173
+writeblktranstime	disksim_bus.h	150
+writeblocks	disksim_cachedev.h	159
+writecomb	disksim_disk.h	357
+writecombs	disksim_disk.h	250
+writedelay	disksim_ioqueue.h	276
+writefill_prefetch_type	disksim_cachemem.h	219
+writehitsclean	disksim_cachemem.h	174
+writehitsdirty	disksim_cachemem.h	175
+writehitsfull	disksim_cachedev.h	160
+writeinducedfillatoms	disksim_cachemem.h	178
+writeinducedfills	disksim_cachemem.h	177
+writeintarrstats	disksim_ioqueue.h	292
+writeintarrstats	disksim_logorg.h	211
+writelock	disksim_cachemem.h	136
+writemisses	disksim_cachedev.h	161
+writemisses	disksim_cachemem.h	176
+writemisses	disksim_disk.h	252
+writemisslimitstats	disksim_pfsim.h	172
+writeprebuffering	disksim_disk.h	319
+writes	disksim_cachedev.h	158
+writes	disksim_cachemem.h	172
+writescheme	disksim_cachedev.h	183
+writescheme	disksim_cachemem.h	217
+writesizestats	disksim_ioqueue.h	295
+writesizestats	disksim_logorg.h	208
+writesync	disksim_logorg.h	247
+writetimelimitstats	disksim_pfsim.h	170
+writewater	disksim_disk.h	343
+xfertime	disksim_disk.h	239
+xfertimestats	disksim_disk.h	247
+zerolatency	disksim_disk.h	242
+zeroseeks	disksim_disk.h	241

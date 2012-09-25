@@ -1,0 +1,523 @@
+ADDRESSABLE_PAGES_PER_ELEM	ssd.h	/^#define ADDRESSABLE_PAGES_PER_ELEM(s)   ((s)->data/
+ALLOC_UNIT_ELEM	ssd.h	468
+ALLOC_UNIT_GANG	ssd.h	467
+DAY	ssd.h	38
+DISKSIM_SSD_CLEANING_POLICY_GREEDY_WEAR_AGNOSTIC	ssd_clean.h	13
+DISKSIM_SSD_CLEANING_POLICY_GREEDY_WEAR_AWARE	ssd_clean.h	14
+DISKSIM_SSD_CLEANING_POLICY_RANDOM	ssd_clean.h	12
+DISKSIM_SSD_H	ssd.h	13
+DISKSIM_SSD_INIT_H	ssd_init.h	5
+DISKSIM_SSD_MAX_RESERVE	ssd.h	274
+DISKSIM_SSD_MAX_WRITE_POLICIES	ssd.h	268
+DISKSIM_SSD_TIMING_H	ssd_timing.h	5
+DISKSIM_SSD_WRITE_POLICY_OSR	ssd.h	270
+DISKSIM_SSD_WRITE_POLICY_SIMPLE	ssd.h	269
+GREEDY_IN_COPYBACK	ssd_clean.c	916
+HIGH_WATERMARK_PER_ELEMENT	ssd_clean.h	/^#define HIGH_WATERMARK_PER_ELEMENT(s)   (LOW_WATER/
+HIGH_WATERMARK_PER_ELEMENT	ssd_clean.h	/^#define HIGH_WATERMARK_PER_ELEMENT(s)   (1000)$/
+HIGH_WATERMARK_PER_PLANE	ssd_clean.h	/^#define HIGH_WATERMARK_PER_PLANE(s)     (LOW_WATER/
+HIGH_WATERMARK_PER_PLANE	ssd_clean.h	/^#define HIGH_WATERMARK_PER_PLANE(s)     (125)$/
+HOUR	ssd.h	37
+INITIAL_STRESSES	ssd.h	476
+LOW_WATERMARK_PER_ELEMENT	ssd_clean.h	/^#define LOW_WATERMARK_PER_ELEMENT(s)    ((s)->para/
+LOW_WATERMARK_PER_ELEMENT	ssd_clean.h	/^#define LOW_WATERMARK_PER_ELEMENT(s)    (800)$/
+LOW_WATERMARK_PER_PLANE	ssd_clean.h	/^#define LOW_WATERMARK_PER_PLANE(s)      ((s)->para/
+LOW_WATERMARK_PER_PLANE	ssd_clean.h	/^#define LOW_WATERMARK_PER_PLANE(s)      (125)$/
+MAX_REQS	ssd.h	472
+MAX_REQS_ELEM_QUEUE	ssd.h	473
+MIGRATE	ssd.h	475
+MINUTE	ssd.h	36
+MIN_REQS	ssd.h	471
+MONTH	ssd.h	39
+PLANE_BLOCKS_CONCAT	ssd.h	295
+PLANE_BLOCKS_FULL_STRIPE	ssd.h	322
+PLANE_BLOCKS_PAIRWISE_STRIPE	ssd.h	310
+SSD_ALLOC_POOL_CHIP	ssd.h	331
+SSD_ALLOC_POOL_GANG	ssd.h	330
+SSD_ALLOC_POOL_PLANE	ssd.h	332
+SSD_BITS_ELEMS_PER_GANG	ssd.h	33
+SSD_BITS_ELEMS_PER_GANG	ssd.h	249
+SSD_BLOCK_CLEAN	ssd.h	76
+SSD_BLOCK_DEAD	ssd.h	79
+SSD_BLOCK_INUSE	ssd.h	77
+SSD_BLOCK_RETENTION_LIMIT	ssd.h	80
+SSD_BLOCK_SEALED	ssd.h	78
+SSD_BLOCK_STATES	ssd.h	81
+SSD_BYTES_PER_SECTOR	ssd.h	279
+SSD_COPY_BACK_DISABLE	ssd.h	326
+SSD_COPY_BACK_ENABLE	ssd.h	327
+SSD_DATA_BYTES_PER_SECTOR	ssd.h	277
+SSD_DATA_PAGES_PER_BLOCK	ssd.h	/^#define SSD_DATA_PAGES_PER_BLOCK(s)     ((s)->para/
+SSD_EDF_REFRESH	ssd.h	25
+SSD_FCFS_REFRESH	ssd.h	24
+SSD_GANG_PAGE_SIZE	ssd.h	/^#define SSD_GANG_PAGE_SIZE(s)           ((s)->para/
+SSD_GANG_SIZE	ssd.h	/^#define SSD_GANG_SIZE(s)            (ADDRESSABLE_P/
+SSD_LIFETIME_THRESHOLD_X	ssd_clean.h	19
+SSD_LIFETIME_THRESHOLD_Y	ssd_clean.h	20
+SSD_LOGDISK_MODEL	ssd.h	265
+SSD_MAX_ELEMENTS	ssd.h	28
+SSD_MAX_ELEMS_PER_GANG	ssd.h	31
+SSD_MAX_ERASURES	ssd_clean.h	18
+SSD_MAX_PARUNITS_PER_ELEM	ssd.h	30
+SSD_MAX_PLANES_PER_ELEM	ssd.h	29
+SSD_MAX_REFRESH_POLICY	ssd.h	26
+SSD_MDATA_BYTES_PER_SECTOR	ssd.h	278
+SSD_MIN_LIFETIME_TO_ADD_TO_REFRESH_QUEUE	ssd.h	43
+SSD_NUM_GANG	ssd.h	/^#define SSD_NUM_GANG(s)             ((s)->params.n/
+SSD_PAGES_PER_ELEM	ssd.h	/^#define SSD_PAGES_PER_ELEM(s)           ((s)->para/
+SSD_PAGE_TO_BLOCK	ssd.h	/^#define SSD_PAGE_TO_BLOCK(pnum, s)      ((pnum)\/(s/
+SSD_PARUNITS_PER_ELEM	ssd.h	/^#define SSD_PARUNITS_PER_ELEM(s)        ((s)->para/
+SSD_PLANES_PER_ELEM	ssd.h	/^#define SSD_PLANES_PER_ELEM(s)          ((s)->para/
+SSD_PLANES_PER_PARUNIT	ssd.h	/^#define SSD_PLANES_PER_PARUNIT(s)       (SSD_PLANE/
+SSD_RATELIMIT_WINDOW	ssd_clean.h	23
+SSD_REFRESH_H_	ssd_refresh.h	9
+SSD_REFRESH_NONE	ssd.h	23
+SSD_SECTORS_PER_SUMMARY_PAGE	ssd.h	282
+SSD_SHARED_BUS_GANG	ssd.h	335
+SSD_SHARED_CONTROL_GANG	ssd.h	336
+SSD_SIMPLE_DW_MODEL	ssd.h	264
+SSD_SIMPLE_MODEL	ssd.h	263
+SYNC_GANG	ssd.h	474
+YEAR	ssd.h	40
+_DISKSIM_SSD_CLEAN_H	ssd_clean.h	5
+_DISKSIM_SSD_GANG_H	ssd_gang.h	5
+__DISKSIM_SSD_UTILS_H__	ssd_utils.h	5
+_block_metadata	ssd.h	104
+_gang_metadata	ssd.h	252
+_header_data	ssd_utils.h	30
+_listnode	ssd_utils.h	24
+_ll_insert_at_head	ssd_utils.c	/^listnode *_ll_insert_at_head(listnode *start, list/
+_ll_insert_at_tail	ssd_utils.c	/^listnode *_ll_insert_at_tail(listnode *start, list/
+_page_metadata	ssd.h	84
+_parunit	ssd.h	170
+_plane_metadata	ssd.h	150
+_ssd_activate_gang	ssd_gang.c	/^static void _ssd_activate_gang$/
+_ssd_alloc_active_block	ssd_timing.c	/^int _ssd_alloc_active_block(int plane_num, int ele/
+_ssd_clean_block_fully	ssd_clean.c	/^double _ssd_clean_block_fully(int blk, int plane_n/
+_ssd_clean_block_partially	ssd_clean.c	/^static double _ssd_clean_block_partially(int plane/
+_ssd_elem_number	ssd.h	248
+_ssd_element	ssd.h	237
+_ssd_element_metadata	ssd.h	178
+_ssd_element_stat	ssd.h	56
+_ssd_invoke_element_cleaning	ssd.c	/^double _ssd_invoke_element_cleaning(int elem_num, /
+_ssd_pick_block_to_clean	ssd_clean.c	/^static int _ssd_pick_block_to_clean$/
+_ssd_plane	ssd.h	219
+_ssd_req	ssd.h	444
+_ssd_timing_params	ssd.h	338
+_ssd_timing_t	ssd_timing.h	7
+_ssd_write_page_osr	ssd_timing.c	/^double _ssd_write_page_osr(ssd_t *s, ssd_element_m/
+_strdup	ssd.c	28
+_usage_table	ssd_clean.h	46
+acctime	ssd.h	450
+acctimestats	ssd.h	47
+active_page	ssd.h	158
+active_page	ssd.h	191
+alloc_pool_logic	ssd.h	380
+arrhenius_factor	reliability.c	/^inline double arrhenius_factor(double t_use, doubl/
+avg_lifetime	ssd.h	61
+barrier_height	reliability.c	8
+blk	ssd.h	445
+blktranstime	ssd.h	420
+block	ssd_clean.h	49
+block_alloc_pos	ssd.h	164
+block_alloc_pos	ssd.h	204
+block_erase_latency	ssd.h	351
+block_metadata	ssd.h	144
+block_num	ssd.h	105
+block_usage	ssd.h	196
+blocks_per_element	ssd.h	343
+blocks_per_plane	ssd.h	366
+boltzmann_constant	reliability.c	15
+bsn	ssd.h	133
+bsn	ssd.h	200
+bus_transaction_latency	ssd.h	404
+busowned	ssd.h	422
+buswait	ssd.h	423
+busy	ssd.h	255
+c_ono_area	reliability.c	27
+cache_index	ssd_utils.h	32
+cache_node	ssd_utils.h	33
+calc_retention_period	reliability.c	/^double calc_retention_period(double trap_vth, doub/
+calc_tunnel_current	reliability.c	/^double calc_tunnel_current(double potential_diff, /
+channel_activity	ssd.h	410
+checkpoint_time	ssd.h	382
+chip_xfer_latency	ssd.h	348
+choose_elem_in_gang	ssd_gang.c	/^int choose_elem_in_gang(int blk, int gang_num, ssd/
+choose_element	ssd_timing.h	/^    int     (*choose_element)(struct _ssd_timing_t/
+choose_gang	ssd_gang.c	/^int choose_gang(int blk, ssd_t *s)$/
+choose_gang_and_element	ssd_gang.c	/^void choose_gang_and_element(int blk, ioreq_event /
+clean_in_block	ssd.h	163
+clean_in_progress	ssd.h	161
+cleaning	ssd.h	254
+cleaning_in_background	ssd.h	378
+cleaning_policy	ssd.h	361
+completion_queue	ssd.h	411
+copy_back	ssd.h	370
+count	ssd.h	446
+current_retention_period	ssd_clean.c	/^inline double current_retention_period(block_metad/
+data	ssd_utils.h	27
+data_pages_per_elem	ssd.h	417
+dead_blocks	ssd.h	153
+delvth	reliability.c	41
+delvth	ssd.h	93
+delvth_mlc	reliability.c	40
+delvth_slc	reliability.c	39
+depth	ssd.h	427
+detrap	reliability.c	/^inline double detrap(double vth, double recovery_t/
+detrap_ae	reliability.c	35
+detrap_af	reliability.c	33
+devno	ssd.h	406
+electron_charge	reliability.c	6
+electron_mass	reliability.c	10
+elem_free_pages	ssd.h	258
+elem_num	ssd.h	107
+element_stride_pages	ssd.h	344
+elements	ssd.h	414
+elements_per_gang	ssd.h	374
+entry_in_refresh_queue	ssd.h	139
+eqn_cycle	ssd.h	91
+f	reliability.c	19
+find_root	reliability.c	/^double find_root(double vth, double cycle)\/\/the eq/
+flat_band	reliability.c	38
+free	ssd_timing.h	/^    void    (*free)(struct _ssd_timing_t *t);$/
+free_blocks	ssd.h	152
+free_blocks	ssd.h	182
+gang_meta	ssd.h	418
+gang_metadata	ssd.h	260
+gang_num	ssd.h	208
+gang_share	ssd.h	376
+gcr	reliability.c	22
+get_max	ssd.c	/^double get_max(double *array, int length)$/
+get_min	ssd.c	/^double get_min(double *array, int length)$/
+get_normed_histogram	ssd.c	/^void get_normed_histogram(double *retention_under_/
+get_retention_time_from_snapshot	ssd.c	/^void get_retention_time_from_snapshot(double *rete/
+get_retention_under_limit	ssd.c	/^int get_retention_under_limit(double *retention, i/
+getssd	ssd.c	/^struct ssd *getssd (int devno)$/
+hdr	ssd.h	399
+header_data	ssd_utils.h	34
+inbuses	ssd.h	426
+include	ssd.h	452
+inited	ssd.h	407
+initialize_device_physical_parameters	reliability.c	/^void initialize_device_physical_parameters()$/
+is_queue_empty	ssd_utils.c	/^int is_queue_empty(listnode *start) {$/
+is_read	ssd.h	447
+lba_table	ssd.h	179
+least_retention_page	ssd.h	138
+len	ssd_clean.h	47
+listnode	ssd_utils.h	28
+ll_create	ssd_utils.c	/^void ll_create(listnode **start)$/
+ll_get_nth_node	ssd_utils.c	/^listnode *ll_get_nth_node(listnode *start, int n)$/
+ll_get_size	ssd_utils.c	/^int ll_get_size(listnode *start)$/
+ll_get_tail	ssd_utils.c	/^listnode *ll_get_tail(listnode *start)$/
+ll_insert_at_head	ssd_utils.c	/^listnode *ll_insert_at_head(listnode *start, void /
+ll_insert_at_index	ssd_utils.c	/^listnode *ll_insert_at_index(listnode *start,int i/
+ll_insert_at_tail	ssd_utils.c	/^listnode *ll_insert_at_tail(listnode *start, void /
+ll_release	ssd_utils.c	/^void ll_release(listnode *start)$/
+ll_release_node	ssd_utils.c	/^void ll_release_node(listnode *start, listnode *no/
+ll_release_tail	ssd_utils.c	/^void ll_release_tail(listnode *start)$/
+logical_stresses	ssd.h	86
+logical_stresses	ssd.h	142
+lpn	ssd.h	85
+maxqlen	ssd.h	421
+media_busy	ssd.h	223
+media_busy	ssd.h	239
+metadata	ssd.h	240
+mig_cost	ssd.h	212
+min_freeblks_percent	ssd.h	359
+min_retention_period	ssd.h	390
+my_timing_t	ssd_timing.c	13
+nelements	ssd.h	340
+neverdisconnect	ssd.h	424
+next	ssd_utils.h	26
+next_refresh_time	ssd.h	434
+next_write_page	ssd_timing.c	16
+num_blocks	ssd.h	226
+num_clean	ssd.h	57
+num_cleans	ssd.h	166
+num_parunits	ssd.h	372
+num_planes	ssd.h	244
+num_refresh	ssd.h	58
+num_refreshes	ssd.h	167
+num_valid	ssd.h	113
+numblocks	ssd.h	405
+numbuswaits	ssd.h	50
+numinbuses	ssd.h	425
+numssds	ssd.h	439
+numssds	ssd.h	465
+oldest	ssd.h	257
+org_req	ssd.h	449
+overhead	ssd.h	403
+page	ssd.h	109
+page_read_latency	ssd.h	349
+page_size	ssd.h	341
+page_write_latency	ssd.h	350
+pages_moved	ssd.h	59
+pages_per_block	ssd.h	342
+pair_plane	ssd.h	224
+params	ssd_timing.c	15
+params	ssd.h	400
+parunit	ssd.h	172
+parunit_num	ssd.h	165
+parunits	ssd.h	206
+permittivity_vacuum	reliability.c	12
+pg2elem	ssd.h	259
+physical_stresses	ssd.h	87
+physical_stresses	ssd.h	141
+pi	reliability.c	5
+pin_busy	ssd.h	243
+plancks_constant	reliability.c	9
+plane	ssd.h	245
+plane_block_mapping	ssd.h	368
+plane_meta	ssd.h	194
+plane_metadata	ssd.h	168
+plane_num	ssd.h	106
+plane_num	ssd.h	448
+plane_to_clean	ssd.h	171
+plane_to_clean	ssd.h	202
+plane_to_write	ssd.h	203
+planes_per_pkg	ssd.h	364
+prev	ssd_utils.h	25
+printstats	ssd.h	430
+qcox	reliability.c	26
+queue	ssd.h	238
+queue	ssd.h	253
+queue	ssd.h	412
+reconnect_reason	ssd.h	408
+recovery_period_total	ssd.h	92
+reduced_barrier_height	reliability.c	7
+reduced_electron_mass	reliability.c	11
+reduced_plancks_constant	reliability.c	14
+refresh_interval	ssd.h	384
+refresh_policy	ssd.h	386
+refresh_queue	ssd.h	433
+refresh_queue_edf_insert	ssd_utils.c	/^int refresh_queue_edf_insert(listnode *start, void/
+refresh_queue_fcfs_insert	ssd_utils.c	/^int refresh_queue_fcfs_insert(listnode *start, voi/
+refresh_queue_free_node	ssd_utils.c	/^int refresh_queue_free_node(listnode *start, void /
+refresh_queue_insert	ssd_refresh_bk.c	/^int refresh_queue_insert(ssd_t *currdisk,void *dat/
+refresh_queue_insert	ssd_refresh.c	/^int refresh_queue_insert(ssd_t *currdisk,void *dat/
+refresh_queue_pop	ssd_utils.c	/^void* refresh_queue_pop(listnode *start) {$/
+refresh_service_time	ssd.h	388
+rem_lifetime	ssd.h	117
+reqs_waiting	ssd.h	209
+reqs_waiting	ssd.h	256
+requestedbus	ssd.h	48
+reserve_blocks	ssd.h	357
+retention_period	ssd.h	90
+schtime	ssd.h	451
+should_i_refresh_now	ssd.c	/^int should_i_refresh_now(double now, double next_r/
+silc_ae	reliability.c	34
+silc_af	reliability.c	32
+silicon_permitivity	reliability.c	13
+size	ssd_utils.h	31
+slotno	ssd.h	428
+sprintf_s3	ssd.c	/^#define sprintf_s3(x,y,z) sprintf(x,z)$/
+sprintf_s3	ssd.c	/^#define sprintf_s3(x,y,z) sprintf_s(x,z)$/
+sprintf_s4	ssd.c	/^#define sprintf_s4(x,y,z,w) sprintf(x,z,w)$/
+sprintf_s4	ssd.c	/^#define sprintf_s4(x,y,z,w) sprintf_s(x,z,w)$/
+sprintf_s5	ssd.c	/^#define sprintf_s5(x,y,z,w,s) sprintf(x,z,w,s)$/
+sprintf_s5	ssd.c	/^#define sprintf_s5(x,y,z,w,s) sprintf_s(x,z,w,s)$/
+ssd	ssd.h	398
+ssd_access_complete	ssd.c	/^static void ssd_access_complete(ioreq_event *curr)/
+ssd_access_complete_element	ssd.c	/^static void ssd_access_complete_element(ioreq_even/
+ssd_access_complete_gang	ssd_gang.c	/^void ssd_access_complete_gang (ioreq_event *curr)$/
+ssd_access_complete_gang_sync	ssd_gang.c	/^void ssd_access_complete_gang_sync(ioreq_event *cu/
+ssd_acctime_printstats	ssd.c	/^static void ssd_acctime_printstats (int *set, int /
+ssd_activate_elem	ssd.c	/^static void ssd_activate_elem(ssd_t *currdisk, int/
+ssd_activate_gang	ssd_gang.c	/^static void ssd_activate_gang(ssd_t *s, int gang_n/
+ssd_activate_gang_sync	ssd_gang.c	/^static void ssd_activate_gang_sync(int gang_num, s/
+ssd_add	ssd.c	/^int ssd_add(struct ssd *d) {$/
+ssd_alloc_queues	ssd_init.c	/^void ssd_alloc_queues(ssd_t *t)$/
+ssd_already_present	ssd.c	/^int ssd_already_present(ssd_req **reqs, int total,/
+ssd_assert_current_activity	ssd.c	/^static void ssd_assert_current_activity(ssd_t *cur/
+ssd_assert_free_blocks	ssd_timing.c	/^void ssd_assert_free_blocks(ssd_t *s, ssd_element_/
+ssd_assert_page_version	ssd_timing.c	/^void ssd_assert_page_version(int prev_page, int ac/
+ssd_assert_plane_freebits	ssd_timing.c	/^void ssd_assert_plane_freebits(int plane_num, int /
+ssd_assert_valid_pages	ssd_timing.c	/^void ssd_assert_valid_pages(int plane_num, ssd_ele/
+ssd_bit_on	ssd_utils.c	/^int ssd_bit_on(unsigned char *c, int pos)$/
+ssd_bitpos_to_block	ssd_timing.c	/^int ssd_bitpos_to_block(int bitpos, ssd_t *s)$/
+ssd_bitpos_to_plane	ssd_timing.c	/^int ssd_bitpos_to_plane(int bitpos, ssd_t *s)$/
+ssd_block_dead	ssd_clean.c	/^inline int ssd_block_dead(block_metadata *block_me/
+ssd_block_to_bitpos	ssd_timing.c	/^int ssd_block_to_bitpos(ssd_t *currdisk, int block/
+ssd_build_usage_table	ssd_clean.c	/^static usage_table *ssd_build_usage_table(int elem/
+ssd_bus_delay_complete	ssd.c	/^void ssd_bus_delay_complete (int devno, ioreq_even/
+ssd_bus_ownership_grant	ssd.c	/^void ssd_bus_ownership_grant (int devno, ioreq_eve/
+ssd_bustransfer_complete	ssd.c	/^static void ssd_bustransfer_complete (ioreq_event /
+ssd_calculate_distance	ssd.c	/^double ssd_calculate_distance(FILE *prev_snapshot,/
+ssd_can_clean_block	ssd_clean.c	/^int ssd_can_clean_block(ssd_t *s, ssd_element_meta/
+ssd_check_channel_activity	ssd.c	/^static void ssd_check_channel_activity (ssd_t *cur/
+ssd_choose_aligned_count	ssd_timing.c	/^int ssd_choose_aligned_count(int page_size, int bl/
+ssd_choose_element	ssd_timing.c	/^int ssd_choose_element(ssd_timing_t *t, int blkno)/
+ssd_clean_block_fully	ssd_clean.c	/^static double ssd_clean_block_fully(int plane_num,/
+ssd_clean_block_partially	ssd_clean.c	/^double ssd_clean_block_partially(int plane_num, in/
+ssd_clean_blocks_greedy	ssd_clean.c	/^static double ssd_clean_blocks_greedy(int plane_nu/
+ssd_clean_blocks_random	ssd_clean.c	/^static double ssd_clean_blocks_random(int plane_nu/
+ssd_clean_element	ssd_clean.c	/^double ssd_clean_element(ssd_t *s, int elem_num)$/
+ssd_clean_element_complete	ssd.c	/^static void ssd_clean_element_complete(ioreq_event/
+ssd_clean_element_copyback	ssd_clean.c	/^double ssd_clean_element_copyback(int elem_num, ss/
+ssd_clean_element_no_copyback	ssd_clean.c	/^double ssd_clean_element_no_copyback(int elem_num,/
+ssd_clean_gang_complete	ssd_gang.c	/^void ssd_clean_gang_complete(ioreq_event *curr)$/
+ssd_clean_one_page	ssd_clean.c	/^static double ssd_clean_one_page$/
+ssd_clean_plane_copyback	ssd_clean.c	/^double ssd_clean_plane_copyback(int plane_num, int/
+ssd_cleanstats	ssd.c	/^void ssd_cleanstats (void)$/
+ssd_clear_bit	ssd_utils.c	/^void ssd_clear_bit(unsigned char *c, int pos)$/
+ssd_collect_req_in_gang	ssd_gang.c	/^static void ssd_collect_req_in_gang$/
+ssd_complete_parent	ssd.c	/^void ssd_complete_parent(ioreq_event *curr, ssd_t /
+ssd_completion_done	ssd.c	/^static void ssd_completion_done (ioreq_event *curr/
+ssd_compute_access_time	ssd_timing.c	/^void ssd_compute_access_time(ssd_t *s, int elem_nu/
+ssd_compute_access_time_one_active_page	ssd_timing.c	/^static void ssd_compute_access_time_one_active_pag/
+ssd_compute_avg_lifetime	ssd_clean.c	/^double ssd_compute_avg_lifetime(int plane_num, int/
+ssd_compute_avg_lifetime_in_element	ssd_clean.c	/^double ssd_compute_avg_lifetime_in_element(int ele/
+ssd_compute_avg_lifetime_in_plane	ssd_clean.c	/^double ssd_compute_avg_lifetime_in_plane(int plane/
+ssd_copy	ssd.c	/^struct ssd *ssd_copy(struct ssd *orig) {$/
+ssd_crossover_cost	ssd_clean.c	/^static double ssd_crossover_cost$/
+ssd_data_transfer_cost	ssd_timing.c	/^double ssd_data_transfer_cost(ssd_t *s, int sector/
+ssd_disconnect_done	ssd.c	/^static void ssd_disconnect_done (ioreq_event *curr/
+ssd_do_refresh	ssd.c	/^static void ssd_do_refresh(ssd_t *currdisk,double /
+ssd_dump_block_status	ssd.c	/^void ssd_dump_block_status()$/
+ssd_dump_prev_trace_info	ssd_timing.c	/^void ssd_dump_prev_trace_info(int pageno, int blkn/
+ssd_duplicate_prev_round	ssd.c	/^void ssd_duplicate_prev_round(int trace_repeat)$/
+ssd_elem_export_size	ssd_init.c	/^int ssd_elem_export_size(ssd_t *currdisk)$/
+ssd_elem_number	ssd.h	250
+ssd_element	ssd.h	246
+ssd_element_metadata	ssd.h	213
+ssd_element_metadata_init	ssd_init.c	/^void ssd_element_metadata_init(int elem_number, ss/
+ssd_element_stat	ssd.h	70
+ssd_event_arrive	ssd.c	/^void ssd_event_arrive (ioreq_event *curr)$/
+ssd_fast_forward_simulation	ssd.c	/^int ssd_fast_forward_simulation(int cur_repeat_tra/
+ssd_find_zero_bit	ssd_utils.c	/^int ssd_find_zero_bit(unsigned char *c, int total,/
+ssd_first_page_in_next_block	ssd_init.c	/^static int ssd_first_page_in_next_block(int ppage,/
+ssd_free_bits	ssd_timing.c	/^int ssd_free_bits(int plane_num, int elem_num, ssd/
+ssd_free_timing_element	ssd_timing.c	/^static void ssd_free_timing_element(ssd_timing_t */
+ssd_gang_index	ssd_gang.c	/^int ssd_gang_index(int blk, ssd_t *s)$/
+ssd_gang_read_sync	ssd_gang.c	/^double ssd_gang_read_sync(int gang_num, int blkno,/
+ssd_get_acctime	ssd.c	/^double  ssd_get_acctime (int devno, ioreq_event *r/
+ssd_get_avg_sectpercyl	ssd.c	/^int ssd_get_avg_sectpercyl (int devno)$/
+ssd_get_blktranstime	ssd.c	/^double ssd_get_blktranstime (ioreq_event *curr)$/
+ssd_get_busno	ssd.c	/^int ssd_get_busno (ioreq_event *curr)$/
+ssd_get_depth	ssd.c	/^int ssd_get_depth (int devno)$/
+ssd_get_distance	ssd.c	/^int ssd_get_distance (int devno, ioreq_event *req,/
+ssd_get_inbus	ssd.c	/^int ssd_get_inbus (int devno)$/
+ssd_get_mapping	ssd.c	/^void ssd_get_mapping (int maptype, int devno, int /
+ssd_get_maxoutstanding	ssd.c	/^int ssd_get_maxoutstanding (int devno)$/
+ssd_get_number_of_blocks	ssd.c	/^int ssd_get_number_of_blocks (int devno)$/
+ssd_get_numcyls	ssd.c	/^int ssd_get_numcyls (int devno)$/
+ssd_get_numdisks	ssd.c	/^int ssd_get_numdisks (void)$/
+ssd_get_seektime	ssd.c	/^double ssd_get_seektime (int devno,$/
+ssd_get_servtime	ssd.c	/^double  ssd_get_servtime (int devno, ioreq_event */
+ssd_get_slotno	ssd.c	/^int ssd_get_slotno (int devno)$/
+ssd_hdr_initializer	ssd.c	2139
+ssd_info	ssd.h	437
+ssd_init_stress_info_ds	ssd_init.c	/^int ssd_init_stress_info_ds(ssd_t *currdisk, ssd_e/
+ssd_init_stress_info_ta	ssd_init.c	/^int ssd_init_stress_info_ta(ssd_t *currdisk, ssd_e/
+ssd_initialize	ssd_init.c	/^void ssd_initialize (void)$/
+ssd_initialize_diskinfo	ssd_init.c	/^void ssd_initialize_diskinfo ()$/
+ssd_interrupt_complete	ssd.c	/^static void ssd_interrupt_complete (ioreq_event *c/
+ssd_invoke_element_cleaning	ssd.c	/^static int ssd_invoke_element_cleaning(int elem_nu/
+ssd_invoke_element_refresh_fcfs	ssd_refresh_bk.c	/^void ssd_invoke_element_refresh_fcfs(int elem_num,/
+ssd_invoke_element_refresh_fcfs	ssd_refresh.c	/^void ssd_invoke_element_refresh_fcfs(int elem_num,/
+ssd_invoke_gang_cleaning	ssd_gang.c	/^static int ssd_invoke_gang_cleaning(int gang_num, /
+ssd_issue_overlapped_ios	ssd_timing.c	/^static double ssd_issue_overlapped_ios(ssd_req **r/
+ssd_last_page_in_block	ssd_timing.c	/^int ssd_last_page_in_block(int page_num, ssd_t *s)/
+ssd_logical_pageno	ssd.c	/^int ssd_logical_pageno(int blkno, ssd_t *s)$/
+ssd_media_access_request	ssd.c	/^static void ssd_media_access_request (ioreq_event /
+ssd_media_access_request_element	ssd.c	/^static void ssd_media_access_request_element(ioreq/
+ssd_media_access_request_gang	ssd_gang.c	/^void ssd_media_access_request_gang (ioreq_event *c/
+ssd_media_access_request_gang_sync	ssd_gang.c	/^void ssd_media_access_request_gang_sync(ioreq_even/
+ssd_migrate_cold_data	ssd_clean.c	/^int ssd_migrate_cold_data(int to_blk, double *mcos/
+ssd_model	ssd.h	339
+ssd_move_page	ssd_clean.c	/^static double ssd_move_page(int lpn, int from_blk,/
+ssd_new_timing_t	ssd_timing.c	/^ssd_timing_t  *ssd_new_timing_t(ssd_timing_params /
+ssd_next_elem_in_gang	ssd_gang.c	/^static int ssd_next_elem_in_gang(ssd_t *s, int gan/
+ssd_next_plane_in_parunit	ssd_clean.c	/^inline int ssd_next_plane_in_parunit(int plane_num/
+ssd_notify_trace_done	ssd.c	/^void ssd_notify_trace_done()$/
+ssd_other_printstats	ssd.c	/^static void ssd_other_printstats (int *set, int se/
+ssd_page_metadata	ssd.h	94
+ssd_perform_refresh	ssd_refresh_bk.c	/^void ssd_perform_refresh(ssd_t *currdisk, double n/
+ssd_perform_refresh	ssd_refresh.c	/^void ssd_perform_refresh(ssd_t *currdisk, double n/
+ssd_pick_block_to_clean	ssd_clean.c	/^static int ssd_pick_block_to_clean(int plane_num, /
+ssd_pick_block_to_clean1	ssd_clean.c	/^static int ssd_pick_block_to_clean1(int plane_num,/
+ssd_pick_block_to_clean2	ssd_clean.c	/^static int ssd_pick_block_to_clean2(int plane_num,/
+ssd_pick_parunits	ssd_timing.c	/^listnode **ssd_pick_parunits(ssd_req **reqs, int t/
+ssd_pick_wear_aware	ssd_clean.c	/^int ssd_pick_wear_aware(int blk, int block_life, d/
+ssd_pick_wear_aware	ssd_clean.c	/^int ssd_pick_wear_aware(int blk, int block_life, d/
+ssd_pick_wear_aware_with_migration	ssd_clean.c	/^int ssd_pick_wear_aware_with_migration$/
+ssd_plane	ssd.h	227
+ssd_plane_init	ssd_init.c	/^void ssd_plane_init(ssd_element *elem, ssd_t *s, i/
+ssd_print_block_lifetime_distribution	ssd.c	/^void ssd_print_block_lifetime_distribution(int ele/
+ssd_printcleanstats	ssd.c	/^void ssd_printcleanstats(int *set, int setsize, ch/
+ssd_printrefreshstats	ssd.c	/^void ssd_printrefreshstats(int *set, int setsize, /
+ssd_printsetstats	ssd.c	/^void ssd_printsetstats (int *set, int setsize, cha/
+ssd_printstats	ssd.c	/^void ssd_printstats (void)$/
+ssd_rate_limit	ssd_clean.c	/^int ssd_rate_limit(int block_life, double avg_life/
+ssd_rate_limit	ssd_clean.c	/^int ssd_rate_limit(int block_life, double avg_life/
+ssd_read_policy_simple	ssd_timing.c	/^double ssd_read_policy_simple(int count, ssd_t *s)/
+ssd_reconnect_done	ssd.c	/^static void ssd_reconnect_done (ioreq_event *curr)/
+ssd_refresh_block	ssd_refresh_bk.c	/^double ssd_refresh_block(block_metadata *block_met/
+ssd_refresh_block	ssd_refresh.c	/^double ssd_refresh_block(block_metadata *block_met/
+ssd_refresh_element_complete	ssd.c	/^static void ssd_refresh_element_complete(ioreq_eve/
+ssd_refresh_element_no_copyback	ssd_clean.c	/^double ssd_refresh_element_no_copyback(int elem_nu/
+ssd_release_usage_table	ssd_clean.c	/^static void ssd_release_usage_table(usage_table *t/
+ssd_req	ssd.h	454
+ssd_request_arrive	ssd.c	/^static void ssd_request_arrive (ioreq_event *curr)/
+ssd_request_complete	ssd.c	/^static void ssd_request_complete(ioreq_event *curr/
+ssd_resetstats	ssd_init.c	/^void ssd_resetstats (void)$/
+ssd_same_plane_blocks	ssd_clean.c	/^static int ssd_same_plane_blocks$/
+ssd_send_event_up_path	ssd.c	/^static void ssd_send_event_up_path (ioreq_event *c/
+ssd_set_bit	ssd_utils.c	/^void ssd_set_bit(unsigned char *c, int pos)$/
+ssd_set_depth	ssd.c	/^int ssd_set_depth (int devno, int inbusno, int dep/
+ssd_set_syncset	ssd.c	/^void ssd_set_syncset (int setstart, int setend)$/
+ssd_setcallbacks	ssd.c	/^void ssd_setcallbacks ()$/
+ssd_start_cleaning	ssd_clean.c	/^int ssd_start_cleaning(int plane_num, int elem_num/
+ssd_start_cleaning_parunit	ssd_clean.c	/^int ssd_start_cleaning_parunit(int parunit_num, in/
+ssd_stat_t	ssd.h	51
+ssd_statinit	ssd_init.c	/^static void ssd_statinit (int devno, int firsttime/
+ssd_stop_cleaning	ssd_clean.c	/^int ssd_stop_cleaning(int plane_num, int elem_num,/
+ssd_t	ssd.h	435
+ssd_timing_params	ssd.h	393
+ssd_timing_t	ssd_timing.h	10
+ssd_update_block_lifetime	ssd_clean.c	/^void ssd_update_block_lifetime(double time, int bl/
+ssd_update_free_block_status	ssd_clean.c	/^void ssd_update_free_block_status(int blk, int pla/
+ssd_update_stress_info	ssd_timing.c	/^void ssd_update_stress_info(ssd_page_metadata *pag/
+ssd_update_stress_info_block	ssd_timing.c	/^void ssd_update_stress_info_block(block_metadata */
+ssd_verify_parameters	ssd_init.c	/^void ssd_verify_parameters(ssd_t *currdisk)$/
+ssd_virtual_retention_expired	ssd_clean.c	/^inline int ssd_virtual_retention_expired(block_met/
+ssd_write_one_active_page	ssd_timing.c	/^static double ssd_write_one_active_page(int blkno,/
+ssd_write_policy_simple	ssd_timing.c	/^static double ssd_write_policy_simple(int blkno, i/
+ssdinfo_t	ssd.h	441
+ssdmodel_ssd_loadparams	ssd.c	/^struct ssd *ssdmodel_ssd_loadparams(struct lp_bloc/
+ssds	ssd.h	438
+ssds_len	ssd.h	440
+stat	ssd.h	241
+stat	ssd.h	431
+statdesc_acctimestats	ssd_init.c	12
+state	ssd.h	124
+stress_increment	ssd.h	88
+t	ssd_timing.c	14
+t_ono	reliability.c	21
+t_ox	reliability.c	20
+t_stress	reliability.c	31
+t_use	reliability.c	30
+temp	ssd_clean.h	48
+time_of_last_erasure	ssd.h	123
+time_of_last_stress	ssd.h	89
+timing_t	ssd.h	401
+tot_clean_time	ssd.h	64
+tot_free_blocks	ssd.h	187
+tot_logical_stresses	ssd.h	68
+tot_migrations	ssd.h	210
+tot_pgs_migrated	ssd.h	211
+tot_physical_stresses	ssd.h	67
+tot_recovery_period	ssd.h	69
+tot_refresh_time	ssd.h	65
+tot_reqs_issued	ssd.h	62
+tot_time_taken	ssd.h	63
+tot_xfer_cost	ssd.h	60
+total_pages_written	ssd.h	137
+trap	reliability.c	/^inline double trap(double cycles) {$/
+trap_derivative	reliability.c	/^inline double trap_derivative(double cycles) {$/
+update_lifetime	ssd_timing.c	/^void update_lifetime(ssd_page_metadata *page_metad/
+usage_table	ssd_clean.h	50
+valid_pages	ssd.h	155
+virtual_retention_period	ssd.h	392
+waitingforbus	ssd.h	49
+write_policy	ssd.h	353
