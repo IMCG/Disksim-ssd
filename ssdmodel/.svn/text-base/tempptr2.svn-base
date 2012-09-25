@@ -1,0 +1,290 @@
+Binary file libssdmodel.a matches
+Makefile:include .paths
+Makefile:CFLAGS = $(DEBUG_OFLAGS) $(DISKSIM_CFLAGS) $(DISKMODEL_CFLAGS) $(LIBPARAM_CFLAGS) $(LIBDDBG_CFLAGS) -I../include
+Makefile:	rm -rf lib include
+Makefile:	mkdir -p include/ssdmodel/modules
+Makefile:	cp -pR modules/*.h include/ssdmodel/modules
+Makefile:	cp ssd.h include/ssdmodel
+Makefile:-include *.d
+reliability.c:#include "reliability.h"
+reliability.d:reliability.o: reliability.c reliability.h /usr/include/math.h \
+reliability.d: /usr/include/features.h /usr/include/bits/predefs.h \
+reliability.d: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+reliability.d: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+reliability.d: /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h \
+reliability.d: /usr/include/bits/huge_vall.h /usr/include/bits/inf.h \
+reliability.d: /usr/include/bits/nan.h /usr/include/bits/mathdef.h \
+reliability.d: /usr/include/bits/mathcalls.h
+reliability.h:#include<math.h>
+ssd.c:#include "ssd.h"
+ssd.c:#include "ssd_timing.h"
+ssd.c:#include "ssd_clean.h"
+ssd.c:#include "ssd_gang.h"
+ssd.c:#include "ssd_init.h"
+ssd.c:#include "modules/ssdmodel_ssd_param.h"
+ssd.c:            // over. so, include the maximum read time when creating the event.
+ssd_clean.c:#include "ssd.h"
+ssd_clean.c:#include "ssd_clean.h"
+ssd_clean.c:#include "ssd_utils.h"
+ssd_clean.c:    // include the write cost
+ssd_clean.c:    // include the transfer cost also
+ssd_clean.d: ../src//disksim_bitstring.h ../src//inline.h /usr/include/sys/types.h \
+ssd_clean.d: /usr/include/features.h /usr/include/bits/predefs.h \
+ssd_clean.d: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ssd_clean.d: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ssd_clean.d: /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ssd_clean.d: /usr/include/time.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h \
+ssd_clean.d: /usr/include/endian.h /usr/include/bits/endian.h \
+ssd_clean.d: /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+ssd_clean.d: /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ssd_clean.d: /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ssd_clean.d: /usr/include/bits/pthreadtypes.h /usr/include/stdio.h \
+ssd_clean.d: /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ssd_clean.d: /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h \
+ssd_clean.d: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ssd_clean.d: /usr/include/zlib.h /usr/include/zconf.h /usr/include/zlibdefs.h \
+ssd_clean.d: /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ssd_clean.d: /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/stdlib.h \
+ssd_clean.d: /usr/include/alloca.h /usr/include/string.h /usr/include/xlocale.h \
+ssd_clean.d: /usr/include/math.h /usr/include/bits/huge_val.h \
+ssd_clean.d: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ssd_clean.d: /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ssd_clean.d: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ssd_clean.d: ../src//disksim_assertlib.h /usr/include/assert.h \
+ssd_clean.d: ../libparam/include/libparam/libparam.h \
+ssd_clean.d: ../libparam/include/libparam/bitvector.h \
+ssd_clean.d: ../libddbg/include/libddbg/libddbg.h ../src//disksim_bus.h \
+ssd_clean.d: ../src//disksim_ioqueue.h ../diskmodel/include/diskmodel/dm.h \
+ssd_clean.d: ../diskmodel/include/diskmodel/dm_types.h /usr/include/inttypes.h \
+ssd_clean.d: /usr/include/stdint.h /usr/include/bits/wchar.h ../src//disksim_bus.h \
+ssd_clean.h:#include "ssd.h"
+ssd_clean.h:#include "modules/ssdmodel_ssd_param.h"
+Binary file ssd_clean.o matches
+ssd.d: /usr/include/sys/types.h /usr/include/features.h \
+ssd.d: /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+ssd.d: /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ssd.d: /usr/include/gnu/stubs-64.h /usr/include/bits/types.h \
+ssd.d: /usr/include/bits/typesizes.h /usr/include/time.h \
+ssd.d: /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h \
+ssd.d: /usr/include/endian.h /usr/include/bits/endian.h \
+ssd.d: /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+ssd.d: /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ssd.d: /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ssd.d: /usr/include/bits/pthreadtypes.h /usr/include/stdio.h \
+ssd.d: /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ssd.d: /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h \
+ssd.d: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ssd.d: /usr/include/zlib.h /usr/include/zconf.h /usr/include/zlibdefs.h \
+ssd.d: /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ssd.d: /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/stdlib.h \
+ssd.d: /usr/include/alloca.h /usr/include/string.h /usr/include/xlocale.h \
+ssd.d: /usr/include/math.h /usr/include/bits/huge_val.h \
+ssd.d: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ssd.d: /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ssd.d: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ssd.d: ../src//disksim_assertlib.h /usr/include/assert.h \
+ssd.d: ../libparam/include/libparam/libparam.h \
+ssd.d: ../libparam/include/libparam/bitvector.h \
+ssd.d: ../libddbg/include/libddbg/libddbg.h ../src//disksim_bus.h \
+ssd.d: ../src//disksim_ioqueue.h ../diskmodel/include/diskmodel/dm.h \
+ssd.d: ../diskmodel/include/diskmodel/dm_types.h /usr/include/inttypes.h \
+ssd.d: /usr/include/stdint.h /usr/include/bits/wchar.h ../src//disksim_bus.h \
+ssd_gang.c:#include "ssd.h"
+ssd_gang.c:#include "ssd_gang.h"
+ssd_gang.c:#include "ssd_timing.h"
+ssd_gang.c:        // first request means include the read time too
+ssd_gang.c:        // just include the transfer time.
+ssd_gang.c:            // if a summary page was written, include its time too
+ssd_gang.d: ../src//disksim_bitstring.h ../src//inline.h /usr/include/sys/types.h \
+ssd_gang.d: /usr/include/features.h /usr/include/bits/predefs.h \
+ssd_gang.d: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ssd_gang.d: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ssd_gang.d: /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ssd_gang.d: /usr/include/time.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h \
+ssd_gang.d: /usr/include/endian.h /usr/include/bits/endian.h \
+ssd_gang.d: /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+ssd_gang.d: /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ssd_gang.d: /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ssd_gang.d: /usr/include/bits/pthreadtypes.h /usr/include/stdio.h \
+ssd_gang.d: /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ssd_gang.d: /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h \
+ssd_gang.d: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ssd_gang.d: /usr/include/zlib.h /usr/include/zconf.h /usr/include/zlibdefs.h \
+ssd_gang.d: /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ssd_gang.d: /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/stdlib.h \
+ssd_gang.d: /usr/include/alloca.h /usr/include/string.h /usr/include/xlocale.h \
+ssd_gang.d: /usr/include/math.h /usr/include/bits/huge_val.h \
+ssd_gang.d: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ssd_gang.d: /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ssd_gang.d: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ssd_gang.d: ../src//disksim_assertlib.h /usr/include/assert.h \
+ssd_gang.d: ../libparam/include/libparam/libparam.h \
+ssd_gang.d: ../libparam/include/libparam/bitvector.h \
+ssd_gang.d: ../libddbg/include/libddbg/libddbg.h ../src//disksim_bus.h \
+ssd_gang.d: ../src//disksim_ioqueue.h ../diskmodel/include/diskmodel/dm.h \
+ssd_gang.d: ../diskmodel/include/diskmodel/dm_types.h /usr/include/inttypes.h \
+ssd_gang.d: /usr/include/stdint.h /usr/include/bits/wchar.h ../src//disksim_bus.h \
+ssd_gang.h:#include "ssd.h"
+ssd_gang.h:#include "modules/ssdmodel_ssd_param.h"
+Binary file ssd_gang.o matches
+ssd.h:#include "disksim_global.h"
+ssd.h:#include "disksim_iosim.h"
+ssd.h:#include "disksim_stat.h"
+ssd.h:#include "disksim_ioqueue.h"
+ssd.h:#include "disksim_bus.h"
+ssd.h:#include "config.h"
+ssd.h:#include "ssd_utils.h"
+ssd.h:    int include;            // should we include its cost in acctime stats
+ssd.h:                            // if we're getting parallel ios, then we don't need to include all of 'em
+ssd_init.c:#include "ssd.h"
+ssd_init.c:#include "ssd_timing.h"
+ssd_init.c:#include "ssd_clean.h"
+ssd_init.c:#include "ssd_utils.h"
+ssd_init.c:#include "ssd_init.h"
+ssd_init.c:#include "reliability.h"
+ssd_init.d: ../src//disksim_bitstring.h ../src//inline.h /usr/include/sys/types.h \
+ssd_init.d: /usr/include/features.h /usr/include/bits/predefs.h \
+ssd_init.d: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ssd_init.d: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ssd_init.d: /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ssd_init.d: /usr/include/time.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h \
+ssd_init.d: /usr/include/endian.h /usr/include/bits/endian.h \
+ssd_init.d: /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+ssd_init.d: /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ssd_init.d: /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ssd_init.d: /usr/include/bits/pthreadtypes.h /usr/include/stdio.h \
+ssd_init.d: /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ssd_init.d: /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h \
+ssd_init.d: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ssd_init.d: /usr/include/zlib.h /usr/include/zconf.h /usr/include/zlibdefs.h \
+ssd_init.d: /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ssd_init.d: /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/stdlib.h \
+ssd_init.d: /usr/include/alloca.h /usr/include/string.h /usr/include/xlocale.h \
+ssd_init.d: /usr/include/math.h /usr/include/bits/huge_val.h \
+ssd_init.d: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ssd_init.d: /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ssd_init.d: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ssd_init.d: ../src//disksim_assertlib.h /usr/include/assert.h \
+ssd_init.d: ../libparam/include/libparam/libparam.h \
+ssd_init.d: ../libparam/include/libparam/bitvector.h \
+ssd_init.d: ../libddbg/include/libddbg/libddbg.h ../src//disksim_bus.h \
+ssd_init.d: ../src//disksim_ioqueue.h ../diskmodel/include/diskmodel/dm.h \
+ssd_init.d: ../diskmodel/include/diskmodel/dm_types.h /usr/include/inttypes.h \
+ssd_init.d: /usr/include/stdint.h /usr/include/bits/wchar.h ../src//disksim_bus.h \
+ssd_init.h:#include "ssd.h"
+Binary file ssd_init.o matches
+Binary file ssd.o matches
+ssd-patch: export LIBDISKSIM_INCL=$(LIBDISKSIM_PREFIX)/include
+ssd-patch:+export SSDMODEL_INCL=$(SSDMODEL_PREFIX)/include
+ssd-patch: export LIBDISKSIM_INCL=$(LIBDISKSIM_PREFIX)/include
+ssd-patch:+export SSDMODEL_INCL=$(SSDMODEL_PREFIX)/include
+ssd-patch: include .paths
+ssd-patch:         # If dixtrac is included, build it with the distribution
+ssd-patch: #include <sys/types.h>
+ssd-patch: #include <inttypes.h>
+ssd-patch: #include "layout_g4.h"
+ssd-patch: #include "layout_g4_private.h"
+ssd-patch:+export SSDMODEL_INCL=$(SSDMODEL_PREFIX)/include
+ssd-patch: #include <string.h>
+ssd-patch: #include <libgen.h> // dirname(), basename()
+ssd-patch: #include <libddbg/libddbg.h>
+ssd-patch: #include <errno.h>
+ssd-patch: #include "libparam.h"
+ssd-patch: #include "libparam.tab.h"
+ssd-patch: #include <sys/types.h>
+ssd-patch: #include <sys/stat.h>
+ssd-patch:-#include <unistd.h>
+ssd-patch: #include <unistd.h>
+ssd-patch:+#include <io.h>
+ssd-patch: #include <fcntl.h>
+ssd-patch:-#include <libgen.h>
+ssd-patch:+//#include <libgen.h>
+ssd-patch: #include "libparam.h"
+ssd-patch: #include "bitvector.h"
+ssd-patch: #include "mems_global.h"
+ssd-patch: #include "mems_mapping.h"
+ssd-patch: export LIBDISKSIM_INCL=$(LIBDISKSIM_PREFIX)/include
+ssd-patch:+export SSDMODEL_INCL=$(SSDMODEL_PREFIX)/include
+ssd-patch: include .paths
+ssd-patch: #include "disksim_simpledisk.h"
+ssd-patch: #include "memsmodel/mems_global.h"
+ssd-patch: #include "memsmodel/mems_disksim.h"
+ssd-patch:+#include "ssdmodel/ssd.h"  /* SSD: */
+ssd-patch: #include "config.h"
+ssd-patch: #include "modules/modules.h"
+ssd-patch: #include <diskmodel/modules/modules.h>
+ssd-patch: #include <memsmodel/modules/modules.h>
+ssd-patch:+#include <ssdmodel/modules/modules.h>
+ssd-patch: #include <stdio.h>
+ssd-patch:+#include <string.h>
+ssd-patch:+#include <stdio.h>
+ssd-patch:+#include <stdarg.h>
+ssd_timing.c:#include "ssd.h"
+ssd_timing.c:#include "ssd_timing.h"
+ssd_timing.c:#include "ssd_clean.h"
+ssd_timing.c:#include "ssd_gang.h"
+ssd_timing.c:#include "ssd_utils.h"
+ssd_timing.c:#include "modules/ssdmodel_ssd_param.h"
+ssd_timing.c:#include "reliability.h"
+ssd_timing.d: ../src//disksim_bitstring.h ../src//inline.h /usr/include/sys/types.h \
+ssd_timing.d: /usr/include/features.h /usr/include/bits/predefs.h \
+ssd_timing.d: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ssd_timing.d: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ssd_timing.d: /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ssd_timing.d: /usr/include/time.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h \
+ssd_timing.d: /usr/include/endian.h /usr/include/bits/endian.h \
+ssd_timing.d: /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+ssd_timing.d: /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ssd_timing.d: /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ssd_timing.d: /usr/include/bits/pthreadtypes.h /usr/include/stdio.h \
+ssd_timing.d: /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ssd_timing.d: /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h \
+ssd_timing.d: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ssd_timing.d: /usr/include/zlib.h /usr/include/zconf.h /usr/include/zlibdefs.h \
+ssd_timing.d: /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ssd_timing.d: /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/stdlib.h \
+ssd_timing.d: /usr/include/alloca.h /usr/include/string.h /usr/include/xlocale.h \
+ssd_timing.d: /usr/include/math.h /usr/include/bits/huge_val.h \
+ssd_timing.d: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ssd_timing.d: /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ssd_timing.d: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ssd_timing.d: ../src//disksim_assertlib.h /usr/include/assert.h \
+ssd_timing.d: ../libparam/include/libparam/libparam.h \
+ssd_timing.d: ../libparam/include/libparam/bitvector.h \
+ssd_timing.d: ../libddbg/include/libddbg/libddbg.h ../src//disksim_bus.h \
+ssd_timing.d: ../src//disksim_ioqueue.h ../diskmodel/include/diskmodel/dm.h \
+ssd_timing.d: ../diskmodel/include/diskmodel/dm_types.h /usr/include/inttypes.h \
+ssd_timing.d: /usr/include/stdint.h /usr/include/bits/wchar.h ../src//disksim_bus.h \
+Binary file ssd_timing.o matches
+ssd_utils.c:#include "ssd_utils.h"
+ssd_utils.d: ../src//disksim_bitstring.h ../src//inline.h /usr/include/sys/types.h \
+ssd_utils.d: /usr/include/features.h /usr/include/bits/predefs.h \
+ssd_utils.d: /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ssd_utils.d: /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ssd_utils.d: /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ssd_utils.d: /usr/include/time.h /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stddef.h \
+ssd_utils.d: /usr/include/endian.h /usr/include/bits/endian.h \
+ssd_utils.d: /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+ssd_utils.d: /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ssd_utils.d: /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ssd_utils.d: /usr/include/bits/pthreadtypes.h /usr/include/stdio.h \
+ssd_utils.d: /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ssd_utils.d: /usr/lib/gcc/x86_64-linux-gnu/4.4.3/include/stdarg.h \
+ssd_utils.d: /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ssd_utils.d: /usr/include/zlib.h /usr/include/zconf.h /usr/include/zlibdefs.h \
+ssd_utils.d: /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ssd_utils.d: /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/stdlib.h \
+ssd_utils.d: /usr/include/alloca.h /usr/include/string.h /usr/include/xlocale.h \
+ssd_utils.d: /usr/include/math.h /usr/include/bits/huge_val.h \
+ssd_utils.d: /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ssd_utils.d: /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ssd_utils.d: /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ssd_utils.d: ../src//disksim_assertlib.h /usr/include/assert.h \
+ssd_utils.d: ../libparam/include/libparam/libparam.h \
+ssd_utils.d: ../libparam/include/libparam/bitvector.h \
+ssd_utils.d: ../libddbg/include/libddbg/libddbg.h ../src//disksim_bus.h \
+ssd_utils.d: ../src//disksim_ioqueue.h ../diskmodel/include/diskmodel/dm.h \
+ssd_utils.d: ../diskmodel/include/diskmodel/dm_types.h /usr/include/inttypes.h \
+ssd_utils.d: /usr/include/stdint.h /usr/include/bits/wchar.h ../src//disksim_bus.h \
+ssd_utils.h:#include "ssd.h"
+Binary file ssd_utils.o matches
